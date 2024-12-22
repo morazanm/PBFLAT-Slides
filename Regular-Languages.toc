@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Regular Expressions}{3}{0}{1}
+\beamer@sectionintoc {2}{Deterministic Finite Automata}{101}{0}{2}
+\beamer@sectionintoc {3}{Nondeterministic Finite Automata}{195}{0}{3}
+\beamer@sectionintoc {4}{Finite-State Automata and Regular Expressions}{333}{0}{4}
+\beamer@sectionintoc {5}{Regular Grammars}{554}{0}{5}
+\beamer@sectionintoc {6}{Pumping Theorem for Regular Languages}{665}{0}{6}

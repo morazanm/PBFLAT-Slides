@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Context-Free Grammars}{3}{0}{1}
+\beamer@sectionintoc {2}{Pushdown Automata}{62}{0}{2}
+\beamer@sectionintoc {3}{Equivalence of \texttt {pda}{}s and \texttt {cfg}{}s}{152}{0}{3}
+\beamer@sectionintoc {4}{Properties of CFLs}{219}{0}{4}
+\beamer@sectionintoc {5}{Deterministic \texttt {pda}{}s}{316}{0}{5}

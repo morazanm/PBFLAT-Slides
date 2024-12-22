@@ -1,0 +1,22 @@
+\frametitle{Farewell and where to go from here?}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> You are now well-equipped to explore formal languages and automata theory applications in many fields of Computer Science as well as to deepen your understanding of Computer Science's theoretical underpinnings
+
+\item<1-> You may do so by either by taking more advanced courses or by personal inquiry
+
+\item<1-> Regardless of your approach, you bring with you actual programming experience with state-based machines, grammars, and regular expressions
+
+\item<1-> Mind what you have learned and apply it in your future intellectual endeavors
+
+\item<2-> Above all, enjoy the challenges that come with process of discovery and the rigor required to prove your designs correct!
+
+\item<2-> Adi\'{o}s!
+\tikzsymbolsset{symbol-scale={ dCooley= 5 }}
+\begin{center}
+\dCooley
+\end{center}
+
+\end{itemize}
+\end{scriptsize}

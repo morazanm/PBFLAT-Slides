@@ -1,0 +1,7482 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.3)  4 MAR 2024 16:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Context-Sensitive-Languages.tex
+(Context-Sensitive-Languages.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2023/05/15 v3.70 A class for typesetting presentations
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemod
+es.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
+y
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\beamer@tempbox=\box51
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedec
+ode.sty
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
+\beamer@decode@box=\box52
+)
+\beamer@commentbox=\box53
+\beamer@modecount=\count190
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen140
+\footheight=\dimen141
+\sidebarheight=\dimen142
+\beamer@tempdim=\dimen143
+\beamer@finalheight=\dimen144
+\beamer@animht=\dimen145
+\beamer@animdp=\dimen146
+\beamer@animwd=\dimen147
+\beamer@leftmargin=\dimen148
+\beamer@rightmargin=\dimen149
+\beamer@leftsidebar=\dimen150
+\beamer@rightsidebar=\dimen151
+\beamer@boxsize=\dimen152
+\beamer@vboxoffset=\dimen153
+\beamer@descdefault=\dimen154
+\beamer@descriptionwidth=\dimen155
+\beamer@lastskip=\skip48
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseopt
+ions.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks18
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
+.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-latex.def
+\pgfutil@abb=\box60
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
+cs.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
+ex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
+s.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
+il.code.tex
+\pgf@x=\dimen166
+\pgf@xa=\dimen167
+\pgf@xb=\dimen168
+\pgf@xc=\dimen169
+\pgf@y=\dimen170
+\pgf@ya=\dimen171
+\pgf@yb=\dimen172
+\pgf@yc=\dimen173
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
+rser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count284
+\pgfmath@box=\box61
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.basic.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.trigonometric.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.random.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.comparison.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.base.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.round.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.misc.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.integerarithmetics.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
+lc.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
+oat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
+re.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
+ys.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count290
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+f.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
+tx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+core.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
+de.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count293
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen261
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen265
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolo
+r.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count296
+\XC@countmixins=\count297
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.st
+y
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
+r.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.
+sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
+inekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
+e.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxma
+cro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
+y
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
+titlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
+sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count298
+)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count299
+\Hy@pagecounter=\count300
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
+y
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count301
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4050.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4050.
+Package hyperref Info: Option `implicit' set `false' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count302
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen268
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
+alc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count303
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+\Hy@abspage=\count304
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.s
+ty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
+filecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
+uecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasereq
+uires.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecom
+patibility.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefon
+t.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
+y
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansm
+athaccent.sty
+Package: sansmathaccent 2020/01/31
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile
+.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile
+-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.
+sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetra
+nslator.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemis
+c.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwo
+screens.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseove
+rlay.sty
+\beamer@argscount=\count307
+\beamer@lastskipcover=\skip51
+\beamer@trivlistdepth=\count308
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetit
+le.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesec
+tion.sty
+\c@lecture=\count309
+\c@part=\count310
+\c@section=\count311
+\c@subsection=\count312
+\c@subsubsection=\count313
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefra
+me.sty
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count314
+\beamer@zoomframecount=\count315
+\beamer@frametextheight=\dimen271
+\c@subsectionslide=\count316
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
+\beamer@envbody=\toks30
+\framewidth=\dimen272
+\c@framenumber=\count317
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasever
+batim.sty
+\beamer@verbatimfileout=\write4
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefra
+mesize.sty
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count318
+\beamer@autobreaklastheight=\dimen273
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefra
+mecomponents.sty
+\beamer@footins=\box70
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecol
+or.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenot
+es.sty
+\beamer@frameboxcopy=\box71
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc
+.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetem
+plates.sty
+\beamer@sbttoks=\toks33
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseaux
+templates.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasebox
+es.sty
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen274
+\bmb@boxheight=\dimen275
+\bmb@prevheight=\dimen276
+\bmb@temp=\dimen277
+\bmb@dima=\dimen278
+\bmb@dimb=\dimen279
+\bmb@prevheight=\dimen280
+)
+\beamer@blockheadheight=\dimen281
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseloc
+alstructure.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip56
+\c@figure=\count319
+\c@table=\count320
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenav
+igation.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenav
+igationsymbols.tex)
+\beamer@section@min@dim=\dimen282
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethe
+orems.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen283
+)) (C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen284
+) (C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count321
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count322
+\leftroot@=\count323
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count324
+\DOTSCASE@=\count325
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count326
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count327
+\dotsspace@=\muskip17
+\c@parentequation=\count328
+\dspbrk@lvl=\count329
+\tag@help=\toks36
+\row@=\count330
+\column@=\count331
+\maxfields@=\count332
+\andhelp@=\toks37
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
+\@envbody=\toks38
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks45
+)
+\c@theorem=\count333
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethe
+mes.sty))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemede
+fault.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthe
+medefault.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorth
+emedefault.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerth
+emedefault.sty
+\beamer@dima=\dimen292
+\beamer@dimb=\dimen293
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterth
+emedefault.sty)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
+Package: alltt 2021/01/29 v2.0g defines alltt environment
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
+kz.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
+ty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box76
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
+.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
+or.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+ulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
+)
+\tikz@expandcount=\count342
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.st
+y
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
+ore.code.tex
+\t@pgfplots@toka=\toks48
+\t@pgfplots@tokb=\toks49
+\t@pgfplots@tokc=\toks50
+\pgfplots@tmpa=\dimen307
+\c@pgfplots@coordindex=\count343
+\c@pgfplots@scanlineindex=\count344
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfpl
+otssysgeneric.code.tex))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfp
+lotslibrary.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcom
+patib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks51
+\t@pgf@tokb=\toks52
+\t@pgf@tokc=\toks53
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcom
+patib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsutil.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsliststructure.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsliststructureext.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count345
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsmatrix.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\
+pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count346
+\t@pgfplotstable@a=\toks54
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
+ture\pgfplotsdeque.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsbinary.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsbinary.data.code.tex))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotsutil.verb.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfl
+ibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count347
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfli
+brarypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotscolormap.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
+lotscolor.code.tex))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotss
+tackedplots.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsp
+lothandlers.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
+eshplothandler.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
+eshplotimage.code.tex)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+scaling.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
+oordprocessing.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+errorbars.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+markers.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotst
+icks.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
+paths.code.tex)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen308
+\pgfdecoratedremainingdistance=\dimen309
+\pgfdecoratedinputsegmentcompleteddistance=\dimen310
+\pgfdecoratedinputsegmentremainingdistance=\dimen311
+\pgf@decorate@distancetomove=\dimen312
+\pgf@decorate@repeatstate=\count348
+\pgfdecorationsegmentamplitude=\dimen313
+\pgfdecorationsegmentlength=\dimen314
+)
+\tikz@lib@dec@box=\box81
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
+rations\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
+rations\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikz
+librarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count349
+\pgfplots@xmin@reg=\dimen315
+\pgfplots@xmax@reg=\dimen316
+\pgfplots@ymin@reg=\dimen317
+\pgfplots@ymax@reg=\dimen318
+\pgfplots@zmin@reg=\dimen319
+\pgfplots@zmax@reg=\dimen320
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
+es\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/tikz-qtree\tikz-qtre
+e.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/tikz-qtree\pgftree.s
+ty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/tikz-qtree\pgfsubpic
+.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/tikz-qtree\pgfsubp
+ic.tex
+\pgf@subpicminx=\dimen321
+\pgf@subpicminy=\dimen322
+\pgf@subpicmaxx=\dimen323
+\pgf@subpicmaxy=\dimen324
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/tikz-qtree\pgftree
+.tex
+\levelsep=\dimen325
+\subtreesep=\dimen326
+\smuggle@levelsep=\dimen327
+\smuggle@subtreesep=\dimen328
+\this@levelsep=\dimen329
+\this@subtreesep=\dimen330
+\pgftree@childx=\dimen331
+\pgftree@savechildx=\dimen332
+\pgftree@childy=\dimen333
+\pgftree@savechildy=\dimen334
+\pgftree@childi=\count350
+\pgftree@savechildi=\count351
+\pgftree@level=\count352
+\pgftree@depth=\dimen335
+\pgf@subpic@hbox@children=\box82
+\pgf@subpic@minx@children=\dimen336
+\pgf@subpic@miny@children=\dimen337
+\pgf@subpic@maxx@children=\dimen338
+\pgf@subpic@maxy@children=\dimen339
+\pgftree@lastchildx=\dimen340
+\pgftree@lastchildy=\dimen341
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/tikz-qtree\tikz-qt
+ree.tex
+\@result=\toks55
+\child@list=\toks56
+\root@node=\toks57
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/tikzsymbols\tikzsymb
+ols.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xp
+arse.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count353
+\l__pdf_internal_box=\box83
+))
+Package: xparse 2023-08-29 L3 Experimental document command parser
+)
+Package: tikzsymbols 2021/12/14 v4.12a Some symbols created using tikz and LaTe
+X3.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\
+l3keys2e.sty
+Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen342
+))
+\l__tikzsymbols_Moai_thickness_dim=\dimen343
+\l__tikzsymbols_Kochtopf_nr_arguments_int=\count354
+\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count355
+\l__tikzsymbols_Schneebesen_nr_arguments_int=\count356
+\l__tikzsymbols_Sieb_nr_arguments_int=\count357
+\l__tikzsymbols_Purierstab_nr_arguments_int=\count358
+\l__tikzsymbols_Dreizack_nr_arguments_int=\count359
+\l__tikzsymbols_Backblech_nr_arguments_int=\count360
+\l__tikzsymbols_Ofen_nr_arguments_int=\count361
+\l__tikzsymbols_Pfanne_nr_arguments_int=\count362
+\l__tikzsymbols_Herd_nr_arguments_int=\count363
+\l__tikzsymbols_Saftpresse_nr_arguments_int=\count364
+\l__tikzsymbols_Schussel_nr_arguments_int=\count365
+\l__tikzsymbols_Schaler_nr_arguments_int=\count366
+\l__tikzsymbols_Reibe_nr_arguments_int=\count367
+\l__tikzsymbols_Flasche_nr_arguments_int=\count368
+\l__tikzsymbols_Nudelholz_nr_arguments_int=\count369
+\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count370
+\l__tikzsymbols_Sadey_nr_arguments_int=\count371
+\l__tikzsymbols_dSadey_nr_arguments_int=\count372
+\l__tikzsymbols_Changey_nr_arguments_int=\count373
+\l__tikzsymbols_dChangey_nr_arguments_int=\count374
+\l__tikzsymbols_cChangey_nr_arguments_int=\count375
+\l__tikzsymbols_dcChangey_nr_arguments_int=\count376
+\l__tikzsymbols_Annoey_nr_arguments_int=\count377
+\l__tikzsymbols_dAnnoey_nr_arguments_int=\count378
+\l__tikzsymbols_Smiley_nr_arguments_int=\count379
+\l__tikzsymbols_dSmiley_nr_arguments_int=\count380
+\l__tikzsymbols_Laughey_nr_arguments_int=\count381
+\l__tikzsymbols_dLaughey_nr_arguments_int=\count382
+\l__tikzsymbols_Neutrey_nr_arguments_int=\count383
+\l__tikzsymbols_dNeutrey_nr_arguments_int=\count384
+\l__tikzsymbols_Winkey_nr_arguments_int=\count385
+\l__tikzsymbols_oldWinkey_nr_arguments_int=\count386
+\l__tikzsymbols_dWinkey_nr_arguments_int=\count387
+\l__tikzsymbols_olddWinkey_nr_arguments_int=\count388
+\l__tikzsymbols_Sey_nr_arguments_int=\count389
+\l__tikzsymbols_dSey_nr_arguments_int=\count390
+\l__tikzsymbols_Xey_nr_arguments_int=\count391
+\l__tikzsymbols_dXey_nr_arguments_int=\count392
+\l__tikzsymbols_Innocey_nr_arguments_int=\count393
+\l__tikzsymbols_wInnocey_nr_arguments_int=\count394
+\l__tikzsymbols_dInnocey_nr_arguments_int=\count395
+\l__tikzsymbols_Cooley_nr_arguments_int=\count396
+\l__tikzsymbols_dCooley_nr_arguments_int=\count397
+\l__tikzsymbols_Tongey_nr_arguments_int=\count398
+\l__tikzsymbols_dTongey_nr_arguments_int=\count399
+\l__tikzsymbols_Nursey_nr_arguments_int=\count400
+\l__tikzsymbols_dNursey_nr_arguments_int=\count401
+\l__tikzsymbols_Vomey_nr_arguments_int=\count402
+\l__tikzsymbols_dVomey_nr_arguments_int=\count403
+\l__tikzsymbols_Walley_nr_arguments_int=\count404
+\l__tikzsymbols_rWalley_nr_arguments_int=\count405
+\l__tikzsymbols_dWalley_nr_arguments_int=\count406
+\l__tikzsymbols_drWalley_nr_arguments_int=\count407
+\l__tikzsymbols_Cat_nr_arguments_int=\count408
+\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count409
+\l__tikzsymbols_Ninja_nr_arguments_int=\count410
+\l__tikzsymbols_dNinja_nr_arguments_int=\count411
+\l__tikzsymbols_Sleepey_nr_arguments_int=\count412
+\l__tikzsymbols_dSleepey_nr_arguments_int=\count413
+\l__tikzsymbols_Maskey_nr_arguments_int=\count414
+\l__tikzsymbols_NiceReapey_nr_arguments_int=\count415
+\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count416
+\l__tikzsymbols_Person_nr_arguments_int=\count417
+\l__tikzsymbols_Heart_nr_arguments_int=\count418
+\l__tikzsymbols_dHeart_nr_arguments_int=\count419
+\l__tikzsymbols_HeartBroken_nr_arguments_int=\count420
+\l__tikzsymbols_Candle_nr_arguments_int=\count421
+\l__tikzsymbols_Fire_nr_arguments_int=\count422
+\l__tikzsymbols_Coffeecup_nr_arguments_int=\count423
+\l__tikzsymbols_Chair_nr_arguments_int=\count424
+\l__tikzsymbols_Bed_nr_arguments_int=\count425
+\l__tikzsymbols_Tribar_nr_arguments_int=\count426
+\l__tikzsymbols_Moai_nr_arguments_int=\count427
+\l__tikzsymbols_Snowman_nr_arguments_int=\count428
+\l__tikzsymbols_BasicTree_nr_arguments_int=\count429
+\l__tikzsymbols_WorstTree_nr_arguments_int=\count430
+\l__tikzsymbols_Springtree_nr_arguments_int=\count431
+\l__tikzsymbols_Summertree_nr_arguments_int=\count432
+\l__tikzsymbols_Autumntree_nr_arguments_int=\count433
+\l__tikzsymbols_Wintertree_nr_arguments_int=\count434
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
+ty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen344
+\captionmargin=\dimen345
+\caption@leftmargin=\dimen346
+\caption@rightmargin=\dimen347
+\caption@width=\dimen348
+\caption@indent=\dimen349
+\caption@parindent=\dimen350
+\caption@hangindent=\dimen351
+Package caption Info: beamer document class detected.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-beam
+er.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count435
+\c@continuedfloat=\count436
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count437
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count438
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.
+sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.te
+x
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.t
+ex
+\XKV@toks=\toks58
+\XKV@tempa@toks=\toks59
+)
+\XKV@depth=\count439
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.st
+y
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.s
+ty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbo
+x.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box84
+)
+\tc@llx=\dimen352
+\tc@lly=\dimen353
+\tc@urx=\dimen354
+\tc@ury=\dimen355
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.
+def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen356
+\adjbox@Height=\dimen357
+\adjbox@Depth=\dimen358
+\adjbox@Totalheight=\dimen359
+\adjbox@pwidth=\dimen360
+\adjbox@pheight=\dimen361
+\adjbox@pdepth=\dimen362
+\adjbox@ptotalheight=\dimen363
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.
+sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count440
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.st
+y
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box85
+\sift@deathcycles=\count441
+\@vwid@loff=\dimen364
+\@vwid@roff=\dimen365
+))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.st
+y
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+
+
+Package cleveref Warning: hyperref package loaded with implicit=false option - 
+disabling cleveref's hyperref support. This situation is not supported by cleve
+ref, and there's no guarantee anything will work. You're on your own! on input 
+line 2370.
+
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeHa
+nnover.sty
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterth
+emesidebar.sty
+\beamer@sidebarwidth=\dimen366
+\beamer@headheight=\dimen367
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorth
+emeseahorse.sty)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerth
+emecircles.sty))
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterth
+emeinfolines.sty) (Context-Sensitive-Languages.aux
+
+LaTeX Warning: Label `tm-a*-thm' multiply defined.
+
+
+LaTeX Warning: Label `tm-a*-thm@cref' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm@cref' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm@cref' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm@cref' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm' multiply defined.
+
+
+LaTeX Warning: Label `mttm-thm@cref' multiply defined.
+
+)
+\openout1 = `Context-Sensitive-Languages.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(55.95003pt, 297.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=297.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-16.31996pt
+* \evensidemargin=-16.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count442
+\scratchdimen=\dimen368
+\scratchbox=\box86
+\nofMPsegments=\count443
+\nofMParguments=\count444
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count445
+\MPscratchDim=\dimen369
+\MPnumerator=\count446
+\makeMPintoPDFobject=\count447
+\everyMPtoPDFconversion=\toks61
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 76.
+ (Context-Sensitive-Languages.out) (Context-Sensitive-Languages.out)
+\@outlinefile=\write5
+\openout5 = `Context-Sensitive-Languages.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
+6.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
+6.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 76.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translato
+r-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 76.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(Context-Sensitive-Languages.nav)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 80.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 86--86
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[1{C:/Users/morazanm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 91--91
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.toc)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[2
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 96--96
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 129--129
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 5.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1ma
+thkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+7.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 7.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 7.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[3
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[4
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[5
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[6
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 132--132
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 174--174
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
+27.
+LaTeX Font Info:    No file OMScmss.fd. on input line 27.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 27.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[7
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[8
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[9
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[10
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[11
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 178--178
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 211--211
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+<tm-config.jpg, id=449, 670.505pt x 418.06187pt>
+File: tm-config.jpg Graphic file (type jpg)
+<use tm-config.jpg>
+Package pdftex.def Info: tm-config.jpg  used on input line 8.
+(pdftex.def)             Requested size: 100.57141pt x 62.70657pt.
+<tm-halt-config.jpg, id=450, 671.50874pt x 418.56375pt>
+File: tm-halt-config.jpg Graphic file (type jpg)
+<use tm-halt-config.jpg>
+Package pdftex.def Info: tm-halt-config.jpg  used on input line 15.
+(pdftex.def)             Requested size: 100.72195pt x 62.78185pt.
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[12
+
+ <./tm-config.jpg> <./tm-halt-config.jpg>] (Context-Sensitive-Languages.vrb
+File: tm-config.jpg Graphic file (type jpg)
+<use tm-config.jpg>
+Package pdftex.def Info: tm-config.jpg  used on input line 8.
+(pdftex.def)             Requested size: 100.57141pt x 62.70657pt.
+File: tm-halt-config.jpg Graphic file (type jpg)
+<use tm-halt-config.jpg>
+Package pdftex.def Info: tm-halt-config.jpg  used on input line 15.
+(pdftex.def)             Requested size: 100.72195pt x 62.78185pt.
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[13
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 215--215
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 239--239
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[14
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[15
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[16
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[17
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 243--243
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 267--267
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+17.
+
+(C:\Users\morazanm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+))
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[18
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[19
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[20
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 271--271
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 298--298
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[21
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[22
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[23
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 302--302
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 333--333
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+Overfull \hbox (43.35933pt too wide) in paragraph at lines 9--9
+ []     \OT1/cmtt/m/n/8 ;;   Y: tape[i] = BLANK and tape[1..i-1] only contains 
+as, final state[] 
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[24
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 337--337
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 385--385
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (0.18547pt too high) detected at line 385
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[25
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (0.18547pt too high) detected at line 385
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[26
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (0.18547pt too high) detected at line 385
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[27
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 389--389
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 411--411
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[28
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[29
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 415--415
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 457--457
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (67.15036pt too high) detected at line 457
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[30
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (67.15036pt too high) detected at line 457
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[31
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (67.15036pt too high) detected at line 457
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[32
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (67.15036pt too high) detected at line 457
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[33
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (67.15036pt too high) detected at line 457
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[34
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (67.15036pt too high) detected at line 457
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[35
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 461--461
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 497--497
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[36
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[37
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[38
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 500--500
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 508--508
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[39
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 511--511
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 539--539
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[40
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[41
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[42
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[43
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 542--542
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 573--573
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[44
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[45
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[46
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[47
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[48
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 576--576
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 609--609
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[49
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[50
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[51
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[52
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 612--612
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 655--655
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (13.18547pt too high) detected at line 655
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[53
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 658--658
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 713--713
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[54
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[55
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[56
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[57
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[58
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 716--716
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 737--737
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+pdfTeX warning (ext4): destination with the same identifier (name{tm-a*-thm}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \label{tm-a*-thm}
+                     )
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[59
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[60
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 742--742
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 768--768
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[61
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[62
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 771--771
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 794--794
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[63
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[64
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[65
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[66
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[67
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[68
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 797--797
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 815--815
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[69
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[70
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[71
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[72
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[73
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 818--818
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 854--854
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[74
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[75
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[76
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[77
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 857--857
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 865--865
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[78
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 868--868
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 893--893
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[79
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[80
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[81
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[82
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 896--896
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 953--953
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[83
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[84
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[85
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[86
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[87
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[88
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 956--956
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 964--964
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[89
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 967--967
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 986--986
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[90
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[91
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[92
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 989--989
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1028--1028
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[93
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[94
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[95
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[96
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[97
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[98
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1031--1031
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1084--1084
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[99
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[100
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[101
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[102
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[103
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[104
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[105
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[106
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1087--1087
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1138--1138
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[107
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[108
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[109
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[110
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[111
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[112
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[113
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1142--1142
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1177--1177
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[114
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[115
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[116
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[117
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[118
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[119
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1180--1180
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1210--1210
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[120
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[121
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1213--1213
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1232--1232
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
+[][][][][][][]  
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[122
+
+] (Context-Sensitive-Languages.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
+[][][][][][][]  
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[123
+
+] (Context-Sensitive-Languages.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
+[][][][][][][]  
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[124
+
+] (Context-Sensitive-Languages.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
+[][][][][][][]  
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[125
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1235--1235
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1243--1243
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[126
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1249--1249
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1287--1287
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[127
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[128
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[129
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1290--1290
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1320--1320
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+Overfull \hbox (47.04688pt too wide) in paragraph at lines 18--18
+ []     \OT1/cmtt/m/n/8 ;;  PRE: tape = (LM w) AND i=k>0 AND tape[i]=s, where w
+ in \OMS/cmss/m/n/8 f\OT1/cmtt/m/n/8 a b BLANK\OMS/cmss/m/n/8 g$[]$[] 
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[130
+
+] (Context-Sensitive-Languages.vrb
+Overfull \hbox (47.04688pt too wide) in paragraph at lines 18--18
+ []     \OT1/cmtt/m/n/8 ;;  PRE: tape = (LM w) AND i=k>0 AND tape[i]=s, where w
+ in \OMS/cmss/m/n/8 f\OT1/cmtt/m/n/8 a b BLANK\OMS/cmss/m/n/8 g$[]$[] 
+ []
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[131
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1323--1323
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1349--1349
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[132
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[133
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1352--1352
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1360--1360
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[134
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1363--1363
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1381--1381
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[135
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[136
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1384--1384
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1405--1405
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[137
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[138
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[139
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[140
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1408--1408
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1439--1439
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[141
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[142
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1442--1442
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1494--1494
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[143
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[144
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[145
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[146
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[147
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1497--1497
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1513--1513
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[148
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[149
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1516--1516
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1550--1550
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[150
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[151
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[152
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1553--1553
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1594--1594
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[153
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[154
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1597--1597
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1632--1632
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[155
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[156
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1635--1635
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1672--1672
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[157
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[158
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1675--1675
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1683--1683
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[159
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1686--1686
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1720--1720
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[160
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[161
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[162
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[163
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1723--1723
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1781--1781
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[164
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[165
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[166
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[167
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[168
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[169
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[170
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[171
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1784--1784
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1861--1861
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[172
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[173
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[174
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[175
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[176
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[177
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[178
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[179
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[180
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1864--1864
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1886--1886
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[181
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[182
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1889--1889
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1946--1946
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[183
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[184
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[185
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[186
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[187
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[188
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[189
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 1949--1949
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2007--2007
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (9.68547pt too high) detected at line 2007
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[190
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (9.68547pt too high) detected at line 2007
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[191
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (9.68547pt too high) detected at line 2007
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[192
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (9.68547pt too high) detected at line 2007
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[193
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (9.68547pt too high) detected at line 2007
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[194
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2010--2010
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2051--2051
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[195
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[196
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[197
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[198
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[199
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2054--2054
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2063--2063
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+<COPYv2.png, id=6998, 1180.41pt x 241.90375pt>
+File: COPYv2.png Graphic file (type png)
+<use COPYv2.png>
+Package pdftex.def Info: COPYv2.png  used on input line 6.
+(pdftex.def)             Requested size: 236.07782pt x 48.37988pt.
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[200
+
+ <./COPYv2.png>]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2066--2066
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2119--2119
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[201
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[202
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[203
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[204
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[205
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[206
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[207
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2122--2122
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2178--2178
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[208
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[209
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[210
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[211
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[212
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[213
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2181--2181
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2189--2189
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[214
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2195--2195
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2217--2217
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[215
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[216
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[217
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[218
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2220--2220
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2291--2291
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[219
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2294--2294
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2317--2317
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[220
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[221
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[222
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[223
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2320--2320
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2347--2347
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[224
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[225
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[226
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[227
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2351--2351
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2370--2370
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[228
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[229
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[230
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2375--2375
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2398--2398
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[231
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2401--2401
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2429--2429
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[232
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[233
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[234
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[235
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[236
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2432--2432
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2456--2456
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[237
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[238
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[239
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2459--2459
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2513--2513
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[240
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[241
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[242
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[243
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[244
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2518--2518
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2547--2547
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[245
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[246
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2550--2550
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2595--2595
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[247
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[248
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[249
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[250
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[251
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2598--2598
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2616--2616
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[252
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[253
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2619--2619
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2664--2664
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+Overfull \hbox (11.48222pt too wide) in paragraph at lines 42--42
+ []     \OT1/cmtt/m/n/6 (check-equal? (sm-apply EQABC \TS1/cmtt/m/n/6 `\OT1/cmt
+t/m/n/6 (,LM ,BLANK c c c a b b a a c b a b b c a) 1) \TS1/cmtt/m/n/6 '\OT1/cmt
+t/m/n/6 accept)[] 
+ []
+
+)
+Overfull \vbox (34.18547pt too high) detected at line 2664
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[254
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2667--2667
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2681--2681
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[255
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[256
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2684--2684
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2729--2729
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[257
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[258
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[259
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2732--2732
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2768--2768
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[260
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2771--2771
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2831--2831
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (12.68547pt too high) detected at line 2831
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[261
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (12.68547pt too high) detected at line 2831
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[262
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (12.68547pt too high) detected at line 2831
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[263
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (12.68547pt too high) detected at line 2831
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[264
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (12.68547pt too high) detected at line 2831
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[265
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2834--2834
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2886--2886
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.68547pt too high) detected at line 2886
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[266
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.68547pt too high) detected at line 2886
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[267
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2889--2889
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2916--2916
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[268
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[269
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2919--2919
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2933--2933
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[270
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[271
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[272
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[273
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2936--2936
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2958--2958
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[274
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[275
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[276
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2961--2961
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2972--2972
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[277
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2975--2975
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2992--2992
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[278
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[279
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[280
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 2995--2995
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3012--3012
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[281
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[282
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[283
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3015--3015
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3036--3036
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[284
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[285
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3039--3039
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3060--3060
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[286
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[287
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3063--3063
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3078--3078
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[288
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3081--3081
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3089--3089
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[289
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3092--3092
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3106--3106
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[290
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[291
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3109--3109
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3196--3196
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[292
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[293
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[294
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3199--3199
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3401--3401
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[295
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3404--3404
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3572--3572
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[296
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3575--3575
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3619--3619
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (17.55179pt too high) detected at line 3619
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[297
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (17.55179pt too high) detected at line 3619
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[298
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (17.55179pt too high) detected at line 3619
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[299
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3622--3622
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3658--3658
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+pdfTeX warning (ext4): destination with the same identifier (name{mttm-thm}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \label{mttm-thm}
+                    )
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[300
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[301
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3661--3661
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3690--3690
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+pdfTeX warning (ext4): destination with the same identifier (name{mttm-thm}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \label{mttm-thm}
+                    )
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[302
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3694--3694
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3722--3722
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[303
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[304
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[305
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3725--3725
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3745--3745
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[306
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[307
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3749--3749
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3759--3759
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[308
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3764--3764
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3783--3783
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[309
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[310
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3786--3786
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3810--3810
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[311
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[312
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[313
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3813--3813
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3837--3837
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[314
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[315
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[316
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3840--3840
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3866--3866
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[317
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[318
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[319
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[320
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[321
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[322
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3869--3869
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3927--3927
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[323
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[324
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[325
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[326
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[327
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[328
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[329
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[330
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3930--3930
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3955--3955
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[331
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[332
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[333
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[334
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[335
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3958--3958
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 3997--3997
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[336
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[337
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[338
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[339
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[340
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4000--4000
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4031--4031
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[341
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4034--4034
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4066--4066
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[342
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[343
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4069--4069
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4091--4091
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[344
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[345
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4094--4094
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4114--4114
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[346
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[347
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4117--4117
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4147--4147
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[348
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[349
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[350
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[351
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4150--4150
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4181--4181
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[352
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[353
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[354
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[355
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4184--4184
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4209--4209
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[356
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4212--4212
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4243--4243
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[357
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[358
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[359
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4247--4247
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4283--4283
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+pdfTeX warning (ext4): destination with the same identifier (name{mttm-thm}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \label{mttm-thm}
+                    )
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[360
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[361
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[362
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[363
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4286--4286
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4331--4331
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+pdfTeX warning (ext4): destination with the same identifier (name{mttm-thm}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \label{mttm-thm}
+                    )
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[364
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[365
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[366
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[367
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[368
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[369
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (5.35213pt too high) detected at line 4331
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[370
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4334--4334
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4342--4342
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[371
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4348--4348
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4380--4380
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[372
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[373
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[374
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[375
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[376
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[377
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[378
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \vbox (1.9077pt too high) detected at line 4380
+ []
+
+
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[379
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4383--4383
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4431--4431
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[380
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[381
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[382
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[383
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[384
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[385
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4434--4434
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4453--4453
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[386
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[387
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4456--4456
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4506--4506
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[388
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[389
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[390
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[391
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[392
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[393
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[394
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[395
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[396
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4509--4509
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4517--4517
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[397
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4520--4520
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4569--4569
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[398
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[399
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[400
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[401
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[402
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4572--4572
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4617--4617
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[403
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[404
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4620--4620
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4647--4647
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[405
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[406
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[407
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4650--4650
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4687--4687
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[408
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[409
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4690--4690
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4721--4721
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+
+LaTeX Warning: Reference `tm-halts-emp' on page 1 undefined on input line 19.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[410
+
+] (Context-Sensitive-Languages.vrb
+
+LaTeX Warning: Reference `tm-halts-emp' on page 1 undefined on input line 19.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[411
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4724--4724
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4732--4732
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[412
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4735--4735
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4761--4761
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+
+LaTeX Warning: Reference `equiv-csg-tm' on page 1 undefined on input line 20.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[413
+
+] (Context-Sensitive-Languages.vrb
+
+LaTeX Warning: Reference `equiv-csg-tm' on page 1 undefined on input line 20.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[414
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4764--4764
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4790--4790
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+
+LaTeX Warning: Reference `m-lang-not-empty' on page 1 undefined on input line 1
+8.
+
+
+LaTeX Warning: Reference `equiv-csg-tm' on page 1 undefined on input line 20.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[415
+
+] (Context-Sensitive-Languages.vrb
+
+LaTeX Warning: Reference `m-lang-not-empty' on page 1 undefined on input line 1
+8.
+
+
+LaTeX Warning: Reference `equiv-csg-tm' on page 1 undefined on input line 20.
+
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[416
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4793--4793
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4801--4801
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[417
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4806--4806
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4816--4816
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[418
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[419
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4819--4819
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4831--4831
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[420
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[421
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4834--4834
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4893--4893
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[422
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4896--4896
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4956--4956
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[423
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[424
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4959--4959
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4989--4989
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[425
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[426
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[427
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 4992--4992
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5016--5016
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[428
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[429
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5019--5019
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5065--5065
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[430
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[431
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[432
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[433
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5068--5068
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5076--5076
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[434
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5079--5079
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5119--5119
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[435
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[436
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[437
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[438
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[439
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[440
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[441
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[442
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5122--5122
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5151--5151
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[443
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[444
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[445
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5154--5154
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5178--5178
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[446
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[447
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[448
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[449
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5181--5181
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5203--5203
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[450
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5206--5206
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5257--5257
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[451
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[452
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[453
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[454
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[455
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[456
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[457
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5260--5260
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5276--5276
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[458
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[459
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5279--5279
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5331--5331
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[460
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[461
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[462
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[463
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[464
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5334--5334
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5394--5394
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[465
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[466
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[467
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[468
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[469
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5397--5397
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5433--5433
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[470
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[471
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[472
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[473
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5436--5436
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5450--5450
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[474
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5453--5453
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5518--5518
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[475
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[476
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[477
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[478
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[479
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[480
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5521--5521
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5545--5545
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[481
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[482
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[483
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[484
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[485
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[486
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[487
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[488
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5548--5548
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5572--5572
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[489
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[490
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[491
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[492
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5575--5575
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5663--5663
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[493
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5666--5666
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5715--5715
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[494
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[495
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[496
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[497
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[498
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[499
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[500
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[501
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5718--5718
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5740--5740
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[502
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[503
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[504
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[505
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[506
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[507
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5743--5743
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5751--5751
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[508
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5756--5756
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5776--5776
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[509
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[510
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5779--5779
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5800--5800
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[511
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[512
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[513
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[514
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[515
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5803--5803
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5827--5827
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[516
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[517
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[518
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[519
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[520
+
+]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5830--5830
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+\openout4 = `Context-Sensitive-Languages.vrb'.
+
+
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 5852--5852
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+(Context-Sensitive-Languages.vrb
+\g__tikzsymbols_savebox_F_0 g 0 G_8_dCooley_5_yellow_box=\box87
+)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[521
+
+] (Context-Sensitive-Languages.vrb)
+Overfull \hbox (3.91324pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[522
+
+]
+\tf@nav=\write6
+\openout6 = `Context-Sensitive-Languages.nav'.
+
+\tf@toc=\write7
+\openout7 = `Context-Sensitive-Languages.toc'.
+
+\tf@snm=\write8
+\openout8 = `Context-Sensitive-Languages.snm'.
+
+ (Context-Sensitive-Languages.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Context-Sensitive-Languages.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 21BA2C3F1787C2C83858274431D81942;1226.
+ ) 
+Here is how much of TeX's memory you used:
+ 45363 strings out of 475248
+ 1110260 string characters out of 5756397
+ 1985785 words of memory out of 5000000
+ 64026 multiletter control sequences out of 15000+600000
+ 571536 words of font info for 86 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,16n,123p,1396b,1441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\morazanm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\t
+cit0800.pk> <C:\Users\morazanm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi450\tctt0800.pk> <C:\Users\morazanm\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\tctt0800.pk><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/morazanm/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/morazanm/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/moraz
+anm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/U
+sers/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmss10.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/morazanm/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/morazanm/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/morazanm
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/
+Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+si8.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy5.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/morazanm/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/morazanm/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/mora
+zanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:
+/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/symbols/msbm7.pfb>
+Output written on Context-Sensitive-Languages.pdf (522 pages, 4766966 bytes).
+PDF statistics:
+ 18574 PDF objects out of 22161 (max. 8388607)
+ 1061 named destinations out of 1200 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+

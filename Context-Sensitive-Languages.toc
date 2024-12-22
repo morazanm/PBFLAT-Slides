@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Turing Machines}{3}{0}{1}
+\beamer@sectionintoc {2}{Turing Machine Composition}{127}{0}{2}
+\beamer@sectionintoc {3}{Turing Machine Extensions}{215}{0}{3}
+\beamer@sectionintoc {4}{Context-Sensitive Grammars}{309}{0}{4}
+\beamer@sectionintoc {5}{Church-Turing Thesis and Undecidability}{372}{0}{5}
+\beamer@sectionintoc {6}{Complexity}{418}{0}{6}
+\beamer@sectionintoc {7}{Farewell and where to go from here?}{509}{0}{7}
