@@ -173,26 +173,71 @@
 \frametitle{Regular Expressions}
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
+The Design Recipe for Regular Expressions
+\begin{enumerate}
+     \item Identify the input alphabet, pick a name for the regular expression, and describe the language
+     
+     \item Identify the sublanguages and outline how to compose them
+     
+     \item Define a predicate to determine if a word is in the target language
+     
+     \item Write unit tests
+     
+     \item Define the regular expression
+     
+     \item Run the tests and, if necessary, debug by revisiting the previous steps
+     \item Prove that the regular expression is correct
+\end{enumerate}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Expressions}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
 \begin{itemize}
-\item<1-> \fsm \ provides informative error messages to help you overcome the misuse of constructors
+\item<1-> \fsm{} provides \emph{recipe-based error messages}\footnote{This term was coined by Prof. Rose Bohrer from WPI.} for constructor misuse
 
 \item<2->
 \begin{alltt}
-     > (union-regexp 2 (singleton-regexp \textquotesingle{}w))
-     \textcolor{red}{the input to the regexp #(struct:singleton-regexp w)}
-     \textcolor{red}{must be a string}
-     > (union-regexp (empty-regexp) 3)
-     \textcolor{red}{3 must be a regexp to be a valid second input to}
-     \textcolor{red}{union-regexp #(struct:empty-regexp) 3}
-     > (concat-regexp 3 (empty-regexp))
-     \textcolor{red}{3 must be a regexp to be a valid first input to}
-     \textcolor{red}{concat-regexp 3 #(struct:empty-regexp)}
-     > (kleenestar-regexp "A U B")
-     \textcolor{red}{"A U B" must be a regexp to be a valid input to}
-     \textcolor{red}{kleenestar-regexp}
-     > (singleton-regexp 1)
-     \textcolor{red}{the input to the regexp #(struct:singleton-regexp 1)}
-     \textcolor{red}{must be a string}
+> (union-regexp 2 (singleton-regexp \textquotesingle{}w))
+\textcolor{red}{Step five of the design recipe for regular expressions 
+has not been successfully completed. The argument to 
+singleton-regexp must be a single lowercase Roman alphabet
+string, but found: w}
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+> (union-regexp 2 (singleton-regexp "w"))
+\textcolor{red}{Step five of the design recipe for regular expressions 
+has not been successfully completed. The first argument 
+to union-regexpmust be a regular expression, but found: 2}
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+> (concat-regexp 3 (empty-regexp))
+\textcolor{red}{Step five of the design recipe for regular expressions 
+has not been successfully completed. The first argument 
+to concat-regexp must be a regular expression, but found: 3}
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+> (kleenestar-regexp "A U B")
+\textcolor{red}{Step five of the design recipe for regular expressions 
+has not been successfully completed. The argument to 
+kleenestar-regexp must be a regular expression, but found: "A U B"}
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+> (singleton-regexp 1)
+\textcolor{red}{Step five of the design recipe for regular 
+expressions has not been successfully completed. The argument 
+to singleton-regexp must be a single lowercase Roman alphabet 
+string, but found: 1}
 \end{alltt}
 
 \end{itemize}
@@ -248,16 +293,12 @@
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> Observers
+\item<1-> Observers for regular expressions
 \begin{description}
-  \item[\underline{(gen-concat-word r f)}:] Generate a word by concatenating words generated from the sub-\texttt{regexp}s in the given \texttt{concat-regexp} using the given word-generating function.
-  \item[\underline{(generate-ks-word n r f)}:] Generate a word of arbitrary length in \texttt{[0..n+1]} using the given regular expression and the given word-generating function.
-  \item[\underline{(extract-concat-regexps r)}:] Extracts all the nested regular expressions in a chain of \texttt{concat-regexp}s.
-  \item[\underline{(extract-union-regexps r)}:] Extracts all the nested regular expressions in a chain of \texttt{union-regexp}s.
-  \item[\underline{(pick-regexp r)}:] Nondeterministically returns a nested sub-\texttt{regexp} from the given \texttt{union-regexp}. This includes any nested \texttt{union-regexp}s in a chain of \texttt{union-regexp}s.
-  \item[\underline{(convert-singleton r)}:] Converts the given \texttt{singleton-regexp} to a word of length 1 containing r’s nested symbol or number.
   \item[\underline{(gen-regexp-word r)}:] Nondeterministically generates a word in the language of the given \texttt{regexp}.
 \end{description}
+
+\item<1-> Many more available for you to write your own \texttt{gen-word-regexp} (see documentation)
 
 \end{itemize}
 \end{scriptsize}
@@ -269,23 +310,8 @@
 \begin{scriptsize}
 \begin{itemize}
 \item<1-> \fsm{} provides \texttt{printable-regexp}:
-\begin{center}
-\begin{tabular}{|r|l|}
-  \hline
-  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-  %Regular Expression    & Printable Form \\ \hline
-  \texttt{(empty-regexp)}        & the value of \texttt{EMP} \\ \hline
-  \texttt{(singleton-regexp a)}  & \dquot a\dquot \\ \hline
-  \texttt{(union-regexp r1 r2)}  & (string-append (printable-regexp r1)\\
-                                 & \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \dquot{}U\dquot{}\\
-                                 & \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (printable-regexp r2))\\ \hline
-  \texttt{(concat-regexp r1 r2)} & (string-append (printable-regexp r1)\\
-                        & \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (printable-regexp r2)) \\ \hline
-  \texttt{(kleenestar-regexp r)} & (string-append (printable-regexp r1) \dquot{}*\dquot{}) \\ \hline
-\end{tabular}
-\end{center}
 
-\item<2->
+\item<1->
 \begin{alltt}
 > (printable-regexp (empty-regexp))
 "\(\epsilon\)"
@@ -312,52 +338,115 @@
 \begin{frame}[fragile]
 \frametitle{Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
-\item<1-> We can now build a finite representation for some infinite languages.
-
-\item<2-> Consider the following language over \sigsig:
-\begin{alltt}
-     L = \{w | w ends with an a\}
-\end{alltt}
-
-\item<2-> Every word in \texttt{L} must have at least one \texttt{a} at the end
-
-\item<2-> Before the last \texttt{a} there can be an arbitrary number of \texttt{a}s and \texttt{b}s
-
-\item<3->
-\begin{alltt}
-     #lang fsm
-\end{alltt}
+\item<1-> Consider the following language over \sigsig: \texttt{L = \{w $|$ w ends with an a\}}
+    
+\item<1-> Design idea: Concatenate any word with a
 
 \item<4->
 \begin{alltt}
-     (define A (singleton-regexp "a"))
+;; word --> Boolean
+;; Purpose: Determine if given word is in L(ENDS-WITH-A)
+(define (valid-ends-with-a? w)
+  (and (eq? (last w) \quot{}a)
+       (andmap (\lamb{} (l) (or (eq? l \quot{}a) (eq? l \quot{}b))) w)))
 \end{alltt}
 
-\item<7->
+\item<2->
 \begin{alltt}
-     (define B (singleton-regexp "b"))
+ #lang fsm
+
+;; L(ENDS-WITH-A) = All words that end with an a   Alphabet = {a b}
+(define ENDS-WITH-A
 \end{alltt}
 
 \item<6->
 \begin{alltt}
-     (define AUB (union-regexp A B))
+  (local [;; L(A) = {(a)}   Alphabet = {a}
+          (define A (singleton-regexp "a"))
+
+          ;; L(B) = {b}   Alphabet = {(b)}
+          (define B (singleton-regexp "b"))
+          
 \end{alltt}
 
-\item<5->
+\item<7->
 \begin{alltt}
-     (define AUB* (kleenestar-regexp AUB))
-\end{alltt}
 
-\item<3->
-\begin{alltt}
-     (define ENDS-WITH-A  (concat-regexp AUB* A))
+          ;; L(AUB) = {(a) (b)}   Alphabet = {a b}
+          (define AUB (union-regexp A B
+                                    #:in-lang \quot{}((a) (b))
+                                    #:not-in-lang \quot{}(() (a a) (b a b b))))
+                                    
 \end{alltt}
 
 \item<8->
 \begin{alltt}
-     (check-equal? (printable-regexp ENDS-WITH-A) "(a U b)*a")
+
+          ;; L(AUB*) = Words with an arbitrary number of as \& bs   Alphabet = {a b}
+          (define AUB* (kleenestar-regexp AUB
+                                          #:in-lang \quot{}(() (a a a) (b b a b a a) (b a b))))]
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+    (concat-regexp 
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+      AUB* A
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+      #:sigma \quot{}(a b)
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+      #:gen-cases 20
+      #:pred valid-ends-with-a?
+      #:in-lang \quot{}((a) (b a) (b b a a b a a))
+      #:not-in-lang \quot{}(() (b) (a a a b)))))
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Expressions}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Correctness of ENDS-WITH-A
+\begin{alltt}
+A and B only generate, respectively, the word a and the word b.
+Thus, they are correct.
+
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+AUB nondeterministically generates either a or b, which is what 
+\{a\} \(\cup\) \{B\} generates. Thus, AUB is correct.
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+AUB* nondeterministically generates a word of arbitrary length
+containing only as and bs, which is what is generated by 
+(\{a\} \(\cup\) \{B\})\(\sp{*}\). Thus, it is correct.
+
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+ENDS-WITH-A generates a word by concatenating a word generated by
+AUB* and a word generated by A. That is, (\{a\} \(\cup\) \{B\})\(\sp{*}\)a. This
+means it generates any word ending with a. Thus, it is correct.
 \end{alltt}
 
 \end{itemize}
@@ -387,42 +476,133 @@
 \begin{frame}[fragile]
 \frametitle{Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
-\item<1->
-\begin{enumerate}
   \item \texttt{$\Sigma$ = \{0 1\}}
   \item The minimum length of a binary number is 1
   \item A binary number with a length greater than 1 cannot start with 0
-\end{enumerate}
+  \item
+  \begin{alltt}
+  ;; word --> Boolean  Purpose: Test if the given word is a BIN-NUMS
+(define (is-bin-nums? w)
+  (and (list? w)  (<= 1 (length w))  
+       (or (= w \quot{}(0)) 
+           (and (= (first w) 1))
+                (andmap (\lamb{} (bit) (or (= bit 0) (= bit 1))) (rest w)))))
+  \end{alltt}
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Expressions}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+\item<1->
+\begin{alltt}
+;; L(BIN-NUM) = all words representing binary numbers without leading 0s Alphabet=\{0 1\}
+(define BIN-NUMS
+\end{alltt}
+\item<4->
+\begin{alltt}
+  (local [;; L(ZERO) = {(0)}   Alphabet=\{0\}
+          (define ZERO (singleton-regexp "0"))
+\end{alltt}
+\item<6->
+\begin{alltt}
+          ;; L(ONE) = {(1)}   Alphabet=\{1\}
+          (define ONE  (singleton-regexp "1"))
+\end{alltt}
+\item<8->
+\begin{alltt}
+          ;; L(0U1) = {(0) (1)}   Alphabet=\{0 1\}
+          (define 0U1
+            (union-regexp ZERO ONE
+                          #:sigma \quot{}(0 1)   #:gen-cases 3
+                          #:pred  (\lamb{} (w) (and (= (length w) 1)
+                                              (or (= (first w) 0) (= (first w) 1))))
+                          #:in-lang \quot{}((0) (1))
+                          #:not-in-lang \quot{}((1 1) (0 0 0) (0 1 1 0 1))))
+\end{alltt}
+\item<7->
+\begin{alltt}
+          ;; L(0U1*) = all words with an arbitrary number of 0s and 1s   Alphabet=\{0 1\}
+          (define 0U1*
+            (kleenestar-regexp 0U1
+              #:sigma \quot{}(0 1)   #:gen-cases 20
+              #:pred  (\lamb{} (w) (or (eq? w EMP)
+                                 (andmap (\lamb{} (s) (or (= s 0) (= s 1))) w)))
+              #:in-lang \quot{}((0) (1) (1 0 0 0) (1 1 1))))
+\end{alltt}
+\item<5->
+\begin{alltt}
+          ;; L(STARTS1) = all binary numbers starting with 1  Alphabet = \{0 1\}
+          (define STARTS1
+            (concat-regexp ONE 0U1*
+              #:sigma \quot{}(0 1)   #:gen-cases 6
+              #:pred  (\lamb{} (w) (and (= (first w) 1)
+                                      (andmap (\lamb{} (s) (or (= s 0) (= s 1)))
+                                              (rest w))))
+              #:in-lang \quot{}((1) (1 0 0 0) (1 0 1))
+              #:not-in-lang \quot{}((0) (0 1 1) (0 0))))]
+\end{alltt}
+\item<2->
+\begin{alltt}
+    (union-regexp ZERO STARTS1
+      #:sigma \quot{}(0 1)   #:gen-cases 10   #:pred  is-bin-nums?
+\end{alltt}
+\item<3->
+\begin{alltt}
+      #:in-lang \quot{}((1) (0) (1 0 0 1) (1 1 1))
+      #:not-in-lang \quot{}((0 0 0) (0 1 1 0 1)))))
+\end{alltt}
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Expressions}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Correctness of BIN-NUMS
+
+\item<1->
+\begin{alltt}
+ZERO and ONE only generate, respectively, the word 0 and the 
+word 1. Thus, they are correct.
+
+\end{alltt}
 
 \item<2->
 \begin{alltt}
-     #lang fsm
+0U1 nondeterministically generates the word 0 or the word 1, 
+which is what is generated by 0 U 1. Thus, it is correct.
 
-     (define ZERO (singleton-regexp "0"))
-
-     (define ONE  (singleton-regexp "1"))
 \end{alltt}
 
 \item<3->
 \begin{alltt}
+0U1* nondeterministically generates a word of arbitrary length
+containing 0s and 1s, which is what {0 U 1}* generates. Thus,
+it is correct.
 
-     (define 0U1* (kleenestar-regexp (union-regexp ZERO ONE)))
 \end{alltt}
 
 \item<4->
 \begin{alltt}
+STARTS1 generates a word by concatenating the word 1 with a word
+generated by 0U1*. That is, it generates a word in 1(0 U 1)*
+(any word of 0s and 1s that starts with 1). Thus, it is correct.
 
-     (define STARTS1 (concat-regexp ONE 0U1*))
 \end{alltt}
 
-\item<3->
+\item<5->
 \begin{alltt}
-
-     (define BIN-NUMS (union-regexp ZERO STARTS1))
-
-     (check-equal? (printable-regexp BIN-NUMS) "(0 U 1(0 U 1)*)")
+BIN-NUMS either generates 0 or a word generated by STARTS1. That
+is, it generates any binary number with no leading repeated 0s.
+Thus, it is correct.
 \end{alltt}
 
 \end{itemize}
@@ -439,6 +619,8 @@
 \end{itemize}
 \end{scriptsize}
 \end{frame}
+
+\iffalse
 
 \begin{frame}[fragile]
 \frametitle{Regular Expressions}
@@ -463,6 +645,8 @@
 \end{itemize}
 \end{scriptsize}
 \end{frame}
+
+
 
 \begin{frame}[fragile]
 \frametitle{Regular Expressions}
@@ -805,6 +989,8 @@
 \end{scriptsize}
 \end{frame}
 
+\fi
+
 \begin{frame}[fragile]
 \frametitle{Regular Expressions}
 %\framesubtitle{HOMEWORK}
@@ -812,7 +998,7 @@
 \begin{itemize}
 \item<1-> Regular expressions may be used to describe data such as internet addresses, proteins, decimal numbers, and patterns to search for in text among others
 
-\item<2-> To illustrate the use of regular expressions we explore the problem of generating passwords
+\item<2-> To illustrate the use of regular expressions we explore the problem of generating passwords (\textcolor{red}{simpler version than what is in the textbook})
 
 \end{itemize}
 \end{scriptsize}
@@ -827,7 +1013,7 @@
 \begin{itemize}
   \item  Has length $\geq$ 10
   \item  Includes at least one lowercase letter
-  \item  Includes at least one uppercase letter
+  %\item  Includes at least one uppercase letter
   \item  Includes at least one special character: \$, \&, !, and *
 \end{itemize}
 
@@ -835,8 +1021,7 @@
 \begin{alltt}
      (define lowers \quot(a b c d e f g h i j k l m n o p q
                       r s t u v w x y z))
-     (define uppers \quot(A B C D E F G H I J K L M N O P Q
-                      R S T U V W X Y Z))
+
      (define spcls  \quot(\$ \& ! *))
 \end{alltt}
 
@@ -845,9 +1030,7 @@
  (define lc (map
              (\lamb (lcl) (singleton-regexp (symbol->string lcl)))
              lowers))
- (define uc (map
-             (\lamb (ucl) (singleton-regexp (symbol->string ucl)))
-             uppers))
+
  (define spc (map
               (\lamb (sc) (singleton-regexp (symbol->string sc)))
               spcls))
@@ -862,27 +1045,23 @@
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> Six different orderings the required elements may appear in:
+\item<1-> Two different orderings the required elements may appear in:
 \begin{alltt}
-     L U S     U L S     S U L
-     L S U     U S L     S L U
+     S L     L S
 \end{alltt}
 
 \item<1-> Arbitrary number of elements before and after each
 
-\item<1-> What do \texttt{LOWER}, \texttt{UPPER}, \texttt{SPCHS}, and \texttt{ARBTRY} need to be?
+\item<1-> What do \texttt{LOWER}, \texttt{SPCHS}, and \texttt{ARBTRY} need to be?
 
 \item<2->
 \begin{alltt}
    (define LOWER (create-union-regexp lc))
-   (define UPPER (create-union-regexp uc))
    (define SPCHS (create-union-regexp spc))
-   (define ARBTRY (kleenestar-regexp
-                   (union-regexp LOWER
-                                 (union-regexp UPPER SPCHS))))
+   (define ARBTRY (kleenestar-regexp (union-regexp LOWER SPCHS)))
 \end{alltt}
 
-\item<2-> We need an auxiliary function
+\item<2-> We need an auxiliary function (unless you want to type really long \texttt{union-regexp}s)
 
 
 
@@ -897,29 +1076,25 @@
 \begin{itemize}
 \item<1-> We can define each sub-language:
 \begin{alltt}
- (define LUS (concat-regexp
-               ARBTRY
-               (concat-regexp
-                 LOWER
-                 (concat-regexp
-                   ARBTRY
-                   (concat-regexp
-                     UPPER
-                     (concat-regexp
-                       ARBTRY
-                       (concat-regexp SPCHS ARBTRY)))))))
- (define LSU (concat-regexp
-               ARBTRY
-               (concat-regexp
-                 LOWER
-                 (concat-regexp
-                   ARBTRY
-                   (concat-regexp
-                     SPCHS
-                     (concat-regexp
-                       ARBTRY
-                       (concat-regexp UPPER ARBTRY)))))))
-         \vdotss{}
+(define LS (concat-regexp
+             ARBTRY
+             (concat-regexp
+               LOWER
+               (concat-regexp ARBTRY
+                              (concat-regexp SPCHS ARBTRY)))
+             #:sigma (append lowers spcls)
+             #:not-in-lang \quot{}(() (a b c) (\$ \$))
+             #:in-lang \quot{}((a \$ w e *) (\$ \$ y w ! i \&))))
+                              
+(define SL (concat-regexp
+             ARBTRY
+             (concat-regexp
+               SPCHS
+               (concat-regexp ARBTRY
+                              (concat-regexp LOWER ARBTRY)))
+             #:sigma (append lowers spcls)
+             #:not-in-lang \quot{}(() (x x b w) (! ! & *))
+             #:in-lang \quot{}((a $ g q ! !) (! y w o *))))
 \end{alltt}
 
 \end{itemize}
@@ -931,19 +1106,26 @@
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> The language of passwords is a word in any of the languages defined for the different orderings of required elements
+\item<1-> The language of words is defined by having any ordering of required elements
 
 \item<2-> It is defined using a union regular expression:
 \begin{alltt}
-     (define PASSWD (union-regexp
-                      LUS
-                      (union-regexp
-                        LSU
-                        (union-regexp
-                          SLU
-                          (union-regexp
-                            SUL
-                            (union-regexp USL ULS))))))
+(define WORDS ;; not passwords
+  (union-regexp SL LS
+                #:sigma (append lowers spcls)
+                #:pred  (\lamb{} (w)
+                          (and (>= (length w) 10)
+                               (list? (ormap (\lamb{} (c)
+                                               (member c w))
+                                             lowers))
+                               (list? (ormap (\lamb{} (c)
+                                               (member c w))
+                                             spcls))))
+                #:gen-cases 3
+                #:in-lang \quot{}((a x ! ! z e y n \$ u)
+                            (d r \$ \& h q ! * v z z))
+                #:not-in-lang \quot{}((a b c d) (\$ \& ! *) (a z b))
+                ))
 \end{alltt}
 
 \end{itemize}
@@ -961,7 +1143,7 @@
 
 \item<2-> A potential new password is locally defined
 
-\item<3-> A word is generated by applying \fsm{}'s \texttt{gen-regexp-word} to \texttt{PASSWD} and then converting the generated word to a string
+\item<3-> A word is generated by applying \fsm{}'s \texttt{gen-regexp-word} to \texttt{WORDS} and then converting the generated word to a string
 
 \item<3-> If the length of the string is greater than or equal to 10 then it is returned as the generated password. Otherwise, a new word is generated.
 
@@ -986,7 +1168,7 @@
 \item<4->
 \begin{alltt}
        (let [(new-passwd (passwd->string
-                           (gen-regexp-word PASSWD 5)))]
+                           (gen-regexp-word WORDS 5)))]
          (if (>= (string-length new-passwd) 10)
              new-passwd
              (generate-password))))
@@ -1103,17 +1285,15 @@
 \item<2-> These are sample passwords generated:
 \begin{alltt}
      > (generate-password)
-     "*j\$xL!&CjMK"
+     "!&i!!!v*$&!!*"
      > (generate-password)
-     "&$&*u&lBK&G*$&U!E!"
+     "q$e*n**!!y&$!$!"
      > (generate-password)
-     "!$*D!&$F!f!"
+     "!*$!gq$x!&*q**&&"
      > (generate-password)
-     "$!*!eOY$!!*$$"
+     "$p!b!*v*ac**&"
      > (generate-password)
-     "$!bG&O&U&&!"
-     > (generate-password)
-     *xm!!**yIT"
+     "$or*z!!a!$"
 \end{alltt}
 
 \item<2-> The passwords generated appear fairly robust
@@ -1127,9 +1307,9 @@
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> HOMEWORK: 9, 13, 14
+\item<1-> HOMEWORK: 9, 11, 13
 
-\item<1-> QUIZ: 12 (due in 1 week)
+\item<1-> QUIZ: 14 (due in 1 week)
 
 \end{itemize}
 \end{scriptsize}
@@ -1325,9 +1505,10 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
 \begin{description}
   \item[\texttt{\underline{(sm-graph m)}}:] Returns a \emph{transition diagram} rendered as a directed graph for the given machine.
   \item[\texttt{\underline{(sm-visualize m ) [(s p)$^*$]) }}:] Starts the \fsm \ visualization tool for the given machine. The optional two-lists contain a state of the given machine and a predicate invariant (we will soon discuss this in more detail).
+  \item[\texttt{\underline{(sm-cmpgraph m w)}}:] Returns a \emph{computation graph} rendered as a directed graph for the given machine. The graph summarizes how a word is accepted or rejected. A computation graph only contains the nodes and edges in the transition diagram used by a computation. A state outlined in crimson denotes where a computation stops.
 \end{description}
 
-\item<1-> Example: abb-b.rkt
+\item<1-> Examples: abb-b.rkt
 
 \end{itemize}
 \end{scriptsize}
@@ -1435,26 +1616,26 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
 
 \item<1->
 \begin{alltt}
-     (S a P)
-     (S b N)
+     (S a P)     \textcolor{blue}{from even-even to odd-even}
+     (S b N)     \textcolor{blue}{from even-even to even-odd}
 \end{alltt}
 
 \item<2->
 \begin{alltt}
-     (M a N)
-     (M b P)
+     (M a N)     \textcolor{blue}{from odd-odd to even-odd}
+     (M b P)     \textcolor{blue}{from odd-odd to odd-even}
 \end{alltt}
 
 \item<3->
 \begin{alltt}
-     (N a M)
-     (N b S)
+     (N a M)     \textcolor{blue}{from even-odd to odd-even}
+     (N b S)     \textcolor{blue}{from even-odd to even-even}
 \end{alltt}
 
 \item<4->
 \begin{alltt}
-     (P a S)
-     (P b M)
+     (P a S)     \textcolor{blue}{from odd-even to even-even}
+     (P b M)     \textcolor{blue}{from odd-even to odd-even}
 \end{alltt}
 
 \end{itemize}
@@ -1497,6 +1678,43 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
             \vdotss
 \end{alltt}
 
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Deterministic Finite Automata}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Alternatively, integrate testing into the constructor
+
+\item<1-> \texttt{\#:accepts} list of words that ought to be accepted
+
+\item<1-> \texttt{\#:rejects} list of words that ought to be rejected
+
+\item<1-> Warning: machine is not built if expected behavior for any word is not met (unlike using check-equal?)
+
+\item<2->
+\begin{alltt}
+(define EVEN-A-ODD-B 
+  (make-dfa \quot{}(S M N P)
+            \quot{}(a b)
+            \quot{}S
+            \quot{}(N)
+            \quot{}((S a P)
+              (S b N)
+              (M a N)
+              (M b P)
+              (N a M)
+              (N b S)
+              (P a S)
+              (P b M))
+            \quot{}no-dead  \textcolor{red}{All tests here, no check-equal? needed}
+            #:accepts \quot{}((b) (a a b) (a a a b a b b))
+            #:rejects \quot{}(() (a b b a) (b a b b a a)
+                        (a b) (a b b b b) (b a b b a a b))))
+\end{alltt}
 \end{itemize}
 \end{scriptsize}
 \end{frame}
@@ -1739,7 +1957,7 @@ L = L(EVEN-A-ODD-B)
 \begin{itemize}
 \item<1-> HOMEWORK: 1, 2, 4, 5, 7, 12
 
-\item<1-> QUIZ: 17 (due in 1 week)
+\item<1-> QUIZ: 10 (due in 1 week)
 
 \end{itemize}
 \end{scriptsize}
@@ -1948,7 +2166,12 @@ L = L(EVEN-A-ODD-B)
 
 \item<3-> We choose to define the first state in the list of generated states as the starting state and the last state generated as the final state
 
-\item<3-> To generate a state the \fsm{} function \texttt{generate-symbol} is used
+\item<3-> To generate a state the \fsm{} function \texttt{gen-state} is used
+\begin{alltt}
+(gen-state l) → state
+  l : (listof state)
+Generates a state not in the given list of states.
+\end{alltt}
 
 \item<4-> The generation of the core prefixes may be done so as to correspond with the list of generated states.
 
@@ -1963,7 +2186,7 @@ L = L(EVEN-A-ODD-B)
 \begin{frame}[fragile]
 \frametitle{Deterministic Finite Automata}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -1975,8 +2198,9 @@ L = L(EVEN-A-ODD-B)
 
 \item<3->
 \begin{alltt}
-  (let* [(sts (build-list (add1 (length patt))
-                          (\lamb (n) (generate-symbol \quot{}A \quot{}(A)))))
+  (let* [(sts (foldl (\lamb{} (s acc) (cons (gen-state acc) acc))
+                     \elist{}
+                     (cons 1 patt))) ;; number of states = |patt|+1
 \end{alltt}
 
 \item<4->
@@ -2016,11 +2240,12 @@ L = L(EVEN-A-ODD-B)
      (check-equal? (sm-apply N \quot{}(a b c d a b c c)) \quot{}reject)
      (check-equal? (sm-apply N \quot{}(c c b a b d)) \quot{}reject)
      (check-equal? (sm-apply N \quot{}(a d)) \quot{}accept)
-          \vdotss{}
+     (check-equal? (sm-apply N '(b c a a d c c b)) 'accept)
+     (check-equal? (sm-apply N '(c d b c a d c a d)) 'accept)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -2075,7 +2300,7 @@ L = L(EVEN-A-ODD-B)
 \begin{itemize}
 \item<1->
 \begin{alltt}
-;; word word word (listof state) symbol \arrow dfa-rule
+;; state word word (listof state) symbol \arrow dfa-rule
 ;; Purpose: Generate dfa rule for given state and given word
 ;;          to match in the given pattern
 (define (gen-state-tran s to-match patt states last-read)
@@ -2296,9 +2521,9 @@ A nondeterministic finite-state automaton, ndfa, is a (make-ndfa K \sig S F \del
 \begin{frame}[fragile]
 \frametitle{Nondeterministic Finite Automata}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{center}
-\includegraphics[scale=0.15]{ndfa-L.png}
+\includegraphics[scale=0.2]{ndfa-L.png}
 \end{center}
 
 \begin{itemize}
@@ -2328,25 +2553,19 @@ A nondeterministic finite-state automaton, ndfa, is a (make-ndfa K \sig S F \del
 \begin{alltt}
                               \qquot{}((S a A) (S a B) (S ,EMP F)
                                 (A b A)
-                                (B a B))))
+                                (B a B))
 \end{alltt}
 
 \item<2->
 \begin{alltt}
-     ;; Tests for LNDFA
-     (check-equal? (sm-apply LNDFA \quot{}(a b a)) \quot{}reject)
-     (check-equal? (sm-apply LNDFA \quot{}(b b b b b)) \quot{}reject)
-     (check-equal? (sm-apply LNDFA \quot{}(a b b b b a a a)) \quot{}reject)
-     (check-equal? (sm-apply LNDFA \elist) \quot{}accept)
-     (check-equal? (sm-apply LNDFA \quot{}(a)) \quot{}accept)
-     (check-equal? (sm-apply LNDFA \quot{}(a a a a)) \quot{}accept)
-     (check-equal? (sm-apply LNDFA \quot{}(a b b)) \quot{}accept)
+                              #:rejects \quot{}((a b a) (b b b b b) (a b b b b a a a))
+                              #:accepts \quot{}(() (a) (a a a a) (a b b))))
 \end{alltt}
 
 \item<6-> The only transitions listed are those that are on a path to an accepting state
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -2414,20 +2633,8 @@ A nondeterministic finite-state automaton, ndfa, is a (make-ndfa K \sig S F \del
 \item<3->
 \begin{alltt}
 ;; Tests for AT-LEAST-ONE-MISSING
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(a b c)) \quot{}reject)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(b b a b c b a))
-              \quot{}reject)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(b a c)) \quot{}reject)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \elist) \quot{}accept)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(a)) \quot{}accept)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(b)) \quot{}accept)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(c)) \quot{}accept)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(c c a a))
-              \quot{}accept)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(b b c b b b))
-              \quot{}accept)
-(check-equal? (sm-apply AT-LEAST-ONE-MISSING \quot{}(a a a b b b))
-              \quot{}accept)
+#:rejects \quot{}((a b c) (b b a b c b a) (b a c))
+#:accepts \quot{}(() (a) (b) (c) (c c a a) (b b c b b b) (a a a b b b))
 \end{alltt}
 
 \end{itemize}
@@ -2664,15 +2871,13 @@ The state invariants hold when M is applied to w.
 
 \item<2-> If w$\in$L(M) then M nondeterministically moves to A, B, or C using an \et{}.
 
-\item<3-> Given that \texttt{S-INV} holds, we know that ci = \elist
+\item<3-> \texttt{(S $\epsilon$ A)}, \texttt{(S $\epsilon$ B)}, and \texttt{(S $\epsilon$ C)} add nothing to the input and ci = \elist after using any of them
 
-\item<4-> \texttt{(S $\epsilon$ A)}, \texttt{(S $\epsilon$ B)}, and \texttt{(S $\epsilon$ C)} add nothing to the input and ci = elist after using any of them
+\item<4-> \texttt{A-INV} holds because ci contains zero \texttt{a}s
 
-\item<5-> \texttt{A-INV} holds because ci contains zero \texttt{a}s
+\item<5-> \texttt{B-INV} holds because ci contains zero \texttt{b}s
 
-\item<6-> \texttt{B-INV} holds because ci contains zero \texttt{b}s
-
-\item<7-> \texttt{C-INV} holds because ci contains zero \texttt{c}s.
+\item<6-> \texttt{C-INV} holds because ci contains zero \texttt{c}s.
 
 \end{itemize}
 \end{scriptsize}
@@ -2751,7 +2956,7 @@ The state invariants hold when M is applied to w.
 \begin{itemize}
 \item<1-> ($\Rightarrow$) Assume w\(\notin\)L.
 
-\item<1-> w\(\notin\)L means that w has at least one \texttt{a}, one \texttt{b}, and one \texttt{c}. This means M does not move out of S because there is no nondeterministic transition possible that lead to accept.  Given that M halts without consuming all of its input, w is rejected and, therefore, w$\notin$L(M).
+\item<1-> w\(\notin\)L means that w has at least one \texttt{a}, one \texttt{b}, and one \texttt{c}. This means M does not move out of S because there is no nondeterministic transition possible that leads to accept.  Given that M halts without consuming all of its input, w is rejected and, therefore, w$\notin$L(M).
 
 \item<2-> ($\Leftarrow$) Assume w\(\notin\)L(M).
 
@@ -2983,6 +3188,8 @@ L = L(AT-LEAST-ONE-MISSING)
 (check-equal? (sm-testequiv? (ndfa->dfa ND) D 500) #t)
 \end{alltt}
 
+\item<2-> Illustrate using (ndfa2dfa-viz AT-LEAST-ONE-MISSING)
+
 \end{itemize}
 \end{scriptsize}
 \end{frame}
@@ -3155,8 +3362,8 @@ L = L(AT-LEAST-ONE-MISSING)
 \item<8->
 \begin{alltt}
              (map (\lamb (r) (list (second (assoc (first r) ss-name-tbl))
-                                   (second r)
-                                   (second (assoc (third r) ss-name-tbl))))
+                               (second r)
+                               (second (assoc (third r) ss-name-tbl))))
                   ss-dfa-rules)
              \quot{}no-dead)))
 \end{alltt}
@@ -3422,11 +3629,12 @@ L = L(AT-LEAST-ONE-MISSING)
 
 \item<3->
 \begin{alltt}
-  (map (\lamb (ss)
-         (if (empty? ss)
-             (list ss DEAD)
-             (list ss (generate-symbol \quot{}Z \quot{}(Z)))))
-       super-states))
+  (let [(dfa-st-names (foldl (\lamb{} (ss acc) (cons (gen-state acc) acc))
+                                 \elist
+                                 super-states))]
+    (map (\lamb{} (ss state) (list ss state))
+         super-states
+         dfa-st-names)))
 \end{alltt}
 
 \item<2->
@@ -3439,7 +3647,6 @@ L = L(AT-LEAST-ONE-MISSING)
                            tbl)
                    (andmap (\lamb (e) (symbol? (second e))) tbl)))
             (compute-ss-name-tbl \elist))
-
 (check-pred (lambda (tbl)
               (and (list? tbl)
                    (andmap (\lamb (e) (= (length e) 2)) tbl)
@@ -3465,7 +3672,7 @@ L = L(AT-LEAST-ONE-MISSING)
 \begin{alltt}
      ND = (make-ndfa S \sig A F \delt)
 
-      D = (make-dfa S\quot{} \sig A\quot{} F\quot{} \delt\quot{}). where
+      D = (make-dfa S\quot{} \sig A\quot{} F\quot{} \delt\quot{}), where
             S\quot{} = the states computed in \texttt{convert}
             A\quot{} = the starting state computed in \texttt{convert}
             F\quot{} = the final states computed in \texttt{convert}
@@ -3839,6 +4046,8 @@ The languages accepted by finite-state machines are closed under union.
 \end{tikzpicture}
 \end{center}
 
+\item<2-> Illustrate union-viz using closure-algorithms.rkt
+
 \end{itemize}
 \end{scriptsize}
 \end{frame}
@@ -3858,8 +4067,7 @@ The languages accepted by finite-state machines are closed under union.
 
 \item<4->
 \begin{alltt}
-  (let* [(new-start (generate-symbol
-                      \quot{}S (append (sm-states M) (sm-states N))))
+  (let* [(new-start (gen-state (append (sm-states M) (sm-states N))))
 \end{alltt}
 
 \item<5->
@@ -4093,6 +4301,8 @@ The languages accepted by finite-state machines are closed concatenation.
 \draw (3,2.3) node {$\epsilon$};
 \end{tikzpicture}
 \end{center}
+
+\item<3-> Illustrate concat-viz using closure-algorithms.rkt
 
 \end{itemize}
 \end{scriptsize}
@@ -4335,6 +4545,8 @@ The languages accepted by finite-state machines are closed under Kleene star.
 \end{tikzpicture}
 \end{center}
 
+\item<2-> Illustrate kleenestar-viz using closure-algorithms.rkt
+
 \end{itemize}
 \end{scriptsize}
 \end{frame}
@@ -4342,7 +4554,7 @@ The languages accepted by finite-state machines are closed under Kleene star.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -4398,7 +4610,7 @@ The languages accepted by finite-state machines are closed under Kleene star.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -4564,6 +4776,8 @@ The languages accepted by finite-state machines are closed under complement.
 \begin{center}
 \includegraphics[scale=0.5]{not-a-star-graph.png}
 \end{center}
+
+\item<4-> Illustrate complement-viz using closure-algorithms.rkt
 
 \end{itemize}
 \end{scriptsize}
@@ -4787,6 +5001,8 @@ The languages decided by finite-state automatons are closed under intersection.
      L(M)\(\cap\)L(N) = \sig\(\sp{*}\) - \{\{\sig\(\sp{*}\) - L(M)\} \(\cup\) \{\sig\(\sp{*}\) - L(N)\}\}
                 = \sig\(\sp{*}\) - \{\={L(M)} \(\cup\) \={L(N)}\}
 \end{alltt}
+
+\item<5-> Illustrate intersection-viz using closure-algorithms.rkt
 
 \end{itemize}
 \end{scriptsize}
@@ -5030,6 +5246,8 @@ The languages decided by finite-state automatons are closed under intersection.
 \item<6-> If the subtype is a concatenation regular expression then closure inder concatenation is used
 
 \item<7-> If the subtype is a Kleene star regular expression then closure under Kleene star is used
+    
+\item<7-> Illustrate using regexp2ndfa.rkt
 
 \end{itemize}
 \end{scriptsize}
@@ -5054,7 +5272,7 @@ The languages decided by finite-state automatons are closed under intersection.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -5112,27 +5330,32 @@ The languages decided by finite-state automatons are closed under intersection.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
 ;; regexp alphabet \arrow ndfa  Purpose: Build ndfa for given regexp
 (define (regexp->ndfa e sigma)
-  (let* [(simple-tbl (map (\lamb (a)
-                            (let [(S (generate-symbol \quot{}S \quot{}(S)))
-                                  (A (generate-symbol \quot{}A \quot{}(A)))]
-                              (list a (make-ndfa
-                                        (list S A)
-                                        sigma
-                                        S
-                                        (list A)
-                                        (list (list S a A))))))
+  (let* [(st-pairs (foldl (\lamb{} (s acc) \textcolor{red}{from-to state pairs}
+                            (let* [(used-st-names (flatten acc))
+                                   (from-state (gen-state used-st-names))
+                                   (to-state (gen-state (cons from-state used-st-names)))]
+                              (cons (list from-state to-state) acc)))
+                          \elist
+                          (cons EMP sigma)))
+         (simple-tbl (map (\lamb{} (p a) (list a
+             \textcolor{red}{singleton machines}          (make-ndfa p
+                                                    sigma
+                                                    (first p)
+                                                    (list (second p))
+                                                    (list (list (first p) a (second p))))))
+                          st-pairs
                           (cons EMP sigma)))]
 \end{alltt}
 
@@ -5144,22 +5367,25 @@ The languages decided by finite-state automatons are closed under intersection.
 \item<3->
 \begin{alltt}
           [(singleton-regexp? e)
-           (second (assoc (string->symbol (singleton-regexp-a e))
-                          simple-tbl))]
+           (second (assoc (string->symbol (singleton-regexp-a e)) simple-tbl))]
 \end{alltt}
 
 \item<4->
 \begin{alltt}
           [(concat-regexp? e)
-           (concat-fsa (regexp->ndfa (concat-regexp-r1 e) sigma)
-                       (regexp->ndfa (concat-regexp-r2 e) sigma))]
+           (let* [(M (regexp->ndfa (concat-regexp-r1 e) sigma))
+                  (N (sm-rename-states (sm-states M)
+                                       (regexp->ndfa (concat-regexp-r2 e) sigma)))]
+           (concat-fsa M N))]
 \end{alltt}
 
 \item<5->
 \begin{alltt}
           [(union-regexp? e)
-           (union-fsa (regexp->ndfa (union-regexp-r1 e) sigma)
-                      (regexp->ndfa (union-regexp-r2 e) sigma))]
+           (let* [(M (regexp->ndfa (union-regexp-r1 e) sigma))
+                  (N (sm-rename-states (sm-states M)
+                                       (regexp->ndfa (union-regexp-r2 e) sigma)))]
+           (union-fsa M N))]
 \end{alltt}
 
 \item<6->
@@ -5169,7 +5395,7 @@ The languages decided by finite-state automatons are closed under intersection.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -5219,7 +5445,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{theorem}
 L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \end{theorem}
@@ -5236,11 +5462,14 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \item<4-> \underline{\texttt{(union-regexp S T)}}
 \texttt{(regexp->ndfa R \sig)} returns
 \begin{alltt}
-   (union-fsa (regexp->ndfa (union-regexp-r1 e) sigma)
-              (regexp->ndfa (union-regexp-r2 e) sigma))
+   (let* [(M (regexp->ndfa (union-regexp-r1 e) sigma))
+          (N (sm-rename-states
+               (sm-states M)
+               (regexp->ndfa (union-regexp-r2 e) sigma)))]
+     (union-fsa M N))
 \end{alltt}
 
-\item<4-> \texttt{(union-regexp-r1 e)}'s and \texttt{(union-regexp-r2 e)}'s height at most k
+\item<4-> \texttt{(union-regexp-r1 e)}'s and \texttt{(union-regexp-r2 e)}'s height is at most k
 
 \item<4-> By IH, recursive calls return \ndfa{}s for the language of each
 
@@ -5249,11 +5478,14 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \item<5-> \underline{\texttt{(concat-regexp S T)}}
 \texttt{(regexp->ndfa R \sig)} returns
 \begin{alltt}
-   (concat-fsa (regexp->ndfa (concat-regexp-r1 e) sigma)
-               (regexp->ndfa (concat-regexp-r2 e) sigma))
+   (let* [(M (regexp->ndfa (concat-regexp-r1 e) sigma))
+          (N (sm-rename-states
+               (sm-states M)
+               (regexp->ndfa (concat-regexp-r2 e) sigma)))]
+     (concat-fsa M N))
 \end{alltt}
 
-\item<5-> By IH, the recursive calls return \ndfa{}s for the language of each
+\item<5-> By IH, the recursive calls return \ndfa{}s for \texttt{L(r1)} and \texttt{L(r2)}
 
 \item<5-> Closure under concat, \texttt{concat-fsa} returns an \ndfa{} for their concat
 
@@ -5269,7 +5501,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \item<6-> $\qed$
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -5719,6 +5951,8 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \item<2-> This is a problem because there is no regular expression for generating no words
 
 \item<3-> To address this problem \fsm{} introduces a new regular expression constructor, \texttt{null-regexp}, to represent a language with no words
+    
+\item<3-> Illustrate ndfa2regexp-viz using ndfa2regexp.rkt
 
 \end{itemize}
 \end{scriptsize}
@@ -5780,7 +6014,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -5829,12 +6063,21 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 (check-equal? (printable-regexp (ndfa2regexp EMPTY)) "()")
 (check-equal? (printable-regexp (ndfa2regexp b*))    "b*")
 (check-equal? (printable-regexp (ndfa2regexp ab*Uaa*)) "(b U a)(ab* U ba*)")
-(check-equal? (printable-regexp (ndfa2regexp EVEN-A-ODD-B))
-              "((ba U ab)(aa U bb)*(ab U ba) U (aa U bb))*((ba U ab)(aa U bb)*a U b)")
+\textcolor{red}{Alternative testing (for messy regexps)}
+(define EVEN-A-ODD-B-regexp (ndfa2regexp EVEN-A-ODD-B))
+(check-equal?
+ (sm-apply EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp))
+ 'accept)
+(check-equal?
+ (sm-apply EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp))
+ 'accept)
+(check-equal?
+ (sm-apply EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp))
+ 'accept)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -6377,11 +6620,366 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \item Write unit tests
 \item Implement the grammar
 \item Run the tests and redesign if necessary
+\item \textcolor{blue}{For each syntactic category design and implement an invariant predicate to determine if a given word satisfies the role of the syntactic category}
+\item \textcolor{blue}{For words in \texttt{L(G)} prove that the invariant predicates hold for every derivation step}
+\item \textcolor{blue}{Prove that \texttt{L} = \texttt{L(G)}}
 \end{enumerate}
 
 \end{itemize}
 \end{scriptsize}
 \end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Design a regular grammar for:
+\begin{alltt}
+     L = a\(\sp{*}\)
+\end{alltt}
+
+\item<2-> Design idea: Generate an arbitrary number of \texttt{a}s using a single nonterminal that eventually generates the empty word
+
+\item<4-> 
+\begin{alltt}
+;; Syntactic categories documentation
+;;  S generates words in a\(\sp{*}\), starting nonterminal
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+(define A* 
+  (make-rg
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+           \quot{}(S)
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+           \quot{}(a b)
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+           \qquot{}((S ,ARROW ,EMP)
+             (S ,ARROW aS))
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+           \quot{}S
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+           #:rejects \quot{}((b) (a a b) (b a b b a))
+           #:accepts \quot{}(() (a) (a a a a a a) (a a a))))
+\end{alltt}
+
+\item<7-> \texttt{S} generates an arbitrary number of \texttt{a}s
+\begin{alltt}
+(define (S-INV w) (andmap (\lamb{} (l) (eq? l \quot{}a)) w))
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> To prove that invariants holds for words in the grammar's language, we perform an induction on, h, the height of the derivation tree
+    
+\item<1-> Consider any derivation tree of height h that the grammar can generate
+
+\item<2->
+\begin{alltt}
+Base Case: h=1
+Derivation tree is generated using (S -> EMP). This 
+means w=EMP. Thus, S-INV holds.
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+Inductive Step
+Assume: Invariants hold for a tree of height k
+  Show: Invariants hold for a tree of height k+1
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+k>=1 \(\Rightarrow\) k>1 \(\Rightarrow\) The derivation tree is generated using:
+(S -> aS)
+The height of the derivation tree for the S on the RHS has 
+height <= k.  By IH, its  yield (i.e., what it generates) is 
+in a\(\sp{\texttt{*}}\). This rule makes the yield for the S on the LHS aa*. 
+Thus, S-INV holds. 
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+\item<1-> To proof that the language of a grammar is correct. We prove two lemmas:
+    \begin{enumerate}
+      \item w$\in$L(G) $\Leftrightarrow$ w$\in$L
+      \item w$\notin$L(G) $\Leftrightarrow$ w$\notin$L
+    \end{enumerate}
+
+\item<2-> L = a$^{\textrm{*}}$
+\begin{alltt}
+w\(\in\)L(A*) \(\Leftrightarrow\) w\(\in\)L
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+w\(\in\)L(A*) \(\Rightarrow\) w\(\in\)L
+(\(\Rightarrow\)) Assume w\(\in\)L(A*)
+This means there is a derivation tree for w. Given that invariants 
+always hold, w\(\in\)L.
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+(\(\Leftarrow\)) Assume w\(\in\)L
+This means w=EMP or w\(\in\)a\(\sp{i}\), where i>0
+
+w=EMP
+  The derivation tree is generated using (S -> EMP).
+  Thus, w in L(A*). 
+w\(\in\)a\(\sp{i}\), where i>0
+  Given that invariants always hold, the derivation tree is 
+  generated using (S -> aS). Thus, w\(\in\)L(A*).
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+
+w\(\notin\)L(A*) \(\Leftrightarrow\) w\(\notin\)L
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+(\(\Rightarrow\)) Assume w\(\notin\)L(A*)
+This means there is no derivation tree for w. Assume z
+is the longest suffix of w that only contains as. That is,
+w=xsz, where x\(\in\){a b}* and s\(\in\){a b EMP}. Observe that
+s=b and, therefore, w=xbz. Otherwise, our assumptions are
+contradicted. Thus, w\(\notin\)L.
+\end{alltt}
+
+\item<7->
+\begin{alltt}
+(\(\Leftarrow\)) Assume w\(\notin\)L
+This means w contains a b. Given that invariants always hold,
+A* does not generate w. Thus, w\(\notin\)L(A*).
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Regular Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+\item<1-> Design a regular grammar for L = \{w$|$w has more \texttt{b}s than \texttt{a}s\}
+
+\item<2-> Design idea: Generate a word with a number of \texttt{b}s $\geq$ number of \texttt{a}s, followed by a b, followed by a word with a number of \texttt{b}s $\geq$ number of \texttt{a}s
+    
+\item<2-> Observe that two different languages need to be generated
+
+\item<4-> 
+\begin{alltt}
+;; Syntactic Category Documentation
+;;  S: generates words with number of b > number of a, starting nonterminal
+;;  A: generates words with number of b \(\geq\) number of a
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+(define numb>numa 
+  (make-cfg
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+           \quot{}(S A)
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+           \quot{}(a b)
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+           \qquot{}((S -> b) (S -> AbA)
+             (A -> EMP)      (A -> bA)
+             (A -> AbAaA)    (A -> AaAbA) )
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+           \quot{}S
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+           #:rejects \quot{}((a b) (a b a) (a a a a a))
+           #:accepts \quot{}((b b b) (b b a b a a b) (a a a b b b b))))
+\end{alltt}
+
+\item<7-> \texttt{S} generates an arbitrary number of \texttt{a}s
+\begin{alltt}
+(define (S-INV yield)
+  (let [(as (filter (\lamb{} (s) (eq? s \quot{}a)) yield))
+        (bs (filter (\lamb{} (s) (eq? s \quot{}b)) yield))]
+    (> (length bs) (length as))))
+
+(define (A-INV yield)
+  (let [(as (filter (\lamb{} (s) (eq? s \quot{}a)) yield))
+        (bs (filter (\lamb{} (s) (eq? s \quot{}b)) yield))]
+    (>= (length bs) (length as))))
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+\item<1-> L = \{w$|$w has more \texttt{b}s than \texttt{a}s\}
+
+\item<2->
+\begin{alltt}
+Base Case: h=1
+
+(S -> b)
+Yield has more bs than as. S-INV holds.
+
+(A -> EMP)
+Yield has equal number of bs than as. A-INV holds.
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+Inductive Step
+Assume: Invariants hold for a tree of height k
+  Show: Invariants hold for a tree of height k+1
+
+k>=1 \(\Rightarrow\) k>1 \(\Rightarrow\) The derivation tree is generated using:
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+(S -> AbA)
+The derivation tree for each A on the RHS is of height \(\leq\) k.
+By, IH each generates num of bs \(\geq\) to num of as. This rules 
+adds a b between the two yields. Thus, S-INV holds.
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+(A -> bA)
+The derivation tree for A on the RHS is on height \(\leq\) k. By, 
+IH it generates num of bs \(\geq\) to num of as.
+This rules adds a b to the front of its yield. Thus, A-INV holds.
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+(A -> AbAaA)
+The derivation tree for each A on the RHS is of height \(\leq\) k.
+By, IH each generates num of bs \(\geq\) to num of as. This rules 
+adds a b and an a to their yields. Thus, A-INV holds.
+\end{alltt}
+
+\item<7->
+\begin{alltt}
+(A -> AaAbA)
+The derivation tree for each A on the RHS is of height \(\leq\) k.
+By, IH each generates num of bs \(\geq\)= to num of as. This rules 
+adds an a and an b to their yields. Thus, A-INV holds.
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Regular Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+
+\item<1-> L = \{w$|$w has more \texttt{b}s than \texttt{a}s\}
+\begin{alltt}
+w\(\in\)L(numb>numa) \(\Leftrightarrow\) w\(\in\)L
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+w\(\in\)L(numb>numa) \(\Rightarrow\) w\(\in\)L
+(\(\Rightarrow\)) Assume w\(\in\)L(A*)
+Given that invariants hold, this means w has more bs than
+as. Thus, w\(\in\)L.
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+(\(\Leftarrow\)) Assume w\(\in\)L
+This means w has more bs than as. Given that w has more
+bs than as, we can say that w=YbZ, where Y and Z have a
+number of bs \(\geq\) number of as. Given that invariants 
+always hold w is generated by (S -> AbA). Thus, w\(\in\)L(numb>numa)
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+
+w\(\notin\)L(numb>numa) \(\Leftrightarrow\) w\(\notin\)L
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+(\(\Rightarrow\)) Assume w\(\notin\)L(numb>numa)
+This means that there does not exists a parse tree rooted
+at S that yields w. Given that invariants hold, if w has more bs
+than as then (S -> AbA) generates it. Therefore, w must have a
+number of as \(\leq\) to the number of bs. Thus, w\(\notin\)L.
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+(\(\Leftarrow\)) Assume w\(\notin\)L
+Given that invariants always hold, S cannot generate
+w. Thus, w\(\notin\)L(numb>numa).
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+
+
+
 
 \begin{frame}[fragile]
 \frametitle{Regular Grammars}
@@ -6461,23 +7059,8 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \begin{itemize}
 \item<1-> Unit Tests
 \begin{alltt}
-     ;; Tests for MULT3-as
-     (check-equal? (grammar-derive MULT3-as \quot{}(b b a b b))
-                   "(b b a b b) is not in L(G).")
-     (check-equal? (grammar-derive MULT3-as \quot{}(b b a b b a))
-                   "(b b a b b a) is not in L(G).")
-     (check-equal?
-       (grammar-derive MULT3-as \quot{}(b b a b a b a a b))
-       "(b b a b a b a a b) is not in L(G).")
-     (check-equal? (grammar-derive MULT3-as \quot{}())
-                   \quot(S -> \ep))
-     (check-equal?
-       (grammar-derive MULT3-as \quot{}(a a a))
-       \quot{}(S -> aB -> aaC -> aaaS -> aaa))
-     (check-equal?
-       (grammar-derive MULT3-as \quot{}(b b a a b a b b))
-       \quot{}(S -> bS -> bbS -> bbaB -> bbaaC -> bbaabC -> bbaabaS
-         -> bbaababS -> bbaababbS ->  bbaababb))
+     #:rejects \quot{}((b b a b b) (b b a b b a) (b b a b a b a a b))
+     #:accepts \quot{}(() (a a a) (b b a a b a b b))
 \end{alltt}
 
 \end{itemize}
@@ -6544,6 +7127,8 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
          baabab)))
 \end{alltt}
 
+\item<1-> Illustrate derivation with grmmar-viz using mult3-as.rkt
+
 \end{itemize}
 \end{tiny}
 \end{frame}
@@ -6554,6 +7139,8 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \begin{scriptsize}
 \begin{itemize}
 \item<1-> HOMEWORK: 1--5
+
+\item<1-> HOMEWORK: Prove MULT3-as correct
 
 \end{itemize}
 \end{scriptsize}

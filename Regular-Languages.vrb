@@ -1,8 +1,29 @@
-\frametitle{Pumping Theorem for RLs}
+\frametitle{Regular Expressions}
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> HOMEWORK: 2--4, 8--11
+\item<1-> We can define each sub-language:
+\begin{alltt}
+(define LS (concat-regexp
+             ARBTRY
+             (concat-regexp
+               LOWER
+               (concat-regexp ARBTRY
+                              (concat-regexp SPCHS ARBTRY)))
+             #:sigma (append lowers spcls)
+             #:not-in-lang \quot{}(() (a b c) (\$ \$))
+             #:in-lang \quot{}((a \$ w e *) (\$ \$ y w ! i \&))))
+
+(define SL (concat-regexp
+             ARBTRY
+             (concat-regexp
+               SPCHS
+               (concat-regexp ARBTRY
+                              (concat-regexp LOWER ARBTRY)))
+             #:sigma (append lowers spcls)
+             #:not-in-lang \quot{}(() (x x b w) (! ! & *))
+             #:in-lang \quot{}((a $ g q ! !) (! y w o *))))
+\end{alltt}
 
 \end{itemize}
 \end{scriptsize}
