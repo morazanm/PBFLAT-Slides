@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.19)  27 JAN 2025 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.19)  29 JAN 2025 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2645,7 +2645,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (2.03969pt too high) detected at line 1683
+Overfull \vbox (2.03969pt too high) detected at line 1673
  []
 
 
@@ -2658,7 +2658,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [106
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.03969pt too high) detected at line 1683
+Overfull \vbox (2.03969pt too high) detected at line 1673
  []
 
 
@@ -2682,7 +2682,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [108
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -2691,10 +2694,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [109
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -2703,7 +2703,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [110
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -2712,10 +2715,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [111
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -2724,7 +2724,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [112
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -2733,10 +2736,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [113
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -2950,7 +2950,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-<dfa-backbone.png, id=4376, 708.6475pt x 70.2625pt>
+<dfa-backbone.png, id=4377, 708.6475pt x 70.2625pt>
 File: dfa-backbone.png Graphic file (type png)
 <use dfa-backbone.png>
 Package pdftex.def Info: dfa-backbone.png  used on input line 13.
@@ -3347,7 +3347,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2352
+Overfull \vbox (2.85217pt too high) detected at line 2324
  []
 
 
@@ -3360,7 +3360,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [166
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2352
+Overfull \vbox (2.85217pt too high) detected at line 2324
  []
 
 
@@ -3373,7 +3373,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [167
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2352
+Overfull \vbox (2.85217pt too high) detected at line 2324
  []
 
 
@@ -3386,7 +3386,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [168
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2352
+Overfull \vbox (2.85217pt too high) detected at line 2324
  []
 
 
@@ -3399,7 +3399,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [169
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2352
+Overfull \vbox (2.85217pt too high) detected at line 2324
  []
 
 
@@ -3412,7 +3412,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [170
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2352
+Overfull \vbox (2.85217pt too high) detected at line 2324
  []
 
 
@@ -3461,12 +3461,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-<sample-concat-star-dfa.png, id=5664, 416.55624pt x 188.705pt>
+<sample-concat-star-dfa.png, id=5665, 416.55624pt x 188.705pt>
 File: sample-concat-star-dfa.png Graphic file (type png)
 <use sample-concat-star-dfa.png>
 Package pdftex.def Info: sample-concat-star-dfa.png  used on input line 9.
 (pdftex.def)             Requested size: 124.96783pt x 56.61192pt.
-<union-choices.png, id=5665, 812.03375pt x 168.63pt>
+<union-choices.png, id=5666, 812.03375pt x 168.63pt>
 File: union-choices.png Graphic file (type png)
 <use union-choices.png>
 Package pdftex.def Info: union-choices.png  used on input line 27.
@@ -3539,7 +3539,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-<ndfa-L.png, id=5798, 176.66pt x 330.23375pt>
+<ndfa-L.png, id=5799, 176.66pt x 330.23375pt>
 File: ndfa-L.png Graphic file (type png)
 <use ndfa-L.png>
 Package pdftex.def Info: ndfa-L.png  used on input line 13.
@@ -3576,7 +3576,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2488
+Overfull \vbox (4.27399pt too high) detected at line 2460
  []
 
 
@@ -3594,7 +3594,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2488
+Overfull \vbox (4.27399pt too high) detected at line 2460
  []
 
 
@@ -3612,7 +3612,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2488
+Overfull \vbox (4.27399pt too high) detected at line 2460
  []
 
 
@@ -3630,7 +3630,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2488
+Overfull \vbox (4.27399pt too high) detected at line 2460
  []
 
 
@@ -3781,7 +3781,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-<empties-ndfa.png, id=6347, 301.125pt x 117.43875pt>
+<empties-ndfa.png, id=6348, 301.125pt x 117.43875pt>
 File: empties-ndfa.png Graphic file (type png)
 <use empties-ndfa.png>
 Package pdftex.def Info: empties-ndfa.png  used on input line 9.
@@ -3996,7 +3996,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (22.96329pt too high) detected at line 2802
+Overfull \vbox (22.96329pt too high) detected at line 2774
  []
 
 
@@ -4009,7 +4009,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [213
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (22.96329pt too high) detected at line 2802
+Overfull \vbox (22.96329pt too high) detected at line 2774
  []
 
 
@@ -4397,13 +4397,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-<sample-ndfa.png, id=8150, 389.455pt x 214.8025pt>
+<sample-ndfa.png, id=8151, 389.455pt x 214.8025pt>
 File: sample-ndfa.png Graphic file (type png)
 <use sample-ndfa.png>
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -4421,7 +4421,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -4439,7 +4439,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -4457,7 +4457,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -4475,7 +4475,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -4493,7 +4493,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -4511,7 +4511,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3154
+Overfull \vbox (1.54881pt too high) detected at line 3126
  []
 
 
@@ -5123,7 +5123,7 @@ t/m/n/8 (ss acc) (cons (gen-state acc) acc))[]
  []
 
 )
-Overfull \vbox (2.18552pt too high) detected at line 3662
+Overfull \vbox (2.18552pt too high) detected at line 3634
  []
 
 
@@ -5142,7 +5142,7 @@ t/m/n/8 (ss acc) (cons (gen-state acc) acc))[]
  []
 
 )
-Overfull \vbox (2.18552pt too high) detected at line 3662
+Overfull \vbox (2.18552pt too high) detected at line 3634
  []
 
 
@@ -5161,7 +5161,7 @@ t/m/n/8 (ss acc) (cons (gen-state acc) acc))[]
  []
 
 )
-Overfull \vbox (2.18552pt too high) detected at line 3662
+Overfull \vbox (2.18552pt too high) detected at line 3634
  []
 
 
@@ -5495,7 +5495,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5544,7 +5544,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5593,7 +5593,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5642,7 +5642,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5691,7 +5691,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5740,7 +5740,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5789,7 +5789,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5838,7 +5838,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -5887,7 +5887,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4127
+Overfull \vbox (41.96329pt too high) detected at line 4099
  []
 
 
@@ -6083,7 +6083,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6132,7 +6132,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6181,7 +6181,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6230,7 +6230,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6279,7 +6279,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6328,7 +6328,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6377,7 +6377,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6426,7 +6426,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6475,7 +6475,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4383
+Overfull \vbox (41.96329pt too high) detected at line 4355
  []
 
 
@@ -6998,7 +6998,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4839
+Overfull \vbox (50.35217pt too high) detected at line 4811
  []
 
 
@@ -7029,7 +7029,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4839
+Overfull \vbox (50.35217pt too high) detected at line 4811
  []
 
 
@@ -7060,7 +7060,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4839
+Overfull \vbox (50.35217pt too high) detected at line 4811
  []
 
 
@@ -7091,7 +7091,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4839
+Overfull \vbox (50.35217pt too high) detected at line 4811
  []
 
 
@@ -7333,7 +7333,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5065
+Overfull \vbox (59.85217pt too high) detected at line 5037
  []
 
 
@@ -7410,7 +7410,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5065
+Overfull \vbox (59.85217pt too high) detected at line 5037
  []
 
 
@@ -7487,7 +7487,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5065
+Overfull \vbox (59.85217pt too high) detected at line 5037
  []
 
 
@@ -7564,7 +7564,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5065
+Overfull \vbox (59.85217pt too high) detected at line 5037
  []
 
 
@@ -7863,7 +7863,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (67.01884pt too high) detected at line 5334
+Overfull \vbox (67.01884pt too high) detected at line 5306
  []
 
 
@@ -7876,7 +7876,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [438
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (67.01884pt too high) detected at line 5334
+Overfull \vbox (67.01884pt too high) detected at line 5306
  []
 
 
@@ -7889,7 +7889,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [439
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (67.01884pt too high) detected at line 5334
+Overfull \vbox (67.01884pt too high) detected at line 5306
  []
 
 
@@ -8379,7 +8379,7 @@ File: ndfa2regexp-ex.png Graphic file (type png)
 Package pdftex.def Info: ndfa2regexp-ex.png  used on input line 7.
 (pdftex.def)             Requested size: 121.25084pt x 98.76724pt.
 )
-Overfull \vbox (4.51242pt too high) detected at line 5754
+Overfull \vbox (4.51242pt too high) detected at line 5726
  []
 
 
@@ -8397,7 +8397,7 @@ File: ndfa2regexp-ex.png Graphic file (type png)
 Package pdftex.def Info: ndfa2regexp-ex.png  used on input line 7.
 (pdftex.def)             Requested size: 121.25084pt x 98.76724pt.
 )
-Overfull \vbox (4.51242pt too high) detected at line 5754
+Overfull \vbox (4.51242pt too high) detected at line 5726
  []
 
 
@@ -8413,7 +8413,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (1.20038pt too high) detected at line 5804
+Overfull \vbox (1.20038pt too high) detected at line 5776
  []
 
 
@@ -8426,7 +8426,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [482
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (1.20038pt too high) detected at line 5804
+Overfull \vbox (1.20038pt too high) detected at line 5776
  []
 
 
@@ -8631,7 +8631,7 @@ S b A) (A a B) (A b C) (B b B) (C a C)))[]
  []
 
 )
-Overfull \vbox (13.46329pt too high) detected at line 6128
+Overfull \vbox (13.46329pt too high) detected at line 6100
  []
 
 
@@ -8656,7 +8656,7 @@ S b A) (A a B) (A b C) (B b B) (C a C)))[]
  []
 
 )
-Overfull \vbox (13.46329pt too high) detected at line 6128
+Overfull \vbox (13.46329pt too high) detected at line 6100
  []
 
 
@@ -8681,7 +8681,7 @@ S b A) (A a B) (A b C) (B b B) (C a C)))[]
  []
 
 )
-Overfull \vbox (13.46329pt too high) detected at line 6128
+Overfull \vbox (13.46329pt too high) detected at line 6100
  []
 
 
@@ -8727,7 +8727,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6178
+Overfull \vbox (3.96329pt too high) detected at line 6150
  []
 
 
@@ -8770,7 +8770,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6178
+Overfull \vbox (3.96329pt too high) detected at line 6150
  []
 
 
@@ -8813,7 +8813,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6178
+Overfull \vbox (3.96329pt too high) detected at line 6150
  []
 
 
@@ -8856,7 +8856,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6178
+Overfull \vbox (3.96329pt too high) detected at line 6150
  []
 
 
@@ -8998,7 +8998,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6363
+Overfull \vbox (4.01884pt too high) detected at line 6335
  []
 
 
@@ -9011,7 +9011,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [512
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6363
+Overfull \vbox (4.01884pt too high) detected at line 6335
  []
 
 
@@ -9024,7 +9024,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [513
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6363
+Overfull \vbox (4.01884pt too high) detected at line 6335
  []
 
 
@@ -9037,7 +9037,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [514
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6363
+Overfull \vbox (4.01884pt too high) detected at line 6335
  []
 
 
@@ -9050,7 +9050,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [515
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6363
+Overfull \vbox (4.01884pt too high) detected at line 6335
  []
 
 
@@ -9063,7 +9063,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [516
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6363
+Overfull \vbox (4.01884pt too high) detected at line 6335
  []
 
 
@@ -9304,7 +9304,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (4.34106pt too high) detected at line 6608
+Overfull \vbox (4.34106pt too high) detected at line 6580
  []
 
 
@@ -9317,7 +9317,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [539
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.34106pt too high) detected at line 6608
+Overfull \vbox (4.34106pt too high) detected at line 6580
  []
 
 
@@ -10005,7 +10005,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7338
+Overfull \vbox (11.01884pt too high) detected at line 7310
  []
 
 
@@ -10018,7 +10018,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [606
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7338
+Overfull \vbox (11.01884pt too high) detected at line 7310
  []
 
 
@@ -10031,7 +10031,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [607
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7338
+Overfull \vbox (11.01884pt too high) detected at line 7310
  []
 
 
@@ -10044,7 +10044,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [608
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7338
+Overfull \vbox (11.01884pt too high) detected at line 7310
  []
 
 
@@ -10057,7 +10057,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [609
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7338
+Overfull \vbox (11.01884pt too high) detected at line 7310
  []
 
 
@@ -10415,7 +10415,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (3.35217pt too high) detected at line 7565
+Overfull \vbox (3.35217pt too high) detected at line 7537
  []
 
 
@@ -10503,7 +10503,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10516,7 +10516,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [653
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10529,7 +10529,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [654
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10542,7 +10542,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [655
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10555,7 +10555,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [656
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10568,7 +10568,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [657
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10581,7 +10581,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [658
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10594,7 +10594,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [659
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10607,7 +10607,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [660
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -10620,7 +10620,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [661
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7724
+Overfull \vbox (4.55698pt too high) detected at line 7696
  []
 
 
@@ -11426,7 +11426,7 @@ mtt10.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmtt8.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb><C:/Users/morazanm/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Regular-Languages.pdf (735 pages, 6052989 bytes).
+Output written on Regular-Languages.pdf (735 pages, 6053396 bytes).
 PDF statistics:
  24168 PDF objects out of 26593 (max. 8388607)
  1477 named destinations out of 1728 (max. 500000)

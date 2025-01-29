@@ -6,3 +6,8 @@
 *.synctex
 *.toc
 *.vrb
+*.aux
+*.log
+*.nav
+*.synctex
+*.vrb

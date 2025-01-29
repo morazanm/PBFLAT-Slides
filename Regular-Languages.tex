@@ -1556,19 +1556,9 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
 \item<3->
 \begin{alltt}
      ;; Tests for EVEN-A-ODD-B
-     (check-equal? (sm-apply EVEN-A-ODD-B \elist) \quot{}reject)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(a b b a)) \quot{}reject)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(b a b b a a))
-                   \quot{}reject)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(a b)) \quot{}reject)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(a b b b b))
-                   \quot{}reject)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(b a b b a a b))
-                   \quot{}reject)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(b)) \quot{}accept)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(a a b)) \quot{}accept)
-     (check-equal? (sm-apply EVEN-A-ODD-B \quot{}(a a a b a b b))
-                   \quot{}accept)
+     #:accepts \quot{}((b) (a a b) (a a a b a b b))
+     #:rejects \quot{}(() (a b b a) (b a b b a a) (a b) 
+                 (a b b b b) (b a b b a a b))
 \end{alltt}
 
 \end{itemize}
@@ -1649,19 +1639,19 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
 \begin{itemize}
 \item<1-> Implementation
 \begin{alltt}
-     (define EVEN-A-ODD-B (make-dfa \quot{}(S M N P)
-                                    \quot{}(a b)
-                                    \quot{}S
-                                    \quot{}(N)
-                                    \quot{}((S a P)
-                                      (S b N)
-                                      (M a N)
-                                      (M b P)
-                                      (N a M)
-                                      (N b S)
-                                      (P a S)
-                                      (P b M))
-                                    \quot{}no-dead))
+(define EVEN-A-ODD-B 
+(make-dfa \quot{}(S M N P)
+          \quot{}(a b)
+          \quot{}S
+          \quot{}(N)
+          \quot{}((S a P) (S b N)
+                  (M a N) (M b P)
+                  (N a M) (N b S)
+                  (P a S) (P b M))
+          \quot{}no-dead
+          #:accepts \quot{}((b) (a a b) (a a a b a b b))
+          #:rejects \quot{}(() (a b b a) (b a b b a a) (a b) 
+                      (a b b b b) (b a b b a a b))))
 \end{alltt}
 
 \item<2->
@@ -1687,34 +1677,14 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> Alternatively, integrate testing into the constructor
+\item<1-> You can always use \texttt{check-equal?}
 
 \item<1-> \texttt{\#:accepts} list of words that ought to be accepted
 
 \item<1-> \texttt{\#:rejects} list of words that ought to be rejected
 
-\item<1-> Warning: machine is not built if expected behavior for any word is not met (unlike using check-equal?)
+\item<1-> \textcolor{red}{\textbf{Warning}}: machine is not built if expected behavior for any word is not met (unlike using check-equal?)
 
-\item<2->
-\begin{alltt}
-(define EVEN-A-ODD-B 
-  (make-dfa \quot{}(S M N P)
-            \quot{}(a b)
-            \quot{}S
-            \quot{}(N)
-            \quot{}((S a P)
-              (S b N)
-              (M a N)
-              (M b P)
-              (N a M)
-              (N b S)
-              (P a S)
-              (P b M))
-            \quot{}no-dead  \textcolor{red}{All tests here, no check-equal? needed}
-            #:accepts \quot{}((b) (a a b) (a a a b a b b))
-            #:rejects \quot{}(() (a b b a) (b a b b a a)
-                        (a b) (a b b b b) (b a b b a a b))))
-\end{alltt}
 \end{itemize}
 \end{scriptsize}
 \end{frame}
@@ -1807,7 +1777,9 @@ A deterministic finite-state automaton, dfa, is a (make-dfa S \sig s F \delt{} [
 %\framesubtitle{HOMEWORK}
 \begin{scriptsize}
 \begin{itemize}
-\item<1-> For the required proofs we use the following notation:
+\item<1-> Validate invariants using \texttt{sm-visualize}
+
+\item<2-> For the required proofs we use the following notation:
 \begin{alltt}
      M = EVEN-A-ODD-B
      \(\sig\) = (sm-sigma M)
@@ -2521,7 +2493,7 @@ A nondeterministic finite-state automaton, ndfa, is a (make-ndfa K \sig S F \del
 \begin{frame}[fragile]
 \frametitle{Nondeterministic Finite Automata}
 %\framesubtitle{HOMEWORK}
-\begin{tiny}
+\begin{scriptsize}
 \begin{center}
 \includegraphics[scale=0.2]{ndfa-L.png}
 \end{center}
@@ -2529,43 +2501,43 @@ A nondeterministic finite-state automaton, ndfa, is a (make-ndfa K \sig S F \del
 \begin{itemize}
 \item<1->
 \begin{alltt}
-     #lang fsm
-     ;; L = \{\(\epsilon\)\} \(\cup\) aa* \(\cup\) ab*
-     (define LNDFA (make-ndfa \quot{}(S A B F)
+#lang fsm
+;; L = \{\(\epsilon\)\} \(\cup\) aa* \(\cup\) ab*
+(define LNDFA 
+  (make-ndfa \quot{}(S A B F)
 \end{alltt}
 
 \item<3->
 \begin{alltt}
-                              \quot{}(a b)
+             \quot{}(a b)
 \end{alltt}
 
 \item<4->
 \begin{alltt}
-                              \quot{}S
+             \quot{}S
 \end{alltt}
 
 \item<5->
 \begin{alltt}
-                              \quot{}(A B F)
+             \quot{}(A B F)
 \end{alltt}
 
 \item<6->
 \begin{alltt}
-                              \qquot{}((S a A) (S a B) (S ,EMP F)
-                                (A b A)
-                                (B a B))
+             \qquot{}((S a A) (S a B) (S ,EMP F)
+               (A b A) (B a B))
 \end{alltt}
 
 \item<2->
 \begin{alltt}
-                              #:rejects \quot{}((a b a) (b b b b b) (a b b b b a a a))
-                              #:accepts \quot{}(() (a) (a a a a) (a b b))))
+             #:rejects \quot{}((a b a) (b b b b b) (a b b b b a a a))
+             #:accepts \quot{}(() (a) (a a a a) (a b b))))
 \end{alltt}
 
 \item<6-> The only transitions listed are those that are on a path to an accepting state
 
 \end{itemize}
-\end{tiny}
+\end{scriptsize}
 \end{frame}
 
 \begin{frame}[fragile]
