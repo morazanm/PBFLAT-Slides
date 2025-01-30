@@ -2197,7 +2197,7 @@ Generates a state not in the given list of states.
 
 \item<2->
 \begin{alltt}
-     ;; Tests for build-pattern-dfa
+     ;; Tests for build-pattern-dfa \textbf{\textcolor{red}{YUCK!}}
      (define M (build-pattern-dfa \quot{}(a b b a) \quot{}(a b)))
      (define N (build-pattern-dfa \quot{}(a d) \quot{}(a b c d)))
 
@@ -2214,6 +2214,64 @@ Generates a state not in the given list of states.
      (check-equal? (sm-apply N \quot{}(a d)) \quot{}accept)
      (check-equal? (sm-apply N '(b c a a d c c b)) 'accept)
      (check-equal? (sm-apply N '(c d b c a d c a d)) 'accept)
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Deterministic Finite Automata}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+\item<1->
+\begin{alltt}
+;; word alphabet \arrow dfa
+;; Purpose: Build a dfa for L = all words that contain the
+;;                              given pattern
+(define (build-pattern-dfa patt sigma)
+\end{alltt}
+
+\item<1->
+\begin{alltt}
+  (let* [(sts (foldl (\lamb{} (s acc) (cons (gen-state acc) acc))
+                     \elist{}
+                     (cons 1 patt))) ;; number of states = |patt|+1
+\end{alltt}
+
+\item<1->
+\begin{alltt}
+         (core-prefixes (build-list (add1 (length patt))
+                                    (\lamb (i) (take patt i))))
+\end{alltt}
+
+\item<1->
+\begin{alltt}
+         (deltas (append-map
+                   (\lamb (s cp)
+                     (gen-state-trans s sts sigma cp patt))
+                   sts
+                   core-prefixes))]
+\end{alltt}
+
+\item<1->
+\begin{alltt}
+    (make-dfa sts sigma (first sts) (list (last sts)) deltas \quot{}no-dead)))
+\end{alltt}
+
+\item<1->
+\begin{alltt}
+     ;; Tests for build-pattern-dfa \textbf{\textcolor{darkgreen}{Poetry!}}
+     (define M (build-pattern-dfa \quot{}(a b b a) \quot{}(a b)))
+     (define N (build-pattern-dfa \quot{}(a d) \quot{}(a b c d)))
+
+     (check-reject? M \quot{}() \quot{}(a a b b b a) \quot{}(b b b a a a b b))
+     (check-accept? M \quot{}(a b b a) \quot{}(b b a a a b b a b b a) \quot{}(a b b b a b b a))
+
+     (check-reject? N \quot{}() \quot{}(a b c d a b c c) \quot{}(c c b a b d))
+     (check-accept? N \quot{}(a d) \quot{}(b c a a d c c b) \quot{}(c d b c a d c a d))
+
 \end{alltt}
 
 \end{itemize}

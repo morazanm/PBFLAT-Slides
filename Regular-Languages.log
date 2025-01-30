@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.19)  29 JAN 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.19)  30 JAN 2025 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3259,7 +3259,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 ]
 \openout4 = `Regular-Languages.vrb'.
 
- (Regular-Languages.vrb)
+ (Regular-Languages.vrb
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <6> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 42.
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3325,7 +3328,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [163
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3343,14 +3349,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [165
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2324
- []
-
-
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3359,8 +3358,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [166
 
-] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2324
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
+Overfull \vbox (2.85217pt too high) detected at line 2382
  []
 
 
@@ -3373,7 +3375,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [167
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2324
+Overfull \vbox (2.85217pt too high) detected at line 2382
  []
 
 
@@ -3386,7 +3388,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [168
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2324
+Overfull \vbox (2.85217pt too high) detected at line 2382
  []
 
 
@@ -3399,7 +3401,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [169
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2324
+Overfull \vbox (2.85217pt too high) detected at line 2382
  []
 
 
@@ -3412,7 +3414,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [170
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (2.85217pt too high) detected at line 2324
+Overfull \vbox (2.85217pt too high) detected at line 2382
  []
 
 
@@ -3424,10 +3426,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [171
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (2.85217pt too high) detected at line 2382
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3436,7 +3439,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [172
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3445,10 +3451,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [173
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3460,18 +3463,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 ]
 \openout4 = `Regular-Languages.vrb'.
 
- (Regular-Languages.vrb
-<sample-concat-star-dfa.png, id=5665, 416.55624pt x 188.705pt>
-File: sample-concat-star-dfa.png Graphic file (type png)
-<use sample-concat-star-dfa.png>
-Package pdftex.def Info: sample-concat-star-dfa.png  used on input line 9.
-(pdftex.def)             Requested size: 124.96783pt x 56.61192pt.
-<union-choices.png, id=5666, 812.03375pt x 168.63pt>
-File: union-choices.png Graphic file (type png)
-<use union-choices.png>
-Package pdftex.def Info: union-choices.png  used on input line 27.
-(pdftex.def)             Requested size: 243.612pt x 50.58939pt.
-)
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3480,12 +3472,16 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [175
 
- <./sample-concat-star-dfa.png> <./union-choices.png>]
-(Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<sample-concat-star-dfa.png, id=5698, 416.55624pt x 188.705pt>
 File: sample-concat-star-dfa.png Graphic file (type png)
 <use sample-concat-star-dfa.png>
 Package pdftex.def Info: sample-concat-star-dfa.png  used on input line 9.
 (pdftex.def)             Requested size: 124.96783pt x 56.61192pt.
+<union-choices.png, id=5699, 812.03375pt x 168.63pt>
 File: union-choices.png Graphic file (type png)
 <use union-choices.png>
 Package pdftex.def Info: union-choices.png  used on input line 27.
@@ -3499,7 +3495,8 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [176
 
-] (Regular-Languages.vrb
+ <./sample-concat-star-dfa.png> <./union-choices.png>]
+(Regular-Languages.vrb
 File: sample-concat-star-dfa.png Graphic file (type png)
 <use sample-concat-star-dfa.png>
 Package pdftex.def Info: sample-concat-star-dfa.png  used on input line 9.
@@ -3535,15 +3532,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [178
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-<ndfa-L.png, id=5799, 176.66pt x 330.23375pt>
-File: ndfa-L.png Graphic file (type png)
-<use ndfa-L.png>
-Package pdftex.def Info: ndfa-L.png  used on input line 13.
-(pdftex.def)             Requested size: 61.83192pt x 115.58353pt.
+] (Regular-Languages.vrb
+File: sample-concat-star-dfa.png Graphic file (type png)
+<use sample-concat-star-dfa.png>
+Package pdftex.def Info: sample-concat-star-dfa.png  used on input line 9.
+(pdftex.def)             Requested size: 124.96783pt x 56.61192pt.
+File: union-choices.png Graphic file (type png)
+<use union-choices.png>
+Package pdftex.def Info: union-choices.png  used on input line 27.
+(pdftex.def)             Requested size: 243.612pt x 50.58939pt.
 )
 
 
@@ -3553,7 +3550,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [179
 
- <./ndfa-L.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<ndfa-L.png, id=5831, 176.66pt x 330.23375pt>
 File: ndfa-L.png Graphic file (type png)
 <use ndfa-L.png>
 Package pdftex.def Info: ndfa-L.png  used on input line 13.
@@ -3567,6 +3568,20 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [180
 
+ <./ndfa-L.png>] (Regular-Languages.vrb
+File: ndfa-L.png Graphic file (type png)
+<use ndfa-L.png>
+Package pdftex.def Info: ndfa-L.png  used on input line 13.
+(pdftex.def)             Requested size: 61.83192pt x 115.58353pt.
+)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[181
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -3576,25 +3591,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2460
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[181
-
-] (Regular-Languages.vrb
-File: ndfa-L.png Graphic file (type png)
-<use ndfa-L.png>
-Package pdftex.def Info: ndfa-L.png  used on input line 5.
-(pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
-)
-Overfull \vbox (4.27399pt too high) detected at line 2460
+Overfull \vbox (4.27399pt too high) detected at line 2518
  []
 
 
@@ -3612,7 +3609,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2460
+Overfull \vbox (4.27399pt too high) detected at line 2518
  []
 
 
@@ -3630,7 +3627,7 @@ File: ndfa-L.png Graphic file (type png)
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
 (pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
 )
-Overfull \vbox (4.27399pt too high) detected at line 2460
+Overfull \vbox (4.27399pt too high) detected at line 2518
  []
 
 
@@ -3642,10 +3639,16 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [184
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+File: ndfa-L.png Graphic file (type png)
+<use ndfa-L.png>
+Package pdftex.def Info: ndfa-L.png  used on input line 5.
+(pdftex.def)             Requested size: 26.49785pt x 49.53291pt.
+)
+Overfull \vbox (4.27399pt too high) detected at line 2518
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3654,7 +3657,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [185
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3690,15 +3696,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [189
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-File: ndfa-L.png Graphic file (type png)
-<use ndfa-L.png>
-Package pdftex.def Info: ndfa-L.png  used on input line 5.
-(pdftex.def)             Requested size: 35.33136pt x 66.04556pt.
-)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3707,7 +3705,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [190
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 File: ndfa-L.png Graphic file (type png)
 <use ndfa-L.png>
 Package pdftex.def Info: ndfa-L.png  used on input line 5.
@@ -3777,15 +3778,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [195
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-<empties-ndfa.png, id=6348, 301.125pt x 117.43875pt>
-File: empties-ndfa.png Graphic file (type png)
-<use empties-ndfa.png>
-Package pdftex.def Info: empties-ndfa.png  used on input line 9.
-(pdftex.def)             Requested size: 120.44786pt x 46.97466pt.
+] (Regular-Languages.vrb
+File: ndfa-L.png Graphic file (type png)
+<use ndfa-L.png>
+Package pdftex.def Info: ndfa-L.png  used on input line 5.
+(pdftex.def)             Requested size: 35.33136pt x 66.04556pt.
 )
 
 
@@ -3795,7 +3792,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [196
 
- <./empties-ndfa.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<empties-ndfa.png, id=6380, 301.125pt x 117.43875pt>
 File: empties-ndfa.png Graphic file (type png)
 <use empties-ndfa.png>
 Package pdftex.def Info: empties-ndfa.png  used on input line 9.
@@ -3809,7 +3810,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [197
 
-] (Regular-Languages.vrb
+ <./empties-ndfa.png>] (Regular-Languages.vrb
 File: empties-ndfa.png Graphic file (type png)
 <use empties-ndfa.png>
 Package pdftex.def Info: empties-ndfa.png  used on input line 9.
@@ -3823,13 +3824,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [198
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
+] (Regular-Languages.vrb
 File: empties-ndfa.png Graphic file (type png)
 <use empties-ndfa.png>
-Package pdftex.def Info: empties-ndfa.png  used on input line 14.
+Package pdftex.def Info: empties-ndfa.png  used on input line 9.
 (pdftex.def)             Requested size: 120.44786pt x 46.97466pt.
 )
 
@@ -3840,7 +3838,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [199
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 File: empties-ndfa.png Graphic file (type png)
 <use empties-ndfa.png>
 Package pdftex.def Info: empties-ndfa.png  used on input line 14.
@@ -3854,15 +3855,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [200
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-Overfull \hbox (7.4103pt too wide) in paragraph at lines 18--18
- []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a) (b) (c) (
-c c a a) (b b c b b b) (a a a b b b))[] 
- []
-
+] (Regular-Languages.vrb
+File: empties-ndfa.png Graphic file (type png)
+<use empties-ndfa.png>
+Package pdftex.def Info: empties-ndfa.png  used on input line 14.
+(pdftex.def)             Requested size: 120.44786pt x 46.97466pt.
 )
 
 
@@ -3872,7 +3869,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [201
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (7.4103pt too wide) in paragraph at lines 18--18
  []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a) (b) (c) (
 c c a a) (b b c b b b) (a a a b b b))[] 
@@ -3902,10 +3902,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [203
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (7.4103pt too wide) in paragraph at lines 18--18
+ []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a) (b) (c) (
+c c a a) (b b c b b b) (a a a b b b))[] 
+ []
 
- (Regular-Languages.vrb)
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3914,7 +3917,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [204
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3932,10 +3938,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [206
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3944,7 +3947,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [207
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3971,10 +3977,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [210
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3983,7 +3986,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [211
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -3992,14 +3998,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [212
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (22.96329pt too high) detected at line 2774
- []
-
-
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4008,8 +4007,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [213
 
-] (Regular-Languages.vrb)
-Overfull \vbox (22.96329pt too high) detected at line 2774
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
+Overfull \vbox (22.96329pt too high) detected at line 2832
  []
 
 
@@ -4021,10 +4023,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [214
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (22.96329pt too high) detected at line 2832
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4045,7 +4048,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [216
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4072,10 +4078,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [219
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4096,7 +4099,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [221
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4141,10 +4147,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [226
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4153,7 +4156,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [227
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4180,10 +4186,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [230
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4192,7 +4195,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [231
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4201,10 +4207,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [232
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4213,7 +4216,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [233
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4222,10 +4228,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [234
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4234,7 +4237,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [235
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4243,10 +4249,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [236
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4279,7 +4282,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [239
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4324,10 +4330,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [244
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4348,7 +4351,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [246
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4393,20 +4399,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [251
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-<sample-ndfa.png, id=8151, 389.455pt x 214.8025pt>
-File: sample-ndfa.png Graphic file (type png)
-<use sample-ndfa.png>
-Package pdftex.def Info: sample-ndfa.png  used on input line 5.
-(pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
-)
-Overfull \vbox (1.54881pt too high) detected at line 3126
- []
-
-
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4415,13 +4408,17 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [252
 
- <./sample-ndfa.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<sample-ndfa.png, id=8183, 389.455pt x 214.8025pt>
 File: sample-ndfa.png Graphic file (type png)
 <use sample-ndfa.png>
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3126
+Overfull \vbox (1.54881pt too high) detected at line 3184
  []
 
 
@@ -4433,13 +4430,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [253
 
-] (Regular-Languages.vrb
+ <./sample-ndfa.png>] (Regular-Languages.vrb
 File: sample-ndfa.png Graphic file (type png)
 <use sample-ndfa.png>
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3126
+Overfull \vbox (1.54881pt too high) detected at line 3184
  []
 
 
@@ -4457,7 +4454,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3126
+Overfull \vbox (1.54881pt too high) detected at line 3184
  []
 
 
@@ -4475,7 +4472,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3126
+Overfull \vbox (1.54881pt too high) detected at line 3184
  []
 
 
@@ -4493,7 +4490,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3126
+Overfull \vbox (1.54881pt too high) detected at line 3184
  []
 
 
@@ -4511,7 +4508,7 @@ File: sample-ndfa.png Graphic file (type png)
 Package pdftex.def Info: sample-ndfa.png  used on input line 5.
 (pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
 )
-Overfull \vbox (1.54881pt too high) detected at line 3126
+Overfull \vbox (1.54881pt too high) detected at line 3184
  []
 
 
@@ -4523,10 +4520,16 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [258
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+File: sample-ndfa.png Graphic file (type png)
+<use sample-ndfa.png>
+Package pdftex.def Info: sample-ndfa.png  used on input line 5.
+(pdftex.def)             Requested size: 116.83739pt x 64.44124pt.
+)
+Overfull \vbox (1.54881pt too high) detected at line 3184
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4535,7 +4538,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [259
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4543,6 +4549,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []
 
 [260
+
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[261
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -4554,7 +4569,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[261
+[262
 
 ] (Regular-Languages.vrb)
 
@@ -4563,7 +4578,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[262
+[263
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -4581,7 +4596,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[263
+[264
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -4599,7 +4614,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[264
+[265
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -4617,52 +4632,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[265
+[266
 
 ]
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-Overfull \hbox (7.41139pt too wide) in paragraph at lines 19--19
- []     \OT1/cmtt/m/n/8 (compute-ss-dfa-rules (list (extract-empties start empt
-ies))[] 
- []
-
-
-Overfull \hbox (8.11974pt too wide) in paragraph at lines 26--26
- []                   \OT1/cmtt/m/n/8 (append-map ($\OML/cmm/m/it/8 ^^U$ \OT1/c
-mtt/m/n/8 (r) (list (first r) (third r)))[] 
- []
-
-
-Overfull \hbox (34.32845pt too wide) in paragraph at lines 46--46
- []                  \OT1/cmtt/m/n/8 (filter ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m
-/n/8 (ss) (ormap ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 (s) (member s finals)) 
-ss))[] 
- []
-
-
-Overfull \hbox (25.11998pt too wide) in paragraph at lines 52--52
- []             \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 (r)
- (list (second (assoc (first r) ss-name-tbl))[] 
- []
-
-
-Overfull \hbox (32.91176pt too wide) in paragraph at lines 54--54
- []                               \OT1/cmtt/m/n/8 (second (assoc (third r) ss-n
-ame-tbl))))[] 
- []
-
-)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[266
-
-] (Regular-Languages.vrb
 Overfull \hbox (7.41139pt too wide) in paragraph at lines 19--19
  []     \OT1/cmtt/m/n/8 (compute-ss-dfa-rules (list (extract-empties start empt
 ies))[] 
@@ -4942,10 +4917,38 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [273
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (7.41139pt too wide) in paragraph at lines 19--19
+ []     \OT1/cmtt/m/n/8 (compute-ss-dfa-rules (list (extract-empties start empt
+ies))[] 
+ []
 
- (Regular-Languages.vrb)
+
+Overfull \hbox (8.11974pt too wide) in paragraph at lines 26--26
+ []                   \OT1/cmtt/m/n/8 (append-map ($\OML/cmm/m/it/8 ^^U$ \OT1/c
+mtt/m/n/8 (r) (list (first r) (third r)))[] 
+ []
+
+
+Overfull \hbox (34.32845pt too wide) in paragraph at lines 46--46
+ []                  \OT1/cmtt/m/n/8 (filter ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m
+/n/8 (ss) (ormap ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 (s) (member s finals)) 
+ss))[] 
+ []
+
+
+Overfull \hbox (25.11998pt too wide) in paragraph at lines 52--52
+ []             \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 (r)
+ (list (second (assoc (first r) ss-name-tbl))[] 
+ []
+
+
+Overfull \hbox (32.91176pt too wide) in paragraph at lines 54--54
+ []                               \OT1/cmtt/m/n/8 (second (assoc (third r) ss-n
+ame-tbl))))[] 
+ []
+
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -4954,15 +4957,6 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [274
 
-] (Regular-Languages.vrb)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[275
-
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -4973,9 +4967,21 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[276
+[275
 
 ] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[276
+
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5002,10 +5008,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [279
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5026,7 +5029,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [281
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5071,10 +5077,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [286
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5083,7 +5086,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [287
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5101,10 +5107,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [289
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5116,17 +5119,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 ]
 \openout4 = `Regular-Languages.vrb'.
 
- (Regular-Languages.vrb
-Overfull \hbox (20.86992pt too wide) in paragraph at lines 14--14
- []  \OT1/cmtt/m/n/8 (let [(dfa-st-names (foldl ($\OML/cmm/m/it/8 ^^U$ \OT1/cmt
-t/m/n/8 (ss acc) (cons (gen-state acc) acc))[] 
- []
-
-)
-Overfull \vbox (2.18552pt too high) detected at line 3634
- []
-
-
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5135,14 +5128,17 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [291
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (20.86992pt too wide) in paragraph at lines 14--14
  []  \OT1/cmtt/m/n/8 (let [(dfa-st-names (foldl ($\OML/cmm/m/it/8 ^^U$ \OT1/cmt
 t/m/n/8 (ss acc) (cons (gen-state acc) acc))[] 
  []
 
 )
-Overfull \vbox (2.18552pt too high) detected at line 3634
+Overfull \vbox (2.18552pt too high) detected at line 3692
  []
 
 
@@ -5161,7 +5157,7 @@ t/m/n/8 (ss acc) (cons (gen-state acc) acc))[]
  []
 
 )
-Overfull \vbox (2.18552pt too high) detected at line 3634
+Overfull \vbox (2.18552pt too high) detected at line 3692
  []
 
 
@@ -5173,10 +5169,17 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [293
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (20.86992pt too wide) in paragraph at lines 14--14
+ []  \OT1/cmtt/m/n/8 (let [(dfa-st-names (foldl ($\OML/cmm/m/it/8 ^^U$ \OT1/cmt
+t/m/n/8 (ss acc) (cons (gen-state acc) acc))[] 
+ []
 
- (Regular-Languages.vrb)
+)
+Overfull \vbox (2.18552pt too high) detected at line 3692
+ []
+
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5185,7 +5188,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [294
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5194,10 +5200,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [295
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5206,7 +5209,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [296
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5215,10 +5221,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [297
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5227,15 +5230,6 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [298
 
-] (Regular-Languages.vrb)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[299
-
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -5246,9 +5240,21 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[300
+[299
 
 ] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[300
+
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5266,10 +5272,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [302
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5278,7 +5281,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [303
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5296,10 +5302,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [305
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5320,7 +5323,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [307
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5347,10 +5353,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [310
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5371,7 +5374,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [312
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5389,10 +5395,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [314
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5413,7 +5416,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [316
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5422,10 +5428,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [317
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5446,7 +5449,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [319
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5454,6 +5460,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []
 
 [320
+
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[321
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -5495,56 +5510,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[321
-
-] (Regular-Languages.vrb
-Overfull \hbox (24.41164pt too wide) in paragraph at lines 15--15
- []  \OT1/cmtt/m/n/8 (let* [(new-start (gen-state (append (sm-states M) (sm-sta
-tes N))))[] 
- []
-
-
-Overfull \hbox (7.41139pt too wide) in paragraph at lines 27--27
- []                           \OT1/cmtt/m/n/8 (append (sm-states M) (sm-states 
-N))))[] 
- []
-
-
-Overfull \hbox (15.91151pt too wide) in paragraph at lines 37--37
- []         \OT1/cmtt/m/n/8 (new-rules (append (list (list new-start EMP (sm-st
-art M))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 38--38
- []                                  \OT1/cmtt/m/n/8 (list new-start EMP (sm-st
-art N)))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 45--45
- []   \OT1/cmtt/m/n/8 (make-ndfa new-states new-sigma new-start new-finals new-
-rules)))[] 
- []
-
-
-Overfull \hbox (45.66194pt too wide) in paragraph at lines 61--61
- []\OT1/cmtt/m/n/8 (check-equal? (sm-testequiv? ab*Ua-aUb-b* (sm-union ab* ab*U
-a-aUb-b*)) #t)[] 
- []
-
-)
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5593,7 +5559,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5642,7 +5608,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5691,7 +5657,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5740,7 +5706,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5789,7 +5755,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5838,7 +5804,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5887,7 +5853,7 @@ a-aUb-b*)) #t)[]
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4099
+Overfull \vbox (41.96329pt too high) detected at line 4157
  []
 
 
@@ -5899,10 +5865,47 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [329
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (24.41164pt too wide) in paragraph at lines 15--15
+ []  \OT1/cmtt/m/n/8 (let* [(new-start (gen-state (append (sm-states M) (sm-sta
+tes N))))[] 
+ []
 
- (Regular-Languages.vrb)
+
+Overfull \hbox (7.41139pt too wide) in paragraph at lines 27--27
+ []                           \OT1/cmtt/m/n/8 (append (sm-states M) (sm-states 
+N))))[] 
+ []
+
+
+Overfull \hbox (15.91151pt too wide) in paragraph at lines 37--37
+ []         \OT1/cmtt/m/n/8 (new-rules (append (list (list new-start EMP (sm-st
+art M))[] 
+ []
+
+
+Overfull \hbox (20.16158pt too wide) in paragraph at lines 38--38
+ []                                  \OT1/cmtt/m/n/8 (list new-start EMP (sm-st
+art N)))[] 
+ []
+
+
+Overfull \hbox (20.16158pt too wide) in paragraph at lines 45--45
+ []   \OT1/cmtt/m/n/8 (make-ndfa new-states new-sigma new-start new-finals new-
+rules)))[] 
+ []
+
+
+Overfull \hbox (45.66194pt too wide) in paragraph at lines 61--61
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-testequiv? ab*Ua-aUb-b* (sm-union ab* ab*U
+a-aUb-b*)) #t)[] 
+ []
+
+)
+Overfull \vbox (41.96329pt too high) detected at line 4157
+ []
+
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5923,7 +5926,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [331
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5950,10 +5956,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [334
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5962,7 +5965,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [335
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -5989,10 +5995,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [338
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6025,7 +6028,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [341
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6042,6 +6048,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []
 
 [343
+
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[344
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -6083,56 +6098,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[344
-
-] (Regular-Languages.vrb
-Overfull \hbox (37.16182pt too wide) in paragraph at lines 8--8
- []\OT1/cmtt/m/n/8 ;; Purpose: Construct ndfa for the concatenation of the lang
-uages of the[] 
- []
-
-
-Overfull \hbox (49.912pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (new-sigma (remove-duplicates (append (sm-sigma M) 
-(sm-sigma N))))[] 
- []
-
-
-Overfull \hbox (12.3698pt too wide) in paragraph at lines 38--38
- []                            \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1
-/cmtt/m/n/8 (f) (list f EMP (sm-start N)))[] 
- []
-
-
-Overfull \hbox (24.41164pt too wide) in paragraph at lines 44--44
- []    \OT1/cmtt/m/n/8 (make-ndfa new-states new-sigma new-start new-finals new
--rules)))[] 
- []
-
-
-Overfull \hbox (41.41188pt too wide) in paragraph at lines 61--61
- []\OT1/cmtt/m/n/8 (check-equal? (sm-testequiv? ab*-o-a-aUb-b* (sm-concat ab* a
--aUb-b*)) #t)[] 
- []
-
-
-Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
- []\OT1/cmtt/m/n/8 (check-equal? (sm-testequiv? ab*-o-aab* (sm-concat ab* aab*)
-) #t)[] 
- []
-
-)
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6181,7 +6147,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6230,7 +6196,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6279,7 +6245,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6328,7 +6294,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6377,7 +6343,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6426,7 +6392,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6475,7 +6441,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
  []
 
 )
-Overfull \vbox (41.96329pt too high) detected at line 4355
+Overfull \vbox (41.96329pt too high) detected at line 4413
  []
 
 
@@ -6487,10 +6453,47 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [352
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (37.16182pt too wide) in paragraph at lines 8--8
+ []\OT1/cmtt/m/n/8 ;; Purpose: Construct ndfa for the concatenation of the lang
+uages of the[] 
+ []
 
- (Regular-Languages.vrb)
+
+Overfull \hbox (49.912pt too wide) in paragraph at lines 21--21
+ []         \OT1/cmtt/m/n/8 (new-sigma (remove-duplicates (append (sm-sigma M) 
+(sm-sigma N))))[] 
+ []
+
+
+Overfull \hbox (12.3698pt too wide) in paragraph at lines 38--38
+ []                            \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1
+/cmtt/m/n/8 (f) (list f EMP (sm-start N)))[] 
+ []
+
+
+Overfull \hbox (24.41164pt too wide) in paragraph at lines 44--44
+ []    \OT1/cmtt/m/n/8 (make-ndfa new-states new-sigma new-start new-finals new
+-rules)))[] 
+ []
+
+
+Overfull \hbox (41.41188pt too wide) in paragraph at lines 61--61
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-testequiv? ab*-o-a-aUb-b* (sm-concat ab* a
+-aUb-b*)) #t)[] 
+ []
+
+
+Overfull \hbox (7.41139pt too wide) in paragraph at lines 67--67
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-testequiv? ab*-o-aab* (sm-concat ab* aab*)
+) #t)[] 
+ []
+
+)
+Overfull \vbox (41.96329pt too high) detected at line 4413
+ []
+
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6511,7 +6514,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [354
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6538,10 +6544,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [357
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6550,7 +6553,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [358
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6586,10 +6592,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [362
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6622,15 +6625,6 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [365
 
-] (Regular-Languages.vrb)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[366
-
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -6641,9 +6635,21 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[367
+[366
 
 ] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[367
+
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6688,6 +6694,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [372
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[373
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -6698,7 +6713,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[373
+[374
 
 ] (Regular-Languages.vrb)
 
@@ -6707,36 +6722,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[374
+[375
 
 ]
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-Overfull \hbox (8.45609pt too wide) in paragraph at lines 16--16
- []\OT1/cmtt/m/n/8 ((w$[]$w$[]$$[]$w$[]$ S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\
-OMS/cmtt/m/n/8 `[]$\OT1/cmtt/m/n/8 $_U$ ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n
-/8 `[]$$[]$ \OT1/cmtt/m/n/8 (($[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n/8 `[]$$[]$ \OT1/
-cmtt/m/n/8 (() Y$[]$),[] 
- []
-
-
-Overfull \hbox (4.70177pt too wide) in paragraph at lines 28--28
- [] \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\OMS
-/cmtt/m/n/8 `[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n/8 
-`[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) Y$[]$)$[]$((w$[]$) Y$[]$)[] 
- []
-
-)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[375
-
-] (Regular-Languages.vrb
 Overfull \hbox (8.45609pt too wide) in paragraph at lines 16--16
  []\OT1/cmtt/m/n/8 ((w$[]$w$[]$$[]$w$[]$ S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\
 OMS/cmtt/m/n/8 `[]$\OT1/cmtt/m/n/8 $_U$ ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n
@@ -6808,14 +6799,19 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [378
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (8.45609pt too wide) in paragraph at lines 16--16
+ []\OT1/cmtt/m/n/8 ((w$[]$w$[]$$[]$w$[]$ S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\
+OMS/cmtt/m/n/8 `[]$\OT1/cmtt/m/n/8 $_U$ ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n
+/8 `[]$$[]$ \OT1/cmtt/m/n/8 (($[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n/8 `[]$$[]$ \OT1/
+cmtt/m/n/8 (() Y$[]$),[] 
+ []
 
- (Regular-Languages.vrb
-Overfull \hbox (13.20189pt too wide) in paragraph at lines 33--33
+
+Overfull \hbox (4.70177pt too wide) in paragraph at lines 28--28
  [] \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\OMS
 /cmtt/m/n/8 `[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n/8 
-`[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$_$[]$) Y$[]$)$[]$((w$[]$) Y$[]$)[] 
+`[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) Y$[]$)$[]$((w$[]$) Y$[]$)[] 
  []
 
 )
@@ -6827,7 +6823,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [379
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (13.20189pt too wide) in paragraph at lines 33--33
  [] \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\OMS
 /cmtt/m/n/8 `[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n/8 
@@ -6875,10 +6874,14 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [382
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (13.20189pt too wide) in paragraph at lines 33--33
+ [] \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) S\TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ) $\OMS
+/cmtt/m/n/8 `[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$[]$) Y$[]$) $\OMS/cmtt/m/n/8 
+`[]$$[]$ \OT1/cmtt/m/n/8 ((w$[]$$[]$w$_$[]$) Y$[]$)$[]$((w$[]$) Y$[]$)[] 
+ []
 
- (Regular-Languages.vrb)
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6902,18 +6905,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 ]
 \openout4 = `Regular-Languages.vrb'.
 
- (Regular-Languages.vrb
-<a-star-graph.png, id=12432, 177.66376pt x 117.43875pt>
-File: a-star-graph.png Graphic file (type png)
-<use a-star-graph.png>
-Package pdftex.def Info: a-star-graph.png  used on input line 20.
-(pdftex.def)             Requested size: 88.83165pt x 58.71922pt.
-<not-a-star-graph.png, id=12433, 177.66376pt x 117.43875pt>
-File: not-a-star-graph.png Graphic file (type png)
-<use not-a-star-graph.png>
-Package pdftex.def Info: not-a-star-graph.png  used on input line 25.
-(pdftex.def)             Requested size: 88.83165pt x 58.71922pt.
-)
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -6922,11 +6914,16 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [385
 
- <./a-star-graph.png> <./not-a-star-graph.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<a-star-graph.png, id=12465, 177.66376pt x 117.43875pt>
 File: a-star-graph.png Graphic file (type png)
 <use a-star-graph.png>
 Package pdftex.def Info: a-star-graph.png  used on input line 20.
 (pdftex.def)             Requested size: 88.83165pt x 58.71922pt.
+<not-a-star-graph.png, id=12466, 177.66376pt x 117.43875pt>
 File: not-a-star-graph.png Graphic file (type png)
 <use not-a-star-graph.png>
 Package pdftex.def Info: not-a-star-graph.png  used on input line 25.
@@ -6940,7 +6937,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [386
 
-] (Regular-Languages.vrb
+ <./a-star-graph.png> <./not-a-star-graph.png>] (Regular-Languages.vrb
 File: a-star-graph.png Graphic file (type png)
 <use a-star-graph.png>
 Package pdftex.def Info: a-star-graph.png  used on input line 20.
@@ -6976,6 +6973,24 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [388
 
+] (Regular-Languages.vrb
+File: a-star-graph.png Graphic file (type png)
+<use a-star-graph.png>
+Package pdftex.def Info: a-star-graph.png  used on input line 20.
+(pdftex.def)             Requested size: 88.83165pt x 58.71922pt.
+File: not-a-star-graph.png Graphic file (type png)
+<use not-a-star-graph.png>
+Package pdftex.def Info: not-a-star-graph.png  used on input line 25.
+(pdftex.def)             Requested size: 88.83165pt x 58.71922pt.
+)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[389
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -6998,38 +7013,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4811
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[389
-
-] (Regular-Languages.vrb
-Overfull \hbox (28.6617pt too wide) in paragraph at lines 8--8
- []\OT1/cmtt/m/n/8 ;; Purpose: Construct a dfa for the complement of given dfa'
-s language[] 
- []
-
-
-Overfull \hbox (16.61986pt too wide) in paragraph at lines 14--14
- []  \OT1/cmtt/m/n/8 (let* [(new-finals (filter ($\OML/cmm/m/it/8 ^^U$ \OT1/cmt
-t/m/n/8 (s) (not (member s (sm-finals M))))[] 
- []
-
-
-Overfull \hbox (7.4092pt too wide) in paragraph at lines 45--45
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply not-EVEN-A-ODD-B \TS1/cmtt/m/n/8 '\O
-T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[] 
- []
-
-)
-Overfull \vbox (50.35217pt too high) detected at line 4811
+Overfull \vbox (50.35217pt too high) detected at line 4869
  []
 
 
@@ -7060,7 +7044,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4811
+Overfull \vbox (50.35217pt too high) detected at line 4869
  []
 
 
@@ -7091,7 +7075,7 @@ T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[]
  []
 
 )
-Overfull \vbox (50.35217pt too high) detected at line 4811
+Overfull \vbox (50.35217pt too high) detected at line 4869
  []
 
 
@@ -7103,10 +7087,29 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [392
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (28.6617pt too wide) in paragraph at lines 8--8
+ []\OT1/cmtt/m/n/8 ;; Purpose: Construct a dfa for the complement of given dfa'
+s language[] 
+ []
 
- (Regular-Languages.vrb)
+
+Overfull \hbox (16.61986pt too wide) in paragraph at lines 14--14
+ []  \OT1/cmtt/m/n/8 (let* [(new-finals (filter ($\OML/cmm/m/it/8 ^^U$ \OT1/cmt
+t/m/n/8 (s) (not (member s (sm-finals M))))[] 
+ []
+
+
+Overfull \hbox (7.4092pt too wide) in paragraph at lines 45--45
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply not-EVEN-A-ODD-B \TS1/cmtt/m/n/8 '\O
+T1/cmtt/m/n/8 (a a b b a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[] 
+ []
+
+)
+Overfull \vbox (50.35217pt too high) detected at line 4869
+ []
+
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7127,7 +7130,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [394
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7154,10 +7160,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [397
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7166,7 +7169,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [398
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7193,10 +7199,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [401
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7229,7 +7232,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [404
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7265,6 +7271,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [408
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[409
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -7333,84 +7348,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5037
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[409
-
-] (Regular-Languages.vrb
-Overfull \hbox (45.66194pt too wide) in paragraph at lines 8--8
- []\OT1/cmtt/m/n/8 ;; Purpose: Construct an ndfa for the intersection of the la
-nguages of the[] 
- []
-
-
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 32--32
- []\OT1/cmtt/m/n/8 (define a-aUb-b*-intersect-EVEN-A-ODD-B (intersect-fsa  a-aU
-b-b*[] 
- []
-
-
-Overfull \hbox (28.6617pt too wide) in paragraph at lines 33--33
- []                                                        \OT1/cmtt/m/n/8 EVEN
--A-ODD-B))[] 
- []
-
-
-Overfull \hbox (15.90932pt too wide) in paragraph at lines 36--36
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply ab*-intersect-a-aUb-b* \TS1/cmtt/m/n
-/8 '\OT1/cmtt/m/n/8 (a b b a)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 42--42
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
-/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ()) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject)[] 
- []
-
-
-Overfull \hbox (37.15962pt too wide) in paragraph at lines 43--43
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
-/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (b b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject)[] 
-
- []
-
-
-Overfull \hbox (54.15987pt too wide) in paragraph at lines 44--44
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
-/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject
-)[] 
- []
-
-
-Overfull \hbox (45.65974pt too wide) in paragraph at lines 45--45
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
-/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (a a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[
-] 
- []
-
-
-Overfull \hbox (62.65999pt too wide) in paragraph at lines 46--46
- []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
-/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 acce
-pt)[] 
- []
-
-
-Overfull \hbox (24.41164pt too wide) in paragraph at lines 48--48
- []                             \OT1/cmtt/m/n/8 (sm-intersection a-aUb-b* EVEN-
-A-ODD-B))[] 
- []
-
-)
-Overfull \vbox (59.85217pt too high) detected at line 5037
+Overfull \vbox (59.85217pt too high) detected at line 5095
  []
 
 
@@ -7487,7 +7425,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5037
+Overfull \vbox (59.85217pt too high) detected at line 5095
  []
 
 
@@ -7564,7 +7502,7 @@ A-ODD-B))[]
  []
 
 )
-Overfull \vbox (59.85217pt too high) detected at line 5037
+Overfull \vbox (59.85217pt too high) detected at line 5095
  []
 
 
@@ -7576,6 +7514,83 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [412
 
+] (Regular-Languages.vrb
+Overfull \hbox (45.66194pt too wide) in paragraph at lines 8--8
+ []\OT1/cmtt/m/n/8 ;; Purpose: Construct an ndfa for the intersection of the la
+nguages of the[] 
+ []
+
+
+Overfull \hbox (3.16133pt too wide) in paragraph at lines 32--32
+ []\OT1/cmtt/m/n/8 (define a-aUb-b*-intersect-EVEN-A-ODD-B (intersect-fsa  a-aU
+b-b*[] 
+ []
+
+
+Overfull \hbox (28.6617pt too wide) in paragraph at lines 33--33
+ []                                                        \OT1/cmtt/m/n/8 EVEN
+-A-ODD-B))[] 
+ []
+
+
+Overfull \hbox (15.90932pt too wide) in paragraph at lines 36--36
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply ab*-intersect-a-aUb-b* \TS1/cmtt/m/n
+/8 '\OT1/cmtt/m/n/8 (a b b a)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject)[] 
+ []
+
+
+Overfull \hbox (24.40944pt too wide) in paragraph at lines 42--42
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
+/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ()) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject)[] 
+ []
+
+
+Overfull \hbox (37.15962pt too wide) in paragraph at lines 43--43
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
+/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (b b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject)[] 
+
+ []
+
+
+Overfull \hbox (54.15987pt too wide) in paragraph at lines 44--44
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
+/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 reject
+)[] 
+ []
+
+
+Overfull \hbox (45.65974pt too wide) in paragraph at lines 45--45
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
+/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (a a b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 accept)[
+] 
+ []
+
+
+Overfull \hbox (62.65999pt too wide) in paragraph at lines 46--46
+ []\OT1/cmtt/m/n/8 (check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \TS1
+/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b)) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 acce
+pt)[] 
+ []
+
+
+Overfull \hbox (24.41164pt too wide) in paragraph at lines 48--48
+ []                             \OT1/cmtt/m/n/8 (sm-intersection a-aUb-b* EVEN-
+A-ODD-B))[] 
+ []
+
+)
+Overfull \vbox (59.85217pt too high) detected at line 5095
+ []
+
+
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[413
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -7586,7 +7601,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[413
+[414
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -7602,15 +7617,6 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              for symbol `textbraceleft' on input line 15.
 
 )
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[414
-
-] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7637,10 +7643,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [417
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7649,7 +7652,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [418
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7676,10 +7682,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [421
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7712,7 +7715,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [424
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7730,15 +7736,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [426
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-Overfull \hbox (2.39201pt too wide) in paragraph at lines 26--27
- [] 
- []
-
-)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7747,7 +7745,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [427
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (2.39201pt too wide) in paragraph at lines 26--27
  [] 
  []
@@ -7775,10 +7776,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [429
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (2.39201pt too wide) in paragraph at lines 26--27
+ [] 
+ []
 
- (Regular-Languages.vrb)
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7787,7 +7790,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [430
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7841,6 +7847,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [436
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[437
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -7857,26 +7872,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[437
+[438
 
 ]
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (67.01884pt too high) detected at line 5306
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[438
-
-] (Regular-Languages.vrb)
-Overfull \vbox (67.01884pt too high) detected at line 5306
+Overfull \vbox (67.01884pt too high) detected at line 5364
  []
 
 
@@ -7889,7 +7891,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [439
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (67.01884pt too high) detected at line 5306
+Overfull \vbox (67.01884pt too high) detected at line 5364
  []
 
 
@@ -7901,22 +7903,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [440
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-Overfull \hbox (18.03654pt too wide) in paragraph at lines 12--12
- []                                   \OT1/cmtt/m/n/6 (to-state (gen-state (con
-s from-state used-st-names)))][] 
+] (Regular-Languages.vrb)
+Overfull \vbox (67.01884pt too high) detected at line 5364
  []
 
 
-Overfull \hbox (21.22409pt too wide) in paragraph at lines 21--21
- []                                                    \OT1/cmtt/m/n/6 (list (l
-ist (first p) a (second p))))))[] 
- []
-
-)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -7925,7 +7916,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [441
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (18.03654pt too wide) in paragraph at lines 12--12
  []                                   \OT1/cmtt/m/n/6 (to-state (gen-state (con
 s from-state used-st-names)))][] 
@@ -8030,10 +8024,19 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [446
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (18.03654pt too wide) in paragraph at lines 12--12
+ []                                   \OT1/cmtt/m/n/6 (to-state (gen-state (con
+s from-state used-st-names)))][] 
+ []
 
- (Regular-Languages.vrb)
+
+Overfull \hbox (21.22409pt too wide) in paragraph at lines 21--21
+ []                                                    \OT1/cmtt/m/n/6 (list (l
+ist (first p) a (second p))))))[] 
+ []
+
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8054,7 +8057,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [448
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8090,10 +8096,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [452
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8102,7 +8105,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [453
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8147,10 +8153,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [458
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8159,15 +8162,6 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [459
 
-] (Regular-Languages.vrb)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[460
-
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -8178,9 +8172,21 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[461
+[460
 
 ] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[461
+
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8198,10 +8204,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [463
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8210,7 +8213,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [464
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8237,10 +8243,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [467
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8249,7 +8252,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [468
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8267,10 +8273,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [470
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8279,7 +8282,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [471
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8324,15 +8330,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [476
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--14
-[][][][][][][]  
- []
-
-)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8341,7 +8339,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [477
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--14
 [][][][][][][]  
  []
@@ -8369,20 +8370,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [479
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-<ndfa2regexp-ex.png, id=15493, 303.1325pt x 246.9225pt>
-File: ndfa2regexp-ex.png Graphic file (type png)
-<use ndfa2regexp-ex.png>
-Package pdftex.def Info: ndfa2regexp-ex.png  used on input line 7.
-(pdftex.def)             Requested size: 121.25084pt x 98.76724pt.
-)
-Overfull \vbox (4.51242pt too high) detected at line 5726
+] (Regular-Languages.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--14
+[][][][][][][]  
  []
 
-
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8391,13 +8384,17 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [480
 
- <./ndfa2regexp-ex.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<ndfa2regexp-ex.png, id=15525, 303.1325pt x 246.9225pt>
 File: ndfa2regexp-ex.png Graphic file (type png)
 <use ndfa2regexp-ex.png>
 Package pdftex.def Info: ndfa2regexp-ex.png  used on input line 7.
 (pdftex.def)             Requested size: 121.25084pt x 98.76724pt.
 )
-Overfull \vbox (4.51242pt too high) detected at line 5726
+Overfull \vbox (4.51242pt too high) detected at line 5784
  []
 
 
@@ -8409,11 +8406,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [481
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (1.20038pt too high) detected at line 5776
+ <./ndfa2regexp-ex.png>] (Regular-Languages.vrb
+File: ndfa2regexp-ex.png Graphic file (type png)
+<use ndfa2regexp-ex.png>
+Package pdftex.def Info: ndfa2regexp-ex.png  used on input line 7.
+(pdftex.def)             Requested size: 121.25084pt x 98.76724pt.
+)
+Overfull \vbox (4.51242pt too high) detected at line 5784
  []
 
 
@@ -8425,8 +8424,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [482
 
-] (Regular-Languages.vrb)
-Overfull \vbox (1.20038pt too high) detected at line 5776
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
+Overfull \vbox (1.20038pt too high) detected at line 5834
  []
 
 
@@ -8438,10 +8440,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [483
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (1.20038pt too high) detected at line 5834
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8486,15 +8489,6 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [487
 
-] (Regular-Languages.vrb)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[488
-
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -8505,9 +8499,21 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[489
+[488
 
 ] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[489
+
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8525,10 +8531,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [491
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8561,7 +8564,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [494
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -8615,6 +8621,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [500
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[501
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -8631,32 +8646,7 @@ S b A) (A a B) (A b C) (B b B) (C a C)))[]
  []
 
 )
-Overfull \vbox (13.46329pt too high) detected at line 6100
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[501
-
-] (Regular-Languages.vrb
-Overfull \hbox (41.41188pt too wide) in paragraph at lines 17--17
- []                           \OT1/cmtt/m/n/8 (singleton-regexp (symbol->string
- (second r)))[] 
- []
-
-
-Overfull \hbox (20.16048pt too wide) in paragraph at lines 34--34
- []    \OT1/cmtt/m/n/8 (make-dgraph \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ((S a A) (
-S b A) (A a B) (A b C) (B b B) (C a C)))[] 
- []
-
-)
-Overfull \vbox (13.46329pt too high) detected at line 6100
+Overfull \vbox (13.46329pt too high) detected at line 6158
  []
 
 
@@ -8681,7 +8671,7 @@ S b A) (A a B) (A b C) (B b B) (C a C)))[]
  []
 
 )
-Overfull \vbox (13.46329pt too high) detected at line 6100
+Overfull \vbox (13.46329pt too high) detected at line 6158
  []
 
 
@@ -8692,6 +8682,31 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []
 
 [503
+
+] (Regular-Languages.vrb
+Overfull \hbox (41.41188pt too wide) in paragraph at lines 17--17
+ []                           \OT1/cmtt/m/n/8 (singleton-regexp (symbol->string
+ (second r)))[] 
+ []
+
+
+Overfull \hbox (20.16048pt too wide) in paragraph at lines 34--34
+ []    \OT1/cmtt/m/n/8 (make-dgraph \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 ((S a A) (
+S b A) (A a B) (A b C) (B b B) (C a C)))[] 
+ []
+
+)
+Overfull \vbox (13.46329pt too high) detected at line 6158
+ []
+
+
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[504
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -8727,50 +8742,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6150
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[504
-
-] (Regular-Languages.vrb
-Overfull \hbox (37.87016pt too wide) in paragraph at lines 24--24
- []             \OT1/cmtt/m/n/8 (to-collapse (filter ($\OML/cmm/m/it/8 ^^U$ \OT
-1/cmtt/m/n/8 (e) (and (eq? (first e) from-state)[] 
- []
-
-
-Overfull \hbox (37.16182pt too wide) in paragraph at lines 25--25
- []                                              \OT1/cmtt/m/n/8 (eq? (third e)
- to-state)))[] 
- []
-
-
-Overfull \hbox (50.62035pt too wide) in paragraph at lines 27--27
- []             \OT1/cmtt/m/n/8 (remaining-g (filter ($\OML/cmm/m/it/8 ^^U$ \OT
-1/cmtt/m/n/8 (e) (not (member e to-collapse))) g))][] 
- []
-
-
-Overfull \hbox (24.41164pt too wide) in paragraph at lines 28--28
- []        \OT1/cmtt/m/n/8 (cons (list from-state (collapse-edges to-collapse) 
-to-state)[] 
- []
-
-
-Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
- []    \OT1/cmtt/m/n/8 ,(union-regexp (singleton-regexp "a") (singleton-regexp 
-"b"))[] 
- []
-
-)
-Overfull \vbox (3.96329pt too high) detected at line 6150
+Overfull \vbox (3.96329pt too high) detected at line 6208
  []
 
 
@@ -8813,7 +8785,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6150
+Overfull \vbox (3.96329pt too high) detected at line 6208
  []
 
 
@@ -8856,7 +8828,7 @@ Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
  []
 
 )
-Overfull \vbox (3.96329pt too high) detected at line 6150
+Overfull \vbox (3.96329pt too high) detected at line 6208
  []
 
 
@@ -8868,6 +8840,49 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [507
 
+] (Regular-Languages.vrb
+Overfull \hbox (37.87016pt too wide) in paragraph at lines 24--24
+ []             \OT1/cmtt/m/n/8 (to-collapse (filter ($\OML/cmm/m/it/8 ^^U$ \OT
+1/cmtt/m/n/8 (e) (and (eq? (first e) from-state)[] 
+ []
+
+
+Overfull \hbox (37.16182pt too wide) in paragraph at lines 25--25
+ []                                              \OT1/cmtt/m/n/8 (eq? (third e)
+ to-state)))[] 
+ []
+
+
+Overfull \hbox (50.62035pt too wide) in paragraph at lines 27--27
+ []             \OT1/cmtt/m/n/8 (remaining-g (filter ($\OML/cmm/m/it/8 ^^U$ \OT
+1/cmtt/m/n/8 (e) (not (member e to-collapse))) g))][] 
+ []
+
+
+Overfull \hbox (24.41164pt too wide) in paragraph at lines 28--28
+ []        \OT1/cmtt/m/n/8 (cons (list from-state (collapse-edges to-collapse) 
+to-state)[] 
+ []
+
+
+Overfull \hbox (7.41139pt too wide) in paragraph at lines 41--41
+ []    \OT1/cmtt/m/n/8 ,(union-regexp (singleton-regexp "a") (singleton-regexp 
+"b"))[] 
+ []
+
+)
+Overfull \vbox (3.96329pt too high) detected at line 6208
+ []
+
+
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[508
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -8878,7 +8893,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[508
+[509
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -8902,7 +8917,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[509
+[510
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -8926,7 +8941,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[510
+[511
 
 ]
 \openout4 = `Regular-Languages.vrb'.
@@ -8992,26 +9007,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[511
+[512
 
 ]
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6335
- []
-
-
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[512
-
-] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6335
+Overfull \vbox (4.01884pt too high) detected at line 6393
  []
 
 
@@ -9024,7 +9026,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [513
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6335
+Overfull \vbox (4.01884pt too high) detected at line 6393
  []
 
 
@@ -9037,7 +9039,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [514
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6335
+Overfull \vbox (4.01884pt too high) detected at line 6393
  []
 
 
@@ -9050,7 +9052,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [515
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6335
+Overfull \vbox (4.01884pt too high) detected at line 6393
  []
 
 
@@ -9063,7 +9065,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [516
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 6335
+Overfull \vbox (4.01884pt too high) detected at line 6393
  []
 
 
@@ -9075,10 +9077,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [517
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (4.01884pt too high) detected at line 6393
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9099,7 +9102,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [519
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9135,10 +9141,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [523
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9147,7 +9150,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [524
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9165,10 +9171,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [526
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9177,7 +9180,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [527
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9213,10 +9219,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [531
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9228,12 +9231,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 ]
 \openout4 = `Regular-Languages.vrb'.
 
- (Regular-Languages.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 11--19
-[][][][][][][]  
- []
-
-)
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9242,7 +9240,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [533
 
-] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 11--19
 [][][][][][][]  
  []
@@ -9270,10 +9271,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [535
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 11--19
+[][][][][][][]  
+ []
 
- (Regular-Languages.vrb)
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9282,7 +9285,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [536
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9300,14 +9306,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [538
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (4.34106pt too high) detected at line 6580
- []
-
-
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9316,8 +9315,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [539
 
-] (Regular-Languages.vrb)
-Overfull \vbox (4.34106pt too high) detected at line 6580
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
+Overfull \vbox (4.34106pt too high) detected at line 6638
  []
 
 
@@ -9329,10 +9331,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [540
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (4.34106pt too high) detected at line 6638
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9353,7 +9356,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [542
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9407,10 +9413,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [548
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9419,7 +9422,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [549
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9446,10 +9452,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [552
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9458,7 +9461,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [553
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9512,10 +9518,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [559
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9524,7 +9527,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [560
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9578,10 +9584,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [566
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9590,7 +9593,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [567
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9644,10 +9650,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [573
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9656,7 +9659,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [574
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9701,6 +9707,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [579
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[580
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -9711,7 +9726,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[580
+[581
 
 ] (Regular-Languages.vrb)
 
@@ -9720,27 +9735,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[581
+[582
 
 ]
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 9--9
- []     \OT1/cmtt/m/n/8 S = words where the number of a is 3n, starting nonterm
-inal[] 
- []
-
-)
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[582
-
-] (Regular-Languages.vrb
 Overfull \hbox (3.16133pt too wide) in paragraph at lines 9--9
  []     \OT1/cmtt/m/n/8 S = words where the number of a is 3n, starting nonterm
 inal[] 
@@ -9815,10 +9815,13 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [587
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb
+Overfull \hbox (3.16133pt too wide) in paragraph at lines 9--9
+ []     \OT1/cmtt/m/n/8 S = words where the number of a is 3n, starting nonterm
+inal[] 
+ []
 
- (Regular-Languages.vrb)
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9839,7 +9842,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [589
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9848,10 +9854,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [590
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9896,7 +9899,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [594
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9932,10 +9938,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [598
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9944,7 +9947,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [599
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9962,10 +9968,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [601
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -9974,7 +9977,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [602
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10001,14 +10007,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [605
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7310
- []
-
-
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10017,8 +10016,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [606
 
-] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7310
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
+Overfull \vbox (11.01884pt too high) detected at line 7368
  []
 
 
@@ -10031,7 +10033,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [607
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7310
+Overfull \vbox (11.01884pt too high) detected at line 7368
  []
 
 
@@ -10044,7 +10046,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [608
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7310
+Overfull \vbox (11.01884pt too high) detected at line 7368
  []
 
 
@@ -10057,7 +10059,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [609
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (11.01884pt too high) detected at line 7310
+Overfull \vbox (11.01884pt too high) detected at line 7368
  []
 
 
@@ -10069,10 +10071,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [610
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (11.01884pt too high) detected at line 7368
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10081,7 +10084,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [611
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10162,10 +10168,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [620
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10174,7 +10177,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [621
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10291,10 +10297,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [634
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10315,7 +10318,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [636
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10351,16 +10357,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [640
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-<a-star-U-b-star.png, id=20678, 285.065pt x 265.99374pt>
-File: a-star-U-b-star.png Graphic file (type png)
-<use a-star-U-b-star.png>
-Package pdftex.def Info: a-star-U-b-star.png  used on input line 35.
-(pdftex.def)             Requested size: 57.01198pt x 53.1978pt.
-)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10369,7 +10366,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [641
 
- <./a-star-U-b-star.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<a-star-U-b-star.png, id=20710, 285.065pt x 265.99374pt>
 File: a-star-U-b-star.png Graphic file (type png)
 <use a-star-U-b-star.png>
 Package pdftex.def Info: a-star-U-b-star.png  used on input line 35.
@@ -10383,7 +10384,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [642
 
-] (Regular-Languages.vrb
+ <./a-star-U-b-star.png>] (Regular-Languages.vrb
 File: a-star-U-b-star.png Graphic file (type png)
 <use a-star-U-b-star.png>
 Package pdftex.def Info: a-star-U-b-star.png  used on input line 35.
@@ -10411,14 +10412,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [644
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (3.35217pt too high) detected at line 7537
- []
-
-
+] (Regular-Languages.vrb
+File: a-star-U-b-star.png Graphic file (type png)
+<use a-star-U-b-star.png>
+Package pdftex.def Info: a-star-U-b-star.png  used on input line 35.
+(pdftex.def)             Requested size: 57.01198pt x 53.1978pt.
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10431,6 +10430,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 \openout4 = `Regular-Languages.vrb'.
 
  (Regular-Languages.vrb)
+Overfull \vbox (3.35217pt too high) detected at line 7595
+ []
+
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10463,7 +10466,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [648
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10499,14 +10505,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [652
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
- []
-
-
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10515,8 +10514,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [653
 
-] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10529,7 +10531,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [654
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10542,7 +10544,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [655
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10555,7 +10557,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [656
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10568,7 +10570,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [657
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10581,7 +10583,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [658
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10594,7 +10596,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [659
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10607,7 +10609,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [660
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10620,7 +10622,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 [661
 
 ] (Regular-Languages.vrb)
-Overfull \vbox (4.55698pt too high) detected at line 7696
+Overfull \vbox (4.55698pt too high) detected at line 7754
  []
 
 
@@ -10632,10 +10634,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [662
 
-]
-\openout4 = `Regular-Languages.vrb'.
+] (Regular-Languages.vrb)
+Overfull \vbox (4.55698pt too high) detected at line 7754
+ []
 
- (Regular-Languages.vrb)
+
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10644,7 +10647,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [663
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10761,10 +10767,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [676
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10773,7 +10776,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [677
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10800,10 +10806,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [680
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10824,7 +10827,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [682
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10851,16 +10857,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [685
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb
-<anbn-buggyndfa.png, id=22126, 176.66pt x 117.43875pt>
-File: anbn-buggyndfa.png Graphic file (type png)
-<use anbn-buggyndfa.png>
-Package pdftex.def Info: anbn-buggyndfa.png  used on input line 18.
-(pdftex.def)             Requested size: 35.33136pt x 23.48732pt.
-)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10869,7 +10866,11 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [686
 
- <./anbn-buggyndfa.png>] (Regular-Languages.vrb
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb
+<anbn-buggyndfa.png, id=22158, 176.66pt x 117.43875pt>
 File: anbn-buggyndfa.png Graphic file (type png)
 <use anbn-buggyndfa.png>
 Package pdftex.def Info: anbn-buggyndfa.png  used on input line 18.
@@ -10883,7 +10884,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [687
 
-] (Regular-Languages.vrb
+ <./anbn-buggyndfa.png>] (Regular-Languages.vrb
 File: anbn-buggyndfa.png Graphic file (type png)
 <use anbn-buggyndfa.png>
 Package pdftex.def Info: anbn-buggyndfa.png  used on input line 18.
@@ -10953,10 +10954,12 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [692
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb
+File: anbn-buggyndfa.png Graphic file (type png)
+<use anbn-buggyndfa.png>
+Package pdftex.def Info: anbn-buggyndfa.png  used on input line 18.
+(pdftex.def)             Requested size: 35.33136pt x 23.48732pt.
+)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -10965,7 +10968,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [693
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11010,10 +11016,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [698
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11022,7 +11025,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [699
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11076,10 +11082,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [705
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11088,7 +11091,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [706
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11142,6 +11148,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [712
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[713
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -11152,15 +11167,6 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 (Font)              for symbol `textbraceleft' on input line 5.
 
 )
-
-
-Overfull \hbox (5.57967pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Nondeterministic 
- []
-
-[713
-
-] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11241,10 +11247,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [722
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11253,7 +11256,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [723
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11307,10 +11313,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [729
 
-]
-\openout4 = `Regular-Languages.vrb'.
-
- (Regular-Languages.vrb)
+] (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11319,7 +11322,10 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [730
 
-] (Regular-Languages.vrb)
+]
+\openout4 = `Regular-Languages.vrb'.
+
+ (Regular-Languages.vrb)
 
 
 Overfull \hbox (5.57967pt too wide) has occurred while \output is active
@@ -11355,6 +11361,15 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
 
 [734
 
+] (Regular-Languages.vrb)
+
+
+Overfull \hbox (5.57967pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Nondeterministic 
+ []
+
+[735
+
 ]
 \openout4 = `Regular-Languages.vrb'.
 
@@ -11365,7 +11380,7 @@ Overfull \hbox (5.57967pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Nondeterministic 
  []
 
-[735
+[736
 
 ]
 \tf@nav=\write6
@@ -11390,10 +11405,10 @@ Package rerunfilecheck Info: File `Regular-Languages.out' has not changed.
 (rerunfilecheck)             Checksum: 638901173A61DE3DE1314D5D0FAFF5F0;1190.
  ) 
 Here is how much of TeX's memory you used:
- 31451 strings out of 473536
- 674698 string characters out of 5713504
- 941456 words of memory out of 5000000
- 51161 multiletter control sequences out of 15000+600000
+ 31458 strings out of 473536
+ 674876 string characters out of 5713504
+ 941607 words of memory out of 5000000
+ 51164 multiletter control sequences out of 15000+600000
  575041 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,446b,1418s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -11426,9 +11441,9 @@ mtt10.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmtt8.pfb><C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb><C:/Users/morazanm/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Regular-Languages.pdf (735 pages, 6053396 bytes).
+Output written on Regular-Languages.pdf (736 pages, 6061342 bytes).
 PDF statistics:
- 24168 PDF objects out of 26593 (max. 8388607)
- 1477 named destinations out of 1728 (max. 500000)
+ 24200 PDF objects out of 26593 (max. 8388607)
+ 1479 named destinations out of 1728 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
