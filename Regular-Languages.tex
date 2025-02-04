@@ -2343,7 +2343,7 @@ Generates a state not in the given list of states.
 
 \item<4->
 \begin{alltt}
-        [(> (length to-match) (length patt))
+        [(> (length to-match) (length patt)) \textcolor{darkgreen}{patt already detected}
          (list s last-read s)]
 \end{alltt}
 
@@ -3214,6 +3214,8 @@ L = L(AT-LEAST-ONE-MISSING)
                      (C a A) (C b B)
                      (,DEAD a ,DEAD) (,DEAD b ,DEAD))))
 ;; Tests for D
+(check-reject? D \quot(a) \quot(a b b) \quot(a a) \quot(b a a b) \quot(a b a b a b b))
+(check-accept? D \elist \quot(a b) \quot(a b a) \quot(a b a b) \quot(a b a a b a a b))
 (check-equal? (sm-testequiv? D ND 500) #t)
 (check-equal? (sm-testequiv? (ndfa->dfa ND) D 500) #t)
 \end{alltt}
@@ -3257,33 +3259,48 @@ L = L(AT-LEAST-ONE-MISSING)
 \begin{frame}[fragile]
 \frametitle{Nondeterministic Finite Automata}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
    ;; ndfa \arrow dfa
    ;; Purpose: Convert the given ndfa to an equivalent dfa
    (define (ndfa2dfa M)
+\end{alltt}
+
+\item<3->
+\begin{alltt}
      (if (eq? (sm-type M) \quot{}dfa)
          M
+\end{alltt}
+
+\item<4->
+\begin{alltt}
          (convert (sm-states M)
                   (sm-sigma M)
                   (sm-start M)
                   (sm-finals M)
                   (sm-rules M))))
+\end{alltt}
 
+\item<2->
+\begin{alltt}
    ;; Tests for ndfa2dfa
    (define M (ndfa2dfa AT-LEAST-ONE-MISSING))
+   (check-reject? M \quot{}(a b c) \quot{}(b b a b c b a) \quot{}(b a c))
+   (check-accept? M \elist{} \quot{}(a b) \quot{}(a b a) \quot{}(a b a b) \quot{}(a c a a c a a c) \quot{}(c c c b c c c))
    (check-equal? (sm-testequiv? AT-LEAST-ONE-MISSING M 500) #t)
    (check-equal? (sm-testequiv? M (ndfa->dfa AT-LEAST-ONE-MISSING) 500) #t)
 
-   (define N (ndfa2dfa ND))
-   (check-equal? (sm-testequiv? ND N 500) #t)
-   (check-equal? (sm-testequiv? N (ndfa->dfa ND) 500) #t)
+   (define D (ndfa2dfa ND))
+   (check-reject? D \quot{}(a) \quot{}(a b b) \quot{}(a a) \quot{}(b a a b) \quot{}(a b a b a b b))
+   (check-accept? D \elist \quot{}(a b) \quot{}(a b a) \quot{}(a b a b) \quot{}(a b a a b a a b))
+   (check-equal? (sm-testequiv? ND D 500) #t)
+   (check-equal? (sm-testequiv? D (ndfa->dfa ND) 500) #t)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -3659,12 +3676,10 @@ L = L(AT-LEAST-ONE-MISSING)
 
 \item<3->
 \begin{alltt}
-  (let [(dfa-st-names (foldl (\lamb{} (ss acc) (cons (gen-state acc) acc))
-                                 \elist
-                                 super-states))]
-    (map (\lamb{} (ss state) (list ss state))
-         super-states
-         dfa-st-names)))
+  (foldl (\lamb{} (ss acc)
+           (cons (list ss (gen-state (map second acc))) acc))
+         \elist{}
+         super-states))
 \end{alltt}
 
 \item<2->
@@ -4085,7 +4100,7 @@ The languages accepted by finite-state machines are closed under union.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -4139,21 +4154,17 @@ The languages accepted by finite-state machines are closed under union.
 
 \item<3->
 \begin{alltt}
-(check-equal? (sm-apply ab*Ua-aUb-b* \elist) \quot{}reject)
-(check-equal? (sm-apply ab*Ua-aUb-b* \quot{}(a a a a)) \quot{}reject)
-(check-equal? (sm-apply ab*Ua-aUb-b* \quot{}(a b)) \quot{}accept)
-(check-equal? (sm-apply ab*Ua-aUb-b* \quot{}(a a b b)) \quot{}accept)
+(check-reject? ab*Ua-aUb-b* \elist{} \quot{}(a a a a))
+(check-accept? ab*Ua-aUb-b* \quot{}(a b) \quot{}(a a b b))
 (check-equal? (sm-testequiv? ab*Ua-aUb-b* (sm-union ab* ab*Ua-aUb-b*)) #t)
-(check-equal? (sm-apply ab*Uaab* \quot{}(a a a)) \quot{}reject)
-(check-equal? (sm-apply ab*Uaab* \quot{}(b a b a)) \quot{}reject)
-(check-equal? (sm-apply ab*Uaab* \quot{}(a b b)) \quot{}accept)
-(check-equal? (sm-apply ab*Uaab* \quot{}(a a b)) \quot{}accept)
-(check-equal? (sm-apply ab*Uaab* \quot{}(a b b b b)) \quot{}accept)
+
+(check-reject? ab*Uaab* \quot{}(a a a) \quot{}(b a b a))
+(check-accept? ab*Uaab* \quot{}(a b b) \quot{}(a b b) \quot{}(a a b) \quot{}(a b b b b))
 (check-equal? (sm-testequiv? ab*Uaab* (sm-union ab* aab*)) #t)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -4341,7 +4352,7 @@ The languages accepted by finite-state machines are closed concatenation.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -4394,22 +4405,17 @@ The languages accepted by finite-state machines are closed concatenation.
 
 \item<3->
 \begin{alltt}
-(check-equal? (sm-apply ab*-o-a-aUb-b* \elist) \quot{}reject)
-(check-equal? (sm-apply ab*-o-a-aUb-b* \quot{}(b b b)) \quot{}reject)
-(check-equal? (sm-apply ab*-o-a-aUb-b* \quot{}(a a b a b)) \quot{}reject)
-(check-equal? (sm-apply ab*-o-a-aUb-b* \quot{}(a b a a b)) \quot{}accept)
-(check-equal? (sm-apply ab*-o-a-aUb-b* \quot{}(a b b b a a)) \quot{}accept)
+(check-reject? ab*-o-a-aUb-b* \quot{}() \quot{}(b b b) \quot{}(a a b a b))
+(check-accept? ab*-o-a-aUb-b* \quot{}(a b a a b) \quot{}(a b b b a a))
 (check-equal? (sm-testequiv? ab*-o-a-aUb-b* (sm-concat ab* a-aUb-b*)) #t)
-(check-equal? (sm-apply ab*-o-aab* \elist) \quot{}reject)
-(check-equal? (sm-apply ab*-o-aab* \quot{}(a b a)) \quot{}reject)
-(check-equal? (sm-apply ab*-o-aab* \quot{}(a a b b a a)) \quot{}reject)
-(check-equal? (sm-apply ab*-o-aab* \quot{}(a b b a a b b)) \quot{}accept)
-(check-equal? (sm-apply ab*-o-aab* \quot{}(a a a)) \quot{}accept)
+
+(check-reject? ab*-o-aab* \quot{}() \quot{}(a b a) \quot{}(a a b b a a))
+(check-accept? ab*-o-aab* \quot{}(a b b a a b b) \quot{}(a a a))
 (check-equal? (sm-testequiv? ab*-o-aab* (sm-concat ab* aab*)) #t)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -4595,7 +4601,7 @@ The languages accepted by finite-state machines are closed under Kleene star.
 
 \item<3->
 \begin{alltt}
-  (let* [(new-start (generate-symbol \quot{}K (sm-states M)))
+  (let* [(new-start (gen-state (sm-states M)))
          (new-sigma (sm-sigma M))
 \end{alltt}
 
@@ -4624,18 +4630,12 @@ The languages accepted by finite-state machines are closed under Kleene star.
 (define a-aUb-b*-* (kstar-fsa a-aUb-b*))
 (define ab*-* (kstar-fsa ab*))
 
-(check-equal? (sm-apply a-aUb-b*-* \quot{}(b b b)) \quot{}reject)
-(check-equal? (sm-apply a-aUb-b*-* \quot{}(a b a b a a a a)) \quot{}reject)
-(check-equal? (sm-apply a-aUb-b*-* \elist) \quot{}accept)
-(check-equal? (sm-apply a-aUb-b*-* \quot{}(a a a a b b b b)) \quot{}accept)
-(check-equal? (sm-apply a-aUb-b*-* \quot{}(a a b a a b b a a)) \quot{}accept)
+(check-reject? a-aUb-b*-* \quot{}(b b b) \quot{}(a b a b a a a a))
+(check-accept? a-aUb-b*-* \quot{}() \quot{}(a a a a b b b b) \quot{}(a a b a a b b a a))
 (check-equal? (sm-testequiv? a-aUb-b*-* (sm-kleenestar a-aUb-b*)) #t)
 
-(check-equal? (sm-apply ab*-* \quot{}(b)) \quot{}reject)
-(check-equal? (sm-apply ab*-* \quot{}(b b b)) \quot{}reject)
-(check-equal? (sm-apply ab*-* \elist) \quot{}accept)
-(check-equal? (sm-apply ab*-* \quot{}(a a a a)) \quot{}accept)
-(check-equal? (sm-apply ab*-* \quot{}(a b a b b a b b b)) \quot{}accept)
+(check-reject? ab*-* \quot{}(b) \quot{}(b b b))
+(check-accept? ab*-* \quot{}() \quot{}(a a a a) '\quot{}(a b a b b a b b b))
 (check-equal? (sm-testequiv? ab*-* (sm-kleenestar ab*)) #t)
 \end{alltt}
 
@@ -4816,7 +4816,7 @@ The languages accepted by finite-state machines are closed under complement.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -4847,25 +4847,19 @@ The languages accepted by finite-state machines are closed under complement.
 (define not-a* (complement-fsa a*))
 (define not-EVEN-A-ODD-B (complement-fsa EVEN-A-ODD-B))
 
-(check-equal? (sm-apply not-a* \elist) \quot{}reject)
-(check-equal? (sm-apply not-a* \quot{}(a a a)) \quot{}reject)
-(check-equal? (sm-apply not-a* \quot{}(a a b)) \quot{}accept)
-(check-equal? (sm-apply not-a* \quot{}(b b a a b)) \quot{}accept)
+(check-reject? not-a* \quot{}() \quot{}(a a a))
+(check-accept? not-a* \quot{}(a a b) \quot{}(b b a a b))
 (check-equal? (sm-testequiv? not-a* (sm-complement a*)) #t)
 
-(check-equal? (sm-apply not-EVEN-A-ODD-B \quot{}(b)) \quot{}reject)
-(check-equal? (sm-apply not-EVEN-A-ODD-B \quot{}(a a b)) \quot{}reject)
-(check-equal? (sm-apply not-EVEN-A-ODD-B \quot{}(b b a b a)) \quot{}reject)
-(check-equal? (sm-apply not-EVEN-A-ODD-B \elist) \quot{}accept)
-(check-equal? (sm-apply not-EVEN-A-ODD-B \quot{}(b b a a)) \quot{}accept)
-(check-equal? (sm-apply not-EVEN-A-ODD-B \quot{}(a a b b a b)) \quot{}accept)
+(check-reject? not-EVEN-A-ODD-B \quot{}(b) \quot{}(a a b) \quot{}(b b a b a))
+(check-accept? not-EVEN-A-ODD-B \quot{}() \quot{}(b b a a) \quot{}(a a b b a b))
 (check-equal? (sm-testequiv? not-EVEN-A-ODD-B
                              (sm-complement EVEN-A-ODD-B))
               #t)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -5041,7 +5035,7 @@ The languages decided by finite-state automatons are closed under intersection.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -5053,12 +5047,10 @@ The languages decided by finite-state automatons are closed under intersection.
 
 \item<3->
 \begin{alltt}
-  (let* [(notM (sm-rename-states
-                 (list DEAD)
-                 (sm-complement (ndfa->dfa M))))
-         (notN (sm-rename-states
-                 (list DEAD)
-                 (sm-complement (ndfa->dfa N))))]
+  (let* [(notM (complement-fsa (ndfa2dfa M)))
+         (notN (complement-fsa (ndfa2dfa N)))]
+    (complement-fsa (ndfa2dfa (sm-union notM notN))))) 
+    \textcolor{darkgreen}{sm-union does not assume intersection of states is empty}
 \end{alltt}
 
 \item<4->
@@ -5073,25 +5065,19 @@ The languages decided by finite-state automatons are closed under intersection.
 (define a-aUb-b*-intersect-EVEN-A-ODD-B (intersect-fsa  a-aUb-b*
                                                         EVEN-A-ODD-B))
 
-(check-equal? (sm-apply ab*-intersect-a-aUb-b* \elist) \quot{}reject)
-(check-equal? (sm-apply ab*-intersect-a-aUb-b* \quot{}(a b b a)) \quot{}reject)
-(check-equal? (sm-apply ab*-intersect-a-aUb-b* \quot{}(a b)) \quot{}reject)
-(check-equal? (sm-testequiv? ab*-intersect-a-aUb-b*
-                             (sm-intersection ab* a-aUb-b*))
-              #t)
+(check-reject? ab*-intersect-a-aUb-b* \quot{}() \quot{}(a b b a) \quot{}(a b))
+;; L(ab*-intersect-a-aUb-b*) = \(\varnothing\)
+(check-equal? (sm-testequiv? ab*-intersect-a-aUb-b* (sm-intersection ab* a-aUb-b*)) #t)
 
-(check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \elist) \quot{}reject)
-(check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \quot{}(b b)) \quot{}reject)
-(check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \quot{}(a a b b)) \quot{}reject)
-(check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \quot{}(a a b)) \quot{}accept)
-(check-equal? (sm-apply a-aUb-b*-intersect-EVEN-A-ODD-B \quot{}(a a b b b)) \quot{}accept)
+(check-reject? a-aUb-b*-intersect-EVEN-A-ODD-B \quot{}() \quot{}(b b) \quot{}(a a b b))
+(check-accept? a-aUb-b*-intersect-EVEN-A-ODD-B \quot{}(a a b) \quot{}(a a b b b))
 (check-equal? (sm-testequiv? a-aUb-b*-intersect-EVEN-A-ODD-B
                              (sm-intersection a-aUb-b* EVEN-A-ODD-B))
               #t)
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -5307,11 +5293,9 @@ The languages decided by finite-state automatons are closed under intersection.
 \item<1->
 \begin{alltt}
 ;; Tests for reg-exp->ndfa
-(define e (empty-regexp))
-(define a (singleton-regexp "a"))
+(define e (empty-regexp))         (define a (singleton-regexp "a")) 
 (define b (singleton-regexp "b"))
-(define ab (concat-regexp a b))
-(define aa (concat-regexp a a))
+(define ab (concat-regexp a b))   (define aa (concat-regexp a a))
 (define abUe (union-regexp ab e))
 (define abUaa (union-regexp ab aa))
 (define aa-* (kleenestar-regexp aa))
@@ -5320,43 +5304,32 @@ The languages decided by finite-state automatons are closed under intersection.
 
 \item<2->
 \begin{alltt}
-(define Me (regexp->ndfa e \quot{}(a b)))
-(define Ma (regexp->ndfa a \quot{}(a b)))
-(define Mb (regexp->ndfa b \quot{}(a b)))
+(define Me  (regexp->ndfa e \quot{}(a b)))
+(define Ma  (regexp->ndfa a \quot{}(a b)))
+(define Mb  (regexp->ndfa b \quot{}(a b)))
 (define Mab (regexp->ndfa ab \quot{}(a b)))
 (define Maa (regexp->ndfa aa \quot{}(a b)))
-(define MabUMe (regexp->ndfa abUe \quot{}(a b)))
-(define MabUaa (regexp->ndfa abUaa \quot{}(a b)))
-(define Maa-* (regexp->ndfa aa-* \quot{}(a b)))
+(define MabUMe   (regexp->ndfa abUe \quot{}(a b)))
+(define MabUaa   (regexp->ndfa abUaa \quot{}(a b)))
+(define Maa-*    (regexp->ndfa aa-* \quot{}(a b)))
 (define MabUaa-* (regexp->ndfa abUaa-* \quot{}(a b)))
 \end{alltt}
 
 \item<3->
 \begin{alltt}
-(check-equal? (sm-apply Me \quot{}(a)) \quot{}reject)
-(check-equal? (sm-apply Me \elist) \quot{}accept)
-(check-equal? (sm-apply Ma \quot{}(b)) \quot{}reject)
-(check-equal? (sm-apply Ma \quot{}(a)) \quot{}accept)
-(check-equal? (sm-apply Mab \elist) \quot{}reject)
-(check-equal? (sm-apply Mab \quot{}(a b)) \quot{}accept)
-(check-equal? (sm-apply Maa \quot{}(b a a)) \quot{}reject)
-(check-equal? (sm-apply Maa \quot{}(a a)) \quot{}accept)
-(check-equal? (sm-apply MabUMe \quot{}(a b a a)) \quot{}reject)
-(check-equal? (sm-apply MabUMe \quot{}(b b)) \quot{}reject)
-(check-equal? (sm-apply MabUMe \elist) \quot{}accept)
-(check-equal? (sm-apply MabUMe \quot{}(a b)) \quot{}accept)
-(check-equal? (sm-apply MabUaa \quot{}(a b b b)) \quot{}reject)
-(check-equal? (sm-apply MabUaa \quot{}(b a b)) \quot{}reject)
-(check-equal? (sm-apply MabUaa \quot{}(a a)) \quot{}accept)
-(check-equal? (sm-apply MabUaa \quot{}(a b)) \quot{}accept)
-(check-equal? (sm-apply Maa-* \quot{}(a b)) \quot{}reject)
-(check-equal? (sm-apply Maa-* \quot{}(a a a)) \quot{}reject)
-(check-equal? (sm-apply Maa-* \quot{}(a a)) \quot{}accept)
-(check-equal? (sm-apply Maa-* \quot{}(a a a a a a)) \quot{}accept)
-(check-equal? (sm-apply MabUaa-* \quot{}(a b a)) \quot{}reject)
-(check-equal? (sm-apply MabUaa-* \quot{}(b b b b)) \quot{}reject)
-(check-equal? (sm-apply MabUaa-* \elist) \quot{}accept)
-(check-equal? (sm-apply MabUaa-* \quot{}(a a a a a b)) \quot{}accept)
+(check-reject? Me  \quot{}(a))      (check-accept? Me  \quot{}())
+(check-reject? Ma  \quot{}(b))      (check-accept? Ma  \quot{}(a))
+(check-reject? Mab \quot{}())       (check-accept? Mab \quot{}(a b))
+(check-reject? Maa \quot{}(b a a))
+(check-accept? Maa \quot{}(a a))
+(check-reject? MabUMe   \quot{}(a b a a) \quot{}(b b))
+(check-accept? MabUMe   \quot{}() \quot{}(a b))
+(check-reject? MabUaa   \quot{}(a b b b) \quot{}(b a b))
+(check-accept? MabUaa   \quot{}(a a) \quot{}(a b))
+(check-reject? Maa-*    \quot{}(a b) \quot{}(a a a))
+(check-accept? Maa-*    \quot{}(a a) \quot{}(a a a a a a))
+(check-reject? MabUaa-* \quot{}(a b a) \quot{}(b b b b))
+(check-accept? MabUaa-* \quot{}() \quot{}(a a a a a b))
 \end{alltt}
 
 \end{itemize}
@@ -6055,12 +6028,12 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 
 \item<3->
 \begin{alltt}
-  (let* [(new-start (generate-symbol \quot{}S (sm-states m)))
+  (let* [(new-start (gen-state (sm-states m)))
 \end{alltt}
 
 \item<4->
 \begin{alltt}
-         (new-final (generate-symbol \quot{}F (sm-states m)))
+         (new-final (gen-state (sm-states m)))
 \end{alltt}
 
 \item<5->
@@ -6068,16 +6041,14 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
          (init-dgraph (make-dgraph
                        (cons (list new-start EMP (sm-start m))
                              (append
-                              (map (\lamb (f) (list f EMP new-final))
-                                     (sm-finals m))
+                              (map (\lamb (f) (list f EMP new-final)) (sm-finals m))
                                    (sm-rules m)))))
 \end{alltt}
 
 \item<6->
 \begin{alltt}
          (collapsed-dgraph
-          (rip-out-nodes (sm-states m)
-                         (remove-multiple-edges init-dgraph)))]
+           (rip-out-nodes (sm-states m) (remove-multiple-edges init-dgraph)))]
 \end{alltt}
 
 \item<7->
@@ -6090,20 +6061,22 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \item<2->
 \begin{alltt}
 ;; Tests for ndfa2regexp
-(check-equal? (printable-regexp (ndfa2regexp EMPTY)) "()")
-(check-equal? (printable-regexp (ndfa2regexp b*))    "b*")
-(check-equal? (printable-regexp (ndfa2regexp ab*Uaa*)) "(b U a)(ab* U ba*)")
-\textcolor{red}{Alternative testing (for messy regexps)}
+(define b*-regexp (ndfa2regexp b*))
+(define ba*Uab*-regexp (ndfa2regexp ba*Uab*))
 (define EVEN-A-ODD-B-regexp (ndfa2regexp EVEN-A-ODD-B))
-(check-equal?
- (sm-apply EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp))
- 'accept)
-(check-equal?
- (sm-apply EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp))
- 'accept)
-(check-equal?
- (sm-apply EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp))
- 'accept)
+
+(check-equal? (printable-regexp (ndfa2regexp NULL)) "\(\varnothing\)") ;; \textcolor{darkgreen}{null-regexp cannot gen words}
+(check-accept? b* (gen-regexp-word b*-regexp))
+
+(check-accept? ba*Uab* (gen-regexp-word ba*Uab*-regexp)
+               (gen-regexp-word ba*Uab*-regexp)
+               (gen-regexp-word ba*Uab*-regexp)
+               (gen-regexp-word ba*Uab*-regexp))
+
+(check-accept? EVEN-A-ODD-B (gen-regexp-word EVEN-A-ODD-B-regexp)
+                            (gen-regexp-word EVEN-A-ODD-B-regexp)
+                            (gen-regexp-word EVEN-A-ODD-B-regexp)
+                            (gen-regexp-word EVEN-A-ODD-B-regexp))
 \end{alltt}
 
 \end{itemize}
@@ -6113,7 +6086,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -6154,13 +6127,13 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -6204,7 +6177,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -6241,7 +6214,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -6270,13 +6243,13 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -6286,13 +6259,13 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
 \frametitle{FSA and Regular Expressions}
 %\framesubtitle{HOMEWORK}
-\begin{scriptsize}
+\begin{tiny}
 \begin{itemize}
 \item<1->
 \begin{alltt}
@@ -6323,7 +6296,7 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 \end{alltt}
 
 \end{itemize}
-\end{scriptsize}
+\end{tiny}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -6857,9 +6830,9 @@ A* does not generate w. Thus, w\(\notin\)L(A*).
 
 \item<5->
 \begin{alltt}
-           \qquot{}((S -> b) (S -> AbA)
-             (A -> EMP)      (A -> bA)
-             (A -> AbAaA)    (A -> AaAbA) )
+           \qquot{}((S -> b)      (S -> AbA)
+             (A -> EMP)    (A -> bA)
+             (A -> AbAaA)  (A -> AaAbA) )
 \end{alltt}
 
 \item<4->
@@ -7104,16 +7077,20 @@ w. Thus, w\(\notin\)L(numb>numa).
 \begin{itemize}
 \item<1-> Implementation
 \begin{alltt}
-     (define MULT3-as (make-rg \quot{}(S B C)
-                               \quot{}(a b)
-                               \qquot{}((S ,ARROW ,EMP)
-                                 (S ,ARROW aB)
-                                 (S ,ARROW bS)
-                                 (B ,ARROW aC)
-                                 (B ,ARROW bB)
-                                 (C ,ARROW aS)
-                                 (C ,ARROW bC))
-                               \quot{}S))
+(define MULT3-as 
+  (make-rg \quot{}(S B C)
+           \quot{}(a b)
+           \qquot{}((S ,ARROW ,EMP)
+             (S ,ARROW aB)
+             (S ,ARROW bS)
+             (B ,ARROW aC)
+             (B ,ARROW bB)
+             (C ,ARROW aS)
+             (C ,ARROW bC))
+           \quot{}S
+           #:rejects \quot{}((b b a b b) (b b a b b a) 
+                       (b b a b a b a a b))
+           #:accepts \quot{}(() (a a a) (b b a a b a b b))))
 \end{alltt}
 
 \item<2-> Run the tests
@@ -7342,25 +7319,13 @@ L is regular $\Leftrightarrow$ L is generated by a regular grammar.
 (define SIGMA*-rg (dfa2rg SIGMA*))
 (define EA-OB-rg  (dfa2rg EVEN-A-ODD-B))
 
-(check-equal? (eq? (last (grammar-derive SIGMA*-rg \elist)) EMP)
-              (eq? (sm-apply SIGMA* \elist) \quot{}accept))
-(check-equal? (eq? (last (grammar-derive SIGMA*-rg \quot{}(a b c)))
-                   (los->symbol \quot{}(a b c)))
-              (eq? (sm-apply SIGMA* \quot{}(a b c)) \quot{}accept))
-(check-equal? (eq? (last (grammar-derive SIGMA*-rg \quot{}(c c a b a c)))
-                   (los->symbol \quot{}(c c a b a c)))
-              (eq? (sm-apply SIGMA* \quot{}(c c a b a c)) \quot{}accept))
+(check-accept? SIGMA*    \quot{}() \quot{}(a b c) \quot{}(c c a b a c))
+(check-derive? SIGMA*-rg \quot{}() \quot{}(a b c) \quot{}(c c a b a c))
 
-(check-equal? (string? (grammar-derive EA-OB-rg \quot{}(a b)))
-              (eq? (sm-apply EVEN-A-ODD-B \quot{}(a b)) \quot{}reject))
-(check-equal? (string? (grammar-derive EA-OB-rg \quot{}(a a b a)))
-              (eq? (sm-apply EVEN-A-ODD-B \quot{}(a a b a)) \quot{}reject))
-(check-equal? (eq? (last (grammar-derive EA-OB-rg \quot{}(b)))
-                   (los->symbol \quot{}(b)))
-              (eq? (sm-apply EVEN-A-ODD-B \quot{}(b)) \quot{}accept))
-(check-equal? (eq? (last (grammar-derive EA-OB-rg \quot{}(b a a b b)))
-                   (los->symbol \quot{}(b a a b b)))
-              (eq? (sm-apply EVEN-A-ODD-B \quot{}(b a a b b))
+(check-reject?     EVEN-A-ODD-B \quot{}(a b) \quot{}(a a b a))
+(check-not-derive? EA-OB-rg     \quot{}(a b) \quot{}(a a b a))
+(check-accept?     EVEN-A-ODD-B \quot{}(b) \quot{}(b a a b b))
+(check-derive?     EVEN-A-ODD-B \quot{}(b) \quot{}(b a a b b))
 \end{alltt}
 
 \end{itemize}
@@ -7618,26 +7583,30 @@ L is regular $\Rightarrow$ L is generated by a regular grammar.
 \item<1->
 \begin{alltt}
 ;; Tests for rg2ndfa
-(define SIGMA*2 (rg2ndfa SIGMA*-rg))  (define EA-OB (rg2ndfa EA-OB-rg))
-(define a*Ub*   (rg2ndfa a*Ub*-rg))   (define a-aba (rg2ndfa a-aba-rg))
+(define SIGMA*-ndfa (rg2ndfa SIGMA*-rg))
+(define EA-OB-ndfa  (rg2ndfa EA-OB-rg))
+(define a*Ub*-ndfa  (rg2ndfa a*Ub*-rg))
+(define a-aba-ndfa  (rg2ndfa a-aba-rg))
 
-(check-equal? (eq? (sm-apply SIGMA*2 \elist) \quot{}accept)
-              (eq? (last (grammar-derive SIGMA*-rg \elist)) EMP))
-     \vdotss{}
-(check-equal? (sm-testequiv? SIGMA* SIGMA*2) #t)
-(check-equal? (eq? (sm-apply EA-OB \quot{}(a b)) \quot{}reject)
-              (string=? (grammar-derive EA-OB-rg \quot{}(a b))
-                        "(a b) is not in L(G)."))
-(check-equal? (eq? (sm-apply EA-OB \quot{}(b)) \quot{}accept)
-              (eq? (last (grammar-derive EA-OB-rg \quot{}(b))) (los->symbol \quot{}(b))))
-(check-equal? (sm-testequiv? EVEN-A-ODD-B EA-OB) #t)
-     \vdotss{}
-(check-equal? (eq? (sm-apply a*Ub* \quot{}(a b)) \quot{}reject)
-              (string=? (grammar-derive a*Ub*-rg \quot{}(a b))
-                        "(a b) is not in L(G)."))
-(check-equal? (eq? (sm-apply a*Ub* \elist) \quot{}accept)
-              (eq? (last (grammar-derive a*Ub*-rg \elist)) EMP))
-     \vdotss{}
+(check-derive?     SIGMA*-rg   \quot{}() \quot{}(a b c) \quot{}(c c a b a c))
+(check-accept?     SIGMA*-ndfa \quot{}() \quot{}(a b c) \quot{}(c c a b a c))
+(check-equal? (sm-testequiv? SIGMA* SIGMA*-ndfa) #t)
+
+(check-not-derive? EA-OB-rg   \quot{}(a b) \quot{}(a a b a))
+(check-reject?     EA-OB-ndfa \quot{}(a b) \quot{}(a a b a))
+(check-derive? EA-OB-rg   \quot{}(b) \quot{}(b a a b b))
+(check-accept? EA-OB-ndfa \quot{}(b) \quot{}(b a a b b))
+(check-equal? (sm-testequiv? EVEN-A-ODD-B EA-OB-ndfa) #t)
+
+(check-not-derive? a*Ub*-rg   \quot{}(a b) \quot{}(a b b a))
+(check-reject?     a*Ub*-ndfa \quot{}(a b) \quot{}(a b b a))
+(check-derive? a*Ub*-rg   \quot{}() \quot{}(a a a) \quot{}(b))
+(check-accept? a*Ub*-ndfa \quot{}() \quot{}(a a a) \quot{}(b))
+
+(check-not-derive? a-aba-rg   \quot{}(b b) \quot{}())
+(check-reject?     a-aba-ndfa \quot{}(b b) \quot{}())
+(check-derive? a-aba-rg   \quot{}(a b a) \quot{}(a))
+(check-accept? a-aba-ndfa \quot{}(a b a) \quot{}(a))
 \end{alltt}
 
 \end{itemize}

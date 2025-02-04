@@ -190,14 +190,16 @@
 \item<2-> Tests
 \begin{alltt}
 ;; Tests for a2nb2n
-(check-equal? (grammar-derive a2nb2n \quot{}(b b b))
-              "(b b b) is not in L(G)")
-(check-equal? (grammar-derive a2nb2n \quot{}(a b a))
-              "(a b a) is not in L(G)")
-(check-equal? (grammar-derive a2nb2n \quot{}(a b))
-              \quot{}(S -> aSb -> ab))
-(check-equal? (grammar-derive a2nb2n \quot{}(a a a b b b))
-              \quot{}(S -> aSb -> aaSbb -> aaaSbbb -> aaabbb))
+#:rejects \quot{}((b b b) (a b a))
+#:accepts \quot{}(() (a b) (a a b b) (a a a b b b) (a a a a a b b b b b))
+     \textcolor{darkgreen}{Both methods are acceptable}
+(check-not-derive? a2nb2n \quot{}(b b b))
+(check-not-derive? a2nb2n \quot{}(a b a))
+(check-derive? a2nb2n \quot{}())
+(check-derive? a2nb2n \quot{}(a b))
+(check-derive? a2nb2n \quot{}(a a b b))
+(check-derive? a2nb2n \quot{}(a a a b b b))
+(check-derive? a2nb2n \quot{}(a a a a a b b b b b))
 \end{alltt}
 
 \end{itemize}
@@ -214,19 +216,18 @@
 #lang fsm
 ;; L = a^nb^n Syntactic Categories
 ;;  S = words that start with n a and end with n b
-(define a2nb2n (make-cfg \quot{}(S)
-                         \quot{}(a b)
-                         \qquot((S ,ARROW ,EMP) (S ,ARROW aSb))
-                         \quot{}S))
-(check-equal? (grammar-derive a2nb2n \quot{}(b b b))  ;; Tests for a2nb2n
-              "(b b b) is not in L(G)")
-(check-equal? (grammar-derive a2nb2n \quot{}(a b a))
-              "(a b a) is not in L(G)")
-(check-equal? (grammar-derive a2nb2n \quot{}(a b))
-              \quot{}(S -> aSb -> ab))
-(check-equal? (grammar-derive a2nb2n \quot{}(a a a b b b))
-              \quot{}(S -> aSb -> aaSbb -> aaaSbbb -> aaabbb))
+(define a2nb2n 
+  (make-cfg \quot{}(S)
+            \quot{}(a b)
+            \qquot((S ,ARROW ,EMP) 
+              (S ,ARROW aSb))
+            \quot{}S
+            #:rejects \quot{}((b b b) (a b a))
+            #:accepts \quot{}(() (a b) (a a b b) (a a a b b b) 
+                        (a a a a a b b b b b))))
 \end{alltt}
+
+\item<2-> Illustrate derivation tree using grammar-viz
 
 \end{itemize}
 \end{scriptsize}
@@ -269,6 +270,128 @@
 \begin{itemize}
 \item<1->
 \begin{alltt}
+#lang fsm
+;; L = a^nb^n Syntactic Categories
+;;  S = words that start with n a and end with n b
+(define a2nb2n 
+  (make-cfg \quot{}(S)
+            \quot{}(a b)
+            \qquot((S ,ARROW ,EMP) 
+              (S ,ARROW aSb))
+            \quot{}S
+            #:rejects \quot{}((b b b) (a b a))
+            #:accepts \quot{}(() (a b) (a a b b) (a a a b b b) 
+                        (a a a a a b b b b b))))
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+;; word --> Boolean
+;; Purpose: Determine if given word is in L(a2nb2n)
+(define (S-INV w)
+  (let* [(as (takef w (\lamb{} (s) (eq? s \quot{}a))))
+         (bs (drop w (length as)))]
+    (and (equal? w (append as bs))
+         (= (length as) (length bs)))))
+(check-equal? (S-INV \quot{}(a)) #f)
+(check-equal? (S-INV \quot{}(b b a a)) #f)
+(check-equal? (S-INV \quot{}(a a a b b)) #f)
+(check-equal? (S-INV \quot{}()) #t)
+(check-equal? (S-INV \quot{}(a a b b)) #t)
+(check-equal? (S-INV \quot{}(a b)) #t)
+\end{alltt}
+
+\item<2-> Illustrate invariants hold using grammar-viz
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Context-Free Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{tiny}
+\begin{itemize}
+\item<1->
+\begin{alltt}
+Proof invariants hold by induction on, h, the height of
+the derivation tree.
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+Base Case: h=1
+
+This means the only rule used is (S ,ARROW ,EMP). Observe
+that 0 as followed by 0 bs is generated. Thus, S-INV holds.
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+Inductive Step
+
+Assume: invariants hold for h=k
+  Show: invariants hold for h=k+1
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+k>=0 ==> k+1>0
+
+This means that (S ,ARROW aSb) is used to derive the word.
+By inductive hypothesis, the S in aSb generates a^rb^r.
+Using this rule adds an a to the front and a b to the back
+yielding a^r+1b^r+1. Thus, S-INV holds.
+\end{alltt}
+
+\item<5->
+\begin{alltt}
+L=L(a2nb2n)
+
+\end{alltt}
+
+\item<6->
+\begin{alltt}
+w\(\in\)L <==> w\(\in\)L(a2nb2n)
+(\(\Rightarrow\)) Assume w\(\in\)L
+This means w=a\(\sp{n}\)b\(\sp{n}\). Given that invariants always hold,
+w is generated using a2nb2n by first applying (S ,ARROW aSb)
+r times and then using (S ,ARROW ,EMP). Thus, w\(\in\)L(a2nb2n).
+\end{alltt}
+
+\item<7->
+\begin{alltt}
+(\(\Leftarrow\)) Assume w\(\in\)L(a2nb2n)
+Given that invariants always hold, this means w=a\(\sp{n}\)b\(\sp{n}\).
+Thus, w\(\in\)L.
+\end{alltt}
+
+\item<8->
+\begin{alltt}
+w\(\notin\)L <==> w\(\notin\)in L(a2nb2n)
+(\(\Rightarrow\)) Assume w\(\notin\)L
+This means w!=a\(\sp{n}\)b\(\sp{n}\). Given that invariants always hold,
+S cannot generate w. Thus, w\(\notin\)L(a2nb2n).
+\end{alltt}
+
+\item<9->
+\begin{alltt}
+(\(\Leftarrow\)) Assume w\(\notin\)L(a2nb2n)
+Given that invariants always hold, this means w!=a\(\sp{n}\)b\(\sp{n}\).
+Thus, w\(\notin\)L.
+\end{alltt}
+
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Context-Free Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1->
+\begin{alltt}
      L = \{w | w\(\in\)(a b)\(\sp{*}\) \(\wedge\) w has more b\textrm{s} than a\textrm{s}\}
 \end{alltt}
 
@@ -289,13 +412,13 @@
 \begin{itemize}
 \item<1->
 \begin{alltt}
-     #lang fsm
+#lang fsm
 \end{alltt}
 
 \item<2->
 \begin{alltt}
-     ;; Syntactic Categories
-     ;;  S = words such that number of b > number of a
+;; Syntactic Categories
+;;  S = words such that number of b > number of a
 \end{alltt}
 
 \item<3->
@@ -305,47 +428,31 @@
 
 \item<4->
 \begin{alltt}
-     ;; L = {w | w in (a b)* AND  w has more b than a}
-     (define numb>numa (make-cfg \quot{}(S A)
-                                 \quot{}(a b)
+;; L = {w | w in (a b)* AND  w has more b than a}
+(define numb>numa 
+  (make-cfg \quot{}(S A)
+            \quot{}(a b)
 \end{alltt}
 
 \item<5->
 \begin{alltt}
-                                 \qquot((S ,ARROW b)
-                                   (S ,ARROW AbA)
-                                   (A ,ARROW AaAbA)
-                                   (A ,ARROW AbAaA)
-                                   (A ,ARROW ,EMP)
-                                   (A ,ARROW bA))
-\end{alltt}
-
-\item<4->
-\begin{alltt}
-                                   \quot{}S))
+            \qquot((S ,ARROW b)
+              (S ,ARROW AbA)
+              (A ,ARROW AaAbA)
+              (A ,ARROW AbAaA)
+              (A ,ARROW ,EMP)
+              (A ,ARROW bA))
 \end{alltt}
 
 \item<6->
 \begin{alltt}
-     ;; Tests for numb>numa
-     (check-equal? (grammar-derive numb>numa \quot{}(a b))
-                   \dquot{}(a b) is not in L(G)\dquot{})
-     (check-equal? (grammar-derive numb>numa \quot{}(a b a))
-                   \dquot{}(a b a) is not in L(G)\dquot{})
-     (check-equal? (grammar-derive numb>numa \quot{}(a a a a a))
-                   \dquot{}(a a a a a) is not in L(G)\dquot{})
-     (check-equal? (grammar-derive numb>numa \quot{}(b b b))
-                   \quot{}(S -> AbA -> bA -> bbA -> bbbA -> bbb))
-     (check-equal? (grammar-derive numb>numa \quot{}(b b a b a a b))
-                   \quot{}(S -> AbA -> AbAaAbA -> bAaAbA -> bAbAaAaAbA
-                       -> bAbAaAbAaAaAbA -> bbAaAbAaAaAbA -> bbaAbAaAaAbA
-                       -> bbabAaAaAbA -> bbabaAaAbA -> bbabaaAbA
-                       -> bbabaabA -> bbabaab))
-     (check-equal? (grammar-derive numb>numa \quot{}(a a a b b b b))
-                   \quot{}(S -> AbA -> AaAbAbA -> aAbAbA -> aAaAbAbAbA
-                       -> aaAbAbAbA -> aaAaAbAbAbAbA -> aaaAbAbAbAbA
-                       -> aaabAbAbAbA -> aaabbAbAbA -> aaabbbAbA
-                       ->  aaabbbbA -> aaabbbb))
+            #:rejects \quot{}((a b) (a b a) (a a a a a))
+            #:accepts \quot{}((b b b) (b b a b a a b) (a a a b b b b))
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+            \quot{}S))
 \end{alltt}
 
 \end{itemize}
