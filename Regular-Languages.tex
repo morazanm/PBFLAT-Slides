@@ -6068,7 +6068,8 @@ L is a regular language $\Rightarrow$ L is decided by a finite-state machine.
 (check-equal? (printable-regexp (ndfa2regexp NULL)) "\(\varnothing\)") ;; \textcolor{darkgreen}{null-regexp cannot gen words}
 (check-accept? b* (gen-regexp-word b*-regexp))
 
-(check-accept? ba*Uab* (gen-regexp-word ba*Uab*-regexp)
+(check-accept? ba*Uab* 
+               (gen-regexp-word ba*Uab*-regexp)
                (gen-regexp-word ba*Uab*-regexp)
                (gen-regexp-word ba*Uab*-regexp)
                (gen-regexp-word ba*Uab*-regexp))

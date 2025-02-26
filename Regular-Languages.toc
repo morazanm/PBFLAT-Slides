@@ -3,4 +3,4 @@
 \beamer@sectionintoc {3}{Nondeterministic Finite Automata}{176}{0}{3}
 \beamer@sectionintoc {4}{Finite-State Automata and Regular Expressions}{316}{0}{4}
 \beamer@sectionintoc {5}{Regular Grammars}{537}{0}{5}
-\beamer@sectionintoc {6}{Pumping Theorem for Regular Languages}{686}{0}{6}
+\beamer@sectionintoc {6}{Pumping Theorem for Regular Languages}{666}{0}{6}
