@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.19)  4 FEB 2025 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.19)  5 MAR 2025 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1537,23 +1537,11 @@ Overfull \vbox (13.24107pt too high) detected at line 308
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb
-Overfull \hbox (24.41054pt too wide) in paragraph at lines 25--25
- []              \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (S -> SpS -> StSpS -> ItSpS -
-> xtSpS -> xtIpS -> xtzpS[] 
- []
-
-)
+ (Context-Free-Languages.vrb)
 
 [64
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (24.41054pt too wide) in paragraph at lines 25--25
- []              \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (S -> SpS -> StSpS -> ItSpS -
-> xtSpS -> xtIpS -> xtzpS[] 
- []
-
-)
+] (Context-Free-Languages.vrb)
 
 [65
 
@@ -1561,7 +1549,7 @@ Overfull \hbox (24.41054pt too wide) in paragraph at lines 25--25
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
-Overfull \vbox (0.60706pt too high) detected at line 918
+Overfull \vbox (0.60706pt too high) detected at line 911
  []
 
 
@@ -1569,7 +1557,7 @@ Overfull \vbox (0.60706pt too high) detected at line 918
 [66
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (0.60706pt too high) detected at line 918
+Overfull \vbox (0.60706pt too high) detected at line 911
  []
 
 
@@ -1577,7 +1565,7 @@ Overfull \vbox (0.60706pt too high) detected at line 918
 [67
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (0.60706pt too high) detected at line 918
+Overfull \vbox (0.60706pt too high) detected at line 911
  []
 
 
@@ -1585,7 +1573,7 @@ Overfull \vbox (0.60706pt too high) detected at line 918
 [68
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (0.60706pt too high) detected at line 918
+Overfull \vbox (0.60706pt too high) detected at line 911
  []
 
 
@@ -1596,14 +1584,26 @@ Overfull \vbox (0.60706pt too high) detected at line 918
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+Overfull \vbox (13.24107pt too high) detected at line 951
+ []
+
+
 
 [70
 
 ] (Context-Free-Languages.vrb)
+Overfull \vbox (13.24107pt too high) detected at line 951
+ []
+
+
 
 [71
 
 ] (Context-Free-Languages.vrb)
+Overfull \vbox (13.24107pt too high) detected at line 951
+ []
+
+
 
 [72
 
@@ -1733,23 +1733,53 @@ Package pdftex.def Info: pda-diagram.jpg  used on input line 7.
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb)
+ (Context-Free-Languages.vrb
+Overfull \hbox (15.91042pt too wide) in paragraph at lines 11--11
+ []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a b) (a a b 
+b) (a a a b b b) (a a a a a b b b b b))[] 
+ []
+
+)
 
 [95
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (15.91042pt too wide) in paragraph at lines 11--11
+ []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a b) (a a b 
+b) (a a a b b b) (a a a a a b b b b b))[] 
+ []
+
+)
 
 [96
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (15.91042pt too wide) in paragraph at lines 11--11
+ []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a b) (a a b 
+b) (a a a b b b) (a a a a a b b b b b))[] 
+ []
+
+)
 
 [97
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (15.91042pt too wide) in paragraph at lines 11--11
+ []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a b) (a a b 
+b) (a a a b b b) (a a a a a b b b b b))[] 
+ []
+
+)
 
 [98
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (15.91042pt too wide) in paragraph at lines 11--11
+ []\OT1/cmtt/m/n/8 #:accepts \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 (() (a b) (a a b 
+b) (a a a b b b) (a a a a a b b b b b))[] 
+ []
+
+)
 
 [99
 
@@ -1767,13 +1797,15 @@ Package pdftex.def Info: pda-diagram.jpg  used on input line 7.
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb)
+ (Context-Free-Languages.vrb
+Overfull \hbox (2.09799pt too wide) in paragraph at lines 22--22
+ []                \OT1/cmtt/m/n/6 #:accepts \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (
+() (a b) (a a b b) (a a a b b b) (a a a a a b b b b b))))[] 
+ []
+
+)
 
 [102
-
-] (Context-Free-Languages.vrb)
-
-[103
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
@@ -1785,7 +1817,21 @@ length as) (length bs)))))[]
  []
 
 )
-Overfull \vbox (4.01884pt too high) detected at line 1326
+Overfull \vbox (4.01884pt too high) detected at line 1300
+ []
+
+
+
+[103
+
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28636pt too wide) in paragraph at lines 43--43
+ []         \OT1/cmtt/m/n/6 (and (empty? stck) (equal? (append as bs) ci)  (= (
+length as) (length bs)))))[] 
+ []
+
+)
+Overfull \vbox (4.01884pt too high) detected at line 1300
  []
 
 
@@ -1799,24 +1845,17 @@ length as) (length bs)))))[]
  []
 
 )
-Overfull \vbox (4.01884pt too high) detected at line 1326
+Overfull \vbox (4.01884pt too high) detected at line 1300
  []
 
 
 
 [105
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (5.28636pt too wide) in paragraph at lines 43--43
- []         \OT1/cmtt/m/n/6 (and (empty? stck) (equal? (append as bs) ci)  (= (
-length as) (length bs)))))[] 
- []
+]
+\openout4 = `Context-Free-Languages.vrb'.
 
-)
-Overfull \vbox (4.01884pt too high) detected at line 1326
- []
-
-
+ (Context-Free-Languages.vrb)
 
 [106
 
@@ -1834,10 +1873,7 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [108
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [109
 
@@ -1845,14 +1881,14 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [110
 
-] (Context-Free-Languages.vrb)
-
-[111
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[111
+
+] (Context-Free-Languages.vrb)
 
 [112
 
@@ -1860,14 +1896,14 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [113
 
-] (Context-Free-Languages.vrb)
-
-[114
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[114
+
+] (Context-Free-Languages.vrb)
 
 [115
 
@@ -1879,14 +1915,14 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [117
 
-] (Context-Free-Languages.vrb)
-
-[118
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[118
+
+] (Context-Free-Languages.vrb)
 
 [119
 
@@ -1926,7 +1962,10 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [128
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [129
 
@@ -1958,21 +1997,18 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [133
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [134
 
-] (Context-Free-Languages.vrb)
-
-[135
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[135
+
+] (Context-Free-Languages.vrb)
 
 [136
 
@@ -1980,35 +2016,31 @@ Overfull \vbox (4.01884pt too high) detected at line 1326
 
 [137
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [138
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [139
 
-] (Context-Free-Languages.vrb)
-
-[140
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[140
+
+] (Context-Free-Languages.vrb)
 
 [141
 
 ] (Context-Free-Languages.vrb)
 
 [142
-
-] (Context-Free-Languages.vrb)
-
-[143
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
@@ -2021,6 +2053,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{in-alom}) has
 l.9 \label{in-alom}
                    )
 
+[143
+
+] (Context-Free-Languages.vrb)
+
 [144
 
 ] (Context-Free-Languages.vrb)
@@ -2030,10 +2066,6 @@ l.9 \label{in-alom}
 ] (Context-Free-Languages.vrb)
 
 [146
-
-] (Context-Free-Languages.vrb)
-
-[147
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
@@ -2046,13 +2078,20 @@ has been already used, duplicate ignored
 l.7 \label{notin-alom}
                       )
 
+[147
+
+] (Context-Free-Languages.vrb)
+
 [148
 
 ] (Context-Free-Languages.vrb)
 
 [149
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [150
 
@@ -2063,21 +2102,18 @@ l.7 \label{notin-alom}
 
 [151
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [152
 
-] (Context-Free-Languages.vrb)
-
-[153
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[153
+
+] (Context-Free-Languages.vrb)
 
 [154
 
@@ -2093,50 +2129,29 @@ l.7 \label{notin-alom}
 
 [157
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [158
+
+] (Context-Free-Languages.vrb)
+
+[159
+
+] (Context-Free-Languages.vrb)
+
+[160
+
+] (Context-Free-Languages.vrb)
+
+[161
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb
-Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
- []                \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 
-(r) (list (list (first r) (second r) EMP)[] 
- []
-
-)
-
-[159
-
-] (Context-Free-Languages.vrb
-Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
- []                \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 
-(r) (list (list (first r) (second r) EMP)[] 
- []
-
-)
-
-[160
-
-] (Context-Free-Languages.vrb
-Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
- []                \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 
-(r) (list (list (first r) (second r) EMP)[] 
- []
-
-)
-
-[161
-
-] (Context-Free-Languages.vrb
-Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
- []                \OT1/cmtt/m/n/8 (map ($\OML/cmm/m/it/8 ^^U$ \OT1/cmtt/m/n/8 
-(r) (list (list (first r) (second r) EMP)[] 
- []
-
-)
+ (Context-Free-Languages.vrb)
 
 [162
 
@@ -2147,21 +2162,18 @@ Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
 
 [163
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [164
 
-] (Context-Free-Languages.vrb)
-
-[165
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[165
+
+] (Context-Free-Languages.vrb)
 
 [166
 
@@ -2177,14 +2189,14 @@ Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
 
 [169
 
-] (Context-Free-Languages.vrb)
-
-[170
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[170
+
+] (Context-Free-Languages.vrb)
 
 [171
 
@@ -2192,14 +2204,14 @@ Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
 
 [172
 
-] (Context-Free-Languages.vrb)
-
-[173
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[173
+
+] (Context-Free-Languages.vrb)
 
 [174
 
@@ -2211,41 +2223,29 @@ Overfull \hbox (8.11974pt too wide) in paragraph at lines 28--28
 
 [176
 
-] (Context-Free-Languages.vrb)
-
-[177
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
-Overfull \vbox (21.46329pt too high) detected at line 2095
- []
 
+[177
 
+] (Context-Free-Languages.vrb)
 
 [178
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (21.46329pt too high) detected at line 2095
- []
-
-
 
 [179
-
-] (Context-Free-Languages.vrb)
-Overfull \vbox (21.46329pt too high) detected at line 2095
- []
-
-
-
-[180
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[180
+
+] (Context-Free-Languages.vrb)
 
 [181
 
@@ -2257,14 +2257,14 @@ Overfull \vbox (21.46329pt too high) detected at line 2095
 
 [183
 
-] (Context-Free-Languages.vrb)
-
-[184
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[184
+
+] (Context-Free-Languages.vrb)
 
 [185
 
@@ -2276,16 +2276,12 @@ Overfull \vbox (21.46329pt too high) detected at line 2095
 
 [187
 
-] (Context-Free-Languages.vrb)
-
-[188
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
 
-[189
+[188
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
@@ -2301,6 +2297,10 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              for symbol `textbraceleft' on input line 32.
 
 )
+
+[189
+
+] (Context-Free-Languages.vrb)
 
 [190
 
@@ -2336,14 +2336,14 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 [198
 
-] (Context-Free-Languages.vrb)
-
-[199
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[199
+
+] (Context-Free-Languages.vrb)
 
 [200
 
@@ -2363,20 +2363,16 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 [204
 
-] (Context-Free-Languages.vrb)
-
-[205
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
 
-[206
+[205
 
 ] (Context-Free-Languages.vrb)
 
-[207
+[206
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
@@ -2388,6 +2384,20 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/it' undefined
 (Font)              for symbol `textbraceleft' on input line 10.
 
 
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--19
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--36
+[][][][][][][]  
+ []
+
+)
+
+[207
+
+] (Context-Free-Languages.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--19
 [][][][][][][]  
  []
@@ -2443,31 +2453,26 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--36
 
 [211
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--19
-[][][][][][][]  
- []
+]
+\openout4 = `Context-Free-Languages.vrb'.
 
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--36
-[][][][][][][]  
- []
-
-)
+ (Context-Free-Languages.vrb)
 
 [212
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb)
+ (Context-Free-Languages.vrb
+Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
+ [] 
+ []
+
+)
 
 [213
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb
+] (Context-Free-Languages.vrb
 Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
  [] 
  []
@@ -2485,19 +2490,14 @@ Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
 
 [215
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
- [] 
- []
-
-)
-
-[216
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[216
+
+] (Context-Free-Languages.vrb)
 
 [217
 
@@ -2513,36 +2513,36 @@ Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
 
 [220
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [221
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [222
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [223
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [224
 
-] (Context-Free-Languages.vrb)
-
-[225
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[225
+
+] (Context-Free-Languages.vrb)
 
 [226
 
@@ -2554,7 +2554,10 @@ Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
 
 [228
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [229
 
@@ -2568,14 +2571,21 @@ Overfull \hbox (28.95595pt too wide) in paragraph at lines 21--22
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb)
+ (Context-Free-Languages.vrb
+Overfull \hbox (9.7171pt too wide) in paragraph at lines 18--27
+[][] 
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 16--28
+[][][][][][][]  
+ []
+
+)
 
 [231
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb
+] (Context-Free-Languages.vrb
 Overfull \hbox (9.7171pt too wide) in paragraph at lines 18--27
 [][] 
  []
@@ -2631,75 +2641,41 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 16--28
 
 [235
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (9.7171pt too wide) in paragraph at lines 18--27
-[][] 
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 16--28
-[][][][][][][]  
- []
-
-)
-
-[236
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
-Overfull \vbox (10.1855pt too high) detected at line 2711
- []
 
+[236
 
+] (Context-Free-Languages.vrb)
 
 [237
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (10.1855pt too high) detected at line 2711
- []
-
-
 
 [238
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (10.1855pt too high) detected at line 2711
- []
-
-
 
 [239
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (10.1855pt too high) detected at line 2711
- []
-
-
 
 [240
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (10.1855pt too high) detected at line 2711
- []
-
-
 
 [241
-
-] (Context-Free-Languages.vrb)
-Overfull \vbox (10.1855pt too high) detected at line 2711
- []
-
-
-
-[242
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[242
+
+] (Context-Free-Languages.vrb)
 
 [243
 
@@ -2711,21 +2687,26 @@ Overfull \vbox (10.1855pt too high) detected at line 2711
 
 [245
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [246
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb)
+ (Context-Free-Languages.vrb
+Overfull \hbox (63.53561pt too wide) in paragraph at lines 18--30
+[]  
+ []
+
+)
 
 [247
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb
+] (Context-Free-Languages.vrb
 Overfull \hbox (63.53561pt too wide) in paragraph at lines 18--30
 []  
  []
@@ -2761,443 +2742,58 @@ Overfull \hbox (63.53561pt too wide) in paragraph at lines 18--30
 
 [251
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (63.53561pt too wide) in paragraph at lines 18--30
-[]  
- []
-
-)
-
-[252
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 19--19
- []         \OT1/cmtt/m/n/8 (G1-nts   (grammar-nts G1))   (G2-nts (grammar-nts 
-G2))[] 
- []
+ (Context-Free-Languages.vrb)
 
+[252
 
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 20--20
- []         \OT1/cmtt/m/n/8 (G1-sigma (grammar-sigma G1)) (G2-sigma (grammar-si
-gma G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (G1-rules (grammar-rules G1)) (G2-rules (grammar-ru
-les G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 22--22
- []         \OT1/cmtt/m/n/8 (G1-start (grammar-start G1)) (G2-start (grammar-st
-art G2))[] 
- []
-
-
-Overfull \hbox (54.16206pt too wide) in paragraph at lines 35--35
- []                \OT1/cmtt/m/n/8 (list (list A ARROW (los->symbol (list G1-st
-art G2-start))))[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 53--53
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbb)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 54--54
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 abb)[] 
- []
-
-
-Overfull \hbox (32.91066pt too wide) in paragraph at lines 55--55
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b b b)))[] 
- []
-
-
-Overfull \hbox (32.90956pt too wide) in paragraph at lines 62--62
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (a a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 aabb)[] 
- []
-
-
-Overfull \hbox (58.40993pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (b b b b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbbbb
-b)[] 
- []
-
-)
-Overfull \vbox (117.96329pt too high) detected at line 2856
- []
-
-
+] (Context-Free-Languages.vrb)
 
 [253
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 19--19
- []         \OT1/cmtt/m/n/8 (G1-nts   (grammar-nts G1))   (G2-nts (grammar-nts 
-G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 20--20
- []         \OT1/cmtt/m/n/8 (G1-sigma (grammar-sigma G1)) (G2-sigma (grammar-si
-gma G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (G1-rules (grammar-rules G1)) (G2-rules (grammar-ru
-les G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 22--22
- []         \OT1/cmtt/m/n/8 (G1-start (grammar-start G1)) (G2-start (grammar-st
-art G2))[] 
- []
-
-
-Overfull \hbox (54.16206pt too wide) in paragraph at lines 35--35
- []                \OT1/cmtt/m/n/8 (list (list A ARROW (los->symbol (list G1-st
-art G2-start))))[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 53--53
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbb)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 54--54
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 abb)[] 
- []
-
-
-Overfull \hbox (32.91066pt too wide) in paragraph at lines 55--55
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b b b)))[] 
- []
-
-
-Overfull \hbox (32.90956pt too wide) in paragraph at lines 62--62
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (a a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 aabb)[] 
- []
-
-
-Overfull \hbox (58.40993pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (b b b b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbbbb
-b)[] 
- []
-
-)
-Overfull \vbox (117.96329pt too high) detected at line 2856
- []
-
-
+] (Context-Free-Languages.vrb)
 
 [254
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 19--19
- []         \OT1/cmtt/m/n/8 (G1-nts   (grammar-nts G1))   (G2-nts (grammar-nts 
-G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 20--20
- []         \OT1/cmtt/m/n/8 (G1-sigma (grammar-sigma G1)) (G2-sigma (grammar-si
-gma G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (G1-rules (grammar-rules G1)) (G2-rules (grammar-ru
-les G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 22--22
- []         \OT1/cmtt/m/n/8 (G1-start (grammar-start G1)) (G2-start (grammar-st
-art G2))[] 
- []
-
-
-Overfull \hbox (54.16206pt too wide) in paragraph at lines 35--35
- []                \OT1/cmtt/m/n/8 (list (list A ARROW (los->symbol (list G1-st
-art G2-start))))[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 53--53
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbb)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 54--54
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 abb)[] 
- []
-
-
-Overfull \hbox (32.91066pt too wide) in paragraph at lines 55--55
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b b b)))[] 
- []
-
-
-Overfull \hbox (32.90956pt too wide) in paragraph at lines 62--62
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (a a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 aabb)[] 
- []
-
-
-Overfull \hbox (58.40993pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (b b b b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbbbb
-b)[] 
- []
-
-)
-Overfull \vbox (117.96329pt too high) detected at line 2856
- []
-
-
+] (Context-Free-Languages.vrb)
 
 [255
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 19--19
- []         \OT1/cmtt/m/n/8 (G1-nts   (grammar-nts G1))   (G2-nts (grammar-nts 
-G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 20--20
- []         \OT1/cmtt/m/n/8 (G1-sigma (grammar-sigma G1)) (G2-sigma (grammar-si
-gma G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (G1-rules (grammar-rules G1)) (G2-rules (grammar-ru
-les G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 22--22
- []         \OT1/cmtt/m/n/8 (G1-start (grammar-start G1)) (G2-start (grammar-st
-art G2))[] 
- []
-
-
-Overfull \hbox (54.16206pt too wide) in paragraph at lines 35--35
- []                \OT1/cmtt/m/n/8 (list (list A ARROW (los->symbol (list G1-st
-art G2-start))))[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 53--53
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbb)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 54--54
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 abb)[] 
- []
-
-
-Overfull \hbox (32.91066pt too wide) in paragraph at lines 55--55
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b b b)))[] 
- []
-
-
-Overfull \hbox (32.90956pt too wide) in paragraph at lines 62--62
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (a a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 aabb)[] 
- []
-
-
-Overfull \hbox (58.40993pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (b b b b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbbbb
-b)[] 
- []
-
-)
-Overfull \vbox (117.96329pt too high) detected at line 2856
- []
-
-
+] (Context-Free-Languages.vrb)
 
 [256
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 19--19
- []         \OT1/cmtt/m/n/8 (G1-nts   (grammar-nts G1))   (G2-nts (grammar-nts 
-G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 20--20
- []         \OT1/cmtt/m/n/8 (G1-sigma (grammar-sigma G1)) (G2-sigma (grammar-si
-gma G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (G1-rules (grammar-rules G1)) (G2-rules (grammar-ru
-les G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 22--22
- []         \OT1/cmtt/m/n/8 (G1-start (grammar-start G1)) (G2-start (grammar-st
-art G2))[] 
- []
-
-
-Overfull \hbox (54.16206pt too wide) in paragraph at lines 35--35
- []                \OT1/cmtt/m/n/8 (list (list A ARROW (los->symbol (list G1-st
-art G2-start))))[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 53--53
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbb)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 54--54
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 abb)[] 
- []
-
-
-Overfull \hbox (32.91066pt too wide) in paragraph at lines 55--55
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b b b)))[] 
- []
-
-
-Overfull \hbox (32.90956pt too wide) in paragraph at lines 62--62
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (a a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 aabb)[] 
- []
-
-
-Overfull \hbox (58.40993pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (b b b b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbbbb
-b)[] 
- []
-
-)
-Overfull \vbox (117.96329pt too high) detected at line 2856
- []
-
-
+] (Context-Free-Languages.vrb)
 
 [257
-
-] (Context-Free-Languages.vrb
-Overfull \hbox (3.16133pt too wide) in paragraph at lines 19--19
- []         \OT1/cmtt/m/n/8 (G1-nts   (grammar-nts G1))   (G2-nts (grammar-nts 
-G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 20--20
- []         \OT1/cmtt/m/n/8 (G1-sigma (grammar-sigma G1)) (G2-sigma (grammar-si
-gma G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 21--21
- []         \OT1/cmtt/m/n/8 (G1-rules (grammar-rules G1)) (G2-rules (grammar-ru
-les G2))[] 
- []
-
-
-Overfull \hbox (20.16158pt too wide) in paragraph at lines 22--22
- []         \OT1/cmtt/m/n/8 (G1-start (grammar-start G1)) (G2-start (grammar-st
-art G2))[] 
- []
-
-
-Overfull \hbox (54.16206pt too wide) in paragraph at lines 35--35
- []                \OT1/cmtt/m/n/8 (list (list A ARROW (los->symbol (list G1-st
-art G2-start))))[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 53--53
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbb)[] 
- []
-
-
-Overfull \hbox (24.40944pt too wide) in paragraph at lines 54--54
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 abb)[] 
- []
-
-
-Overfull \hbox (32.91066pt too wide) in paragraph at lines 55--55
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive a2nb2n-numb>numa \TS1/cm
-tt/m/n/8 '\OT1/cmtt/m/n/8 (a a b b b b b)))[] 
- []
-
-
-Overfull \hbox (32.90956pt too wide) in paragraph at lines 62--62
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (a a b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 aabb)[] 
- []
-
-
-Overfull \hbox (58.40993pt too wide) in paragraph at lines 63--63
- []\OT1/cmtt/m/n/8 (check-equal? (last (grammar-derive MULT3-as-a2nb2n \TS1/cmt
-t/m/n/8 '\OT1/cmtt/m/n/8 (b b b b b b))) \TS1/cmtt/m/n/8 '\OT1/cmtt/m/n/8 bbbbb
-b)[] 
- []
-
-)
-Overfull \vbox (117.96329pt too high) detected at line 2856
- []
-
-
-
-[258
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
 
-[259
+[258
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb
+Overfull \hbox (4.97307pt too wide) in paragraph at lines 19--27
+[][] 
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--28
+[][][][][][][]  
+ []
+
+)
+
+[259
+
+] (Context-Free-Languages.vrb
 Overfull \hbox (4.97307pt too wide) in paragraph at lines 19--27
 [][] 
  []
@@ -3253,17 +2849,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--28
 
 [263
 
-] (Context-Free-Languages.vrb
-Overfull \hbox (4.97307pt too wide) in paragraph at lines 19--27
-[][] 
- []
+]
+\openout4 = `Context-Free-Languages.vrb'.
 
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--28
-[][][][][][][]  
- []
-
-)
+ (Context-Free-Languages.vrb)
 
 [264
 
@@ -3274,21 +2863,18 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--28
 
 [265
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [266
 
-] (Context-Free-Languages.vrb)
-
-[267
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[267
+
+] (Context-Free-Languages.vrb)
 
 [268
 
@@ -3296,14 +2882,14 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--28
 
 [269
 
-] (Context-Free-Languages.vrb)
-
-[270
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[270
+
+] (Context-Free-Languages.vrb)
 
 [271
 
@@ -3323,15 +2909,19 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--28
 
 [275
 
-] (Context-Free-Languages.vrb)
-
-[276
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
-Overfull \vbox (6.18083pt too high) detected at line 3098
+Overfull \vbox (6.18083pt too high) detected at line 3037
+ []
+
+
+
+[276
+
+] (Context-Free-Languages.vrb)
+Overfull \vbox (6.18083pt too high) detected at line 3037
  []
 
 
@@ -3339,7 +2929,7 @@ Overfull \vbox (6.18083pt too high) detected at line 3098
 [277
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (6.18083pt too high) detected at line 3098
+Overfull \vbox (6.18083pt too high) detected at line 3037
  []
 
 
@@ -3347,7 +2937,7 @@ Overfull \vbox (6.18083pt too high) detected at line 3098
 [278
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (6.18083pt too high) detected at line 3098
+Overfull \vbox (6.18083pt too high) detected at line 3037
  []
 
 
@@ -3355,7 +2945,7 @@ Overfull \vbox (6.18083pt too high) detected at line 3098
 [279
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (6.18083pt too high) detected at line 3098
+Overfull \vbox (6.18083pt too high) detected at line 3037
  []
 
 
@@ -3363,20 +2953,12 @@ Overfull \vbox (6.18083pt too high) detected at line 3098
 [280
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (6.18083pt too high) detected at line 3098
+Overfull \vbox (6.18083pt too high) detected at line 3037
  []
 
 
 
 [281
-
-] (Context-Free-Languages.vrb)
-Overfull \vbox (6.18083pt too high) detected at line 3098
- []
-
-
-
-[282
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
@@ -3389,20 +2971,24 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 
 )
 
+[282
+
+] (Context-Free-Languages.vrb)
+
 [283
 
 ] (Context-Free-Languages.vrb)
 
 [284
 
-] (Context-Free-Languages.vrb)
-
-[285
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[285
+
+] (Context-Free-Languages.vrb)
 
 [286
 
@@ -3422,7 +3008,10 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 
 [290
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [291
 
@@ -3433,10 +3022,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 
 [292
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [293
 
@@ -3448,25 +3034,25 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 
 [295
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [296
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [297
 
-] (Context-Free-Languages.vrb)
-
-[298
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[298
+
+] (Context-Free-Languages.vrb)
 
 [299
 
@@ -3474,14 +3060,14 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 
 [300
 
-] (Context-Free-Languages.vrb)
-
-[301
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[301
+
+] (Context-Free-Languages.vrb)
 
 [302
 
@@ -3497,73 +3083,87 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
 
 [305
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
+ []
+
+)
 
 [306
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
+] (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
  []
 
-
+)
 
 [307
 
-] (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
+] (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
  []
 
-
+)
 
 [308
 
-] (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
+] (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
  []
 
-
+)
 
 [309
 
-] (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
+] (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
  []
 
-
+)
 
 [310
 
-] (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
+] (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
  []
 
-
+)
 
 [311
 
-] (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
+] (Context-Free-Languages.vrb
+Overfull \hbox (3.32791pt too wide) in paragraph at lines 45--45
+ []        \OT1/cmtt/m/n/6 (non-EMP-pda-rls (filter ($\OML/cmm/m/it/6 ^^U$ \OT1
+/cmtt/m/n/6 (r) (not (eq? (second (first r)) EMP))) pda-rls))[] 
  []
 
-
+)
 
 [312
-
-] (Context-Free-Languages.vrb)
-Overfull \vbox (4.01884pt too high) detected at line 3363
- []
-
-
-
-[313
 
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[313
+
+] (Context-Free-Languages.vrb)
 
 [314
 
@@ -3571,25 +3171,49 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [315
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb
+Overfull \hbox (5.28554pt too wide) in paragraph at lines 29--29
+ []                                    \OT1/cmtt/m/n/6 #:accepts \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 ((a b)))) []only word in the intersection[][] 
+ []
+
+
+Overfull \hbox (5.28554pt too wide) in paragraph at lines 32--32
+ []                                          \OT1/cmtt/m/n/6 #:rejects \TS1/cmt
+t/m/n/6 '\OT1/cmtt/m/n/6 ((b b) (a a b) (b b a a b b a b))[] 
+ []
+
+)
 
 [316
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28554pt too wide) in paragraph at lines 29--29
+ []                                    \OT1/cmtt/m/n/6 #:accepts \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 ((a b)))) []only word in the intersection[][] 
+ []
 
- (Context-Free-Languages.vrb)
+
+Overfull \hbox (5.28554pt too wide) in paragraph at lines 32--32
+ []                                          \OT1/cmtt/m/n/6 #:rejects \TS1/cmt
+t/m/n/6 '\OT1/cmtt/m/n/6 ((b b) (a a b) (b b a a b b a b))[] 
+ []
+
+)
 
 [317
 
-] (Context-Free-Languages.vrb)
-
-[318
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[318
+
+] (Context-Free-Languages.vrb)
 
 [319
 
@@ -3601,14 +3225,14 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [321
 
-] (Context-Free-Languages.vrb)
-
-[322
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[322
+
+] (Context-Free-Languages.vrb)
 
 [323
 
@@ -3620,7 +3244,10 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [325
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [326
 
@@ -3631,10 +3258,7 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [327
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [328
 
@@ -3646,14 +3270,14 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [330
 
-] (Context-Free-Languages.vrb)
-
-[331
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[331
+
+] (Context-Free-Languages.vrb)
 
 [332
 
@@ -3661,25 +3285,25 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [333
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [334
 
-]
-\openout4 = `Context-Free-Languages.vrb'.
-
- (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb)
 
 [335
 
-] (Context-Free-Languages.vrb)
-
-[336
-
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
+
+[336
+
+] (Context-Free-Languages.vrb)
 
 [337
 
@@ -3695,7 +3319,10 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 
 [340
 
-] (Context-Free-Languages.vrb)
+]
+\openout4 = `Context-Free-Languages.vrb'.
+
+ (Context-Free-Languages.vrb)
 
 [341
 
@@ -3753,7 +3380,7 @@ Overfull \vbox (4.01884pt too high) detected at line 3363
 \openout4 = `Context-Free-Languages.vrb'.
 
  (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3761,7 +3388,7 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 [353
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3769,7 +3396,7 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 [354
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3777,7 +3404,7 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 [355
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3785,7 +3412,7 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 [356
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3793,7 +3420,7 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 [357
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3801,7 +3428,7 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 [358
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (1.24106pt too high) detected at line 3796
+Overfull \vbox (1.24106pt too high) detected at line 3760
  []
 
 
@@ -3818,39 +3445,102 @@ Overfull \vbox (1.24106pt too high) detected at line 3796
 ]
 \openout4 = `Context-Free-Languages.vrb'.
 
- (Context-Free-Languages.vrb)
+ (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [361
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [362
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [363
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [364
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [365
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [366
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [367
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [368
 
-] (Context-Free-Languages.vrb)
+] (Context-Free-Languages.vrb
+Overfull \hbox (5.28389pt too wide) in paragraph at lines 68--68
+ []     \OT1/cmtt/m/n/6 (check-accept? ambnco \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 
+(a a a b b c c z) \TS1/cmtt/m/n/6 '\OT1/cmtt/m/n/6 (a a a b c z) \TS1/cmtt/m/n/
+6 '\OT1/cmtt/m/n/6 (a a a b b b b c c c z))[] 
+ []
+
+)
 
 [369
 
@@ -3864,7 +3554,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{anbn-thm-inv}
                    \relax 
 l.8 \label{anbn-thm-inv}
                         )
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -3872,7 +3562,7 @@ Overfull \vbox (2.53065pt too high) detected at line 3935
 [370
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -3880,7 +3570,7 @@ Overfull \vbox (2.53065pt too high) detected at line 3935
 [371
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -3888,7 +3578,7 @@ Overfull \vbox (2.53065pt too high) detected at line 3935
 [372
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -3896,7 +3586,7 @@ Overfull \vbox (2.53065pt too high) detected at line 3935
 [373
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -3904,7 +3594,7 @@ Overfull \vbox (2.53065pt too high) detected at line 3935
 [374
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -3912,7 +3602,7 @@ Overfull \vbox (2.53065pt too high) detected at line 3935
 [375
 
 ] (Context-Free-Languages.vrb)
-Overfull \vbox (2.53065pt too high) detected at line 3935
+Overfull \vbox (2.53065pt too high) detected at line 3893
  []
 
 
@@ -4173,10 +3863,10 @@ Package rerunfilecheck Info: File `Context-Free-Languages.out' has not changed.
 (rerunfilecheck)             Checksum: 95C238BA6850B65DE158F00588423327;752.
  ) 
 Here is how much of TeX's memory you used:
- 31481 strings out of 473536
- 667210 string characters out of 5713504
- 960272 words of memory out of 5000000
- 52435 multiletter control sequences out of 15000+600000
+ 31483 strings out of 473536
+ 667228 string characters out of 5713504
+ 957314 words of memory out of 5000000
+ 52437 multiletter control sequences out of 15000+600000
  574631 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,640b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4214,7 +3904,7 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/morazan
 m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 <C:/Users/morazanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msbm7.pfb>
-Output written on Context-Free-Languages.pdf (422 pages, 3861585 bytes).
+Output written on Context-Free-Languages.pdf (422 pages, 3855474 bytes).
 PDF statistics:
  13544 PDF objects out of 15390 (max. 8388607)
  861 named destinations out of 1000 (max. 500000)
