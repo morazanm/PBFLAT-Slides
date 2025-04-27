@@ -72,6 +72,7 @@
 \newcommand{\np}{$\mathcal{NP}$}
 
 \definecolor{darkgreen}{RGB}{102,170,102}
+\definecolor{ao}{rgb}{0.0, 0.5, 0.0}
 
 \begin{document}
 
@@ -3963,8 +3964,9 @@ Let M = (make-mttm K \sig{} S F R n [Y]). There exists a Turing machine, M\quot{
 
 \item<1-> \texttt{S} needs to generate an arbitrary number of \texttt{ABC} and needs to generate \texttt{G}:
 \begin{alltt}
-     (S ,ARROW ABCS)
-     (S ,ARROW G)
+     (S ,ARROW ,EMP)
+     (S ,ARROW ABCS)  \textcolor{blue}{S \(\Rightarrow\) |A|=|B|=|C|}
+     (S ,ARROW G)     
 \end{alltt}
 
 \item<2-> To rearrange the \texttt{A}s, \texttt{B}s, and \texttt{C}s, nonterminals out of order are put in the right order:
@@ -3976,19 +3978,19 @@ Let M = (make-mttm K \sig{} S F R n [Y]). There exists a Turing machine, M\quot{
 
 \item<3-> \texttt{C} and \texttt{G} are used to generate \texttt{c}s, move \texttt{G} right to left, and nondeterministically generate an \texttt{H}:
 \begin{alltt}
-     (CG ,ARROW Gc)
-     (G  ,ARROW H)
+     (CG ,ARROW Gc)  \textcolor{blue}{G \(\Rightarrow\) only c\(\sp{*}\) to the right}
+     (BG  ,ARROW BH)
 \end{alltt}
 
 \item<4-> \texttt{B} and \texttt{H} are used to generate \texttt{b}s, move \texttt{H} right to left, and nondeterministically generate an \texttt{I}:
 \begin{alltt}
-     (BH ,ARROW Hb)
-     (H ,ARROW I)
+     (BH ,ARROW Hb)  \textcolor{blue}{H \(\Rightarrow\) only b\(\sp{*}\)c\(\sp{+}\) to the right}
+     (AH ,ARROW AI)
 \end{alltt}
 
 \item<5-> \texttt{A} and \texttt{I} are used to generate \texttt{a}s, move \texttt{I} right to left, and nondeterministically generate \texttt{EMP}:
 \begin{alltt}
-     (AI ,ARROW Ia)
+     (AI ,ARROW Ia)  \textcolor{blue}{I \(\Rightarrow\) only a\(\sp{*}\)b\(\sp{+}\)c\(\sp{+}\) to the right}
      (I ,ARROW ,EMP)
 \end{alltt}
 
@@ -4005,25 +4007,8 @@ Let M = (make-mttm K \sig{} S F R n [Y]). There exists a Turing machine, M\quot{
      
 \item<1-> A good heuristic is to test relatively short words that are in the language:
 \begin{alltt}
-     (check-equal? (grammar-derive anbncn-csg \elist{})
-                   \quot{}(S -> G -> H -> I -> \ep{}))
-     (check-equal? (grammar-derive anbncn-csg \quot{}(a a b b c c))
-                   \quot{}(S
-                     -> ABCS
-                     -> ABCABCS
-                     -> ABACBCS
-                     -> ABABCCS
-                     -> AABBCCS
-                     -> AABBCCG
-                     -> AABBCGc
-                     -> AABBGcc
-                     -> AABBHcc
-                     -> AABHbcc
-                     -> AAHbbcc
-                     -> AAIbbcc
-                     -> AIabbcc
-                     -> Iaabbcc
-                     -> aabbcc))
+     (check-derive? anbncn \quot{}(a b c) \quot{}(a a b b c c) \quot{}())
+     ;; (check=not=derive? anbncn \quot{}(a) \quot{}(b) \quot{}(c) \quot{}(c b a) \quot{}(a a b b c c c))
 \end{alltt}
 
 \end{itemize}
@@ -4044,12 +4029,12 @@ Let M = (make-mttm K \sig{} S F R n [Y]). There exists a Turing machine, M\quot{
 \scalebox{0.7}{ \begin{tikzpicture}[level distance=1.0cm,level 1/.style={sibling distance=4cm},level 2/.style={sibling distance=4cm},level 3/.style={sibling distance=1.8cm}]
     \node {\texttt{S}}
       child {node {\texttt{EMP}}}
-      child {node {\texttt{ABCS}}
+      child {node {\texttt{\textcolor{red}{ABCS}}}
         child {node {\texttt{ABCG}}
-          child {node {\texttt{\textcolor{red}{AB}Gc}}}}
-        child {node {\texttt{ABCABCS}}
+          child {node {\texttt{ABGc}}}}
+        child {node {\texttt{\textcolor{red}{ABCABCS}}}
           child {node {\texttt{ABCABCG}}}
-          child {node {\texttt{ABCABCABCS}}}}};
+          child {node {\texttt{\textcolor{red}{ABCABCABCS}}}}}};
     \end{tikzpicture}}
 \end{center}
 
@@ -4064,6 +4049,297 @@ Let M = (make-mttm K \sig{} S F R n [Y]). There exists a Turing machine, M\quot{
 \end{itemize}
 \end{scriptsize}
 \end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> To prove correctness think of the derivation process as follows:
+\begin{alltt}
+     while (contains-nonterminals? yield)
+         apply-rule()
+\end{alltt}
+
+\item<2-> Develop a predicate for the loop invariant
+
+\item<3->
+\begin{itemize}
+ \item $|$\texttt{A} and \texttt{a}$|$=$|$\texttt{B} and \texttt{b}$|$=$|$\texttt{C} and \texttt{c}$|$
+ \item \texttt{S}$\in$\texttt{yield} $\Rightarrow$ \texttt{yield} ends with \texttt{S}
+ \item \texttt{G}$\in$\texttt{yield} $\Rightarrow$ \texttt{yield} ends with \texttt{G}\texttt{c}$^{\texttt{*}}$
+ \item \texttt{H}$\in$\texttt{yield} $\Rightarrow$ \texttt{yield} ends with \texttt{H}\texttt{b}$^{\texttt{*}}$\texttt{c}$^{\texttt{+}}$
+ \item \texttt{I}$\in$\texttt{yield} $\Rightarrow$ \texttt{yield} ends with \texttt{I}\texttt{a}$^{\texttt{*}}$\texttt{b}$^{\texttt{+}}$\texttt{c}$^{\texttt{+}}$
+ \item \texttt{yield}$\in$$\Sigma^{\texttt{*}}$ $\Rightarrow$ \texttt{yield}$\in$L
+\end{itemize}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> 
+\begin{alltt}
+;; (listof (N \(\cup{}\) \(\Sigma\)) \(\rightarrow\) Boolean
+;; Purpose: Determine if loop invariant holds for the given yield
+(define (anbncn-inv yield)
+  (and (equal-num-abc? yield) \textcolor{blue}{equal number A/a,B/b,C/c}
+       (implies (member \quot{}S yield) (S-INV yield))
+       (implies (member \quot{}G yield) (G-INV yield))
+       (implies (member \quot{}H yield) (H-INV yield))
+       (implies (member \quot{}I yield) (I-INV yield))
+       (implies (no-nt? yield)    (in-lang? yield))))
+\end{alltt}
+
+\item<2->
+\begin{alltt}
+(define (S-INV yield) (eq? (last yield) \quot{}S))
+\end{alltt}
+
+\item<3->
+\begin{alltt}
+(define (G-INV yield) \textcolor{blue}{Only c's right of G}
+    (= (count (lambda (x) (not (eq? \quot{}c x)))
+              (rest (dropf yield (lambda (x) (not (eq? \quot{}G x))))))
+       0))
+\end{alltt}
+
+\item<4->
+\begin{alltt}
+(define (H-INV yield) \textcolor{blue}{Only b's and c's right of H}
+    (let* ([bs-and-cs (rest (dropf yield 
+                                   (lambda (x) (not (eq? \quot{}H x)))))]
+           [cs (dropf bs-and-cs (lambda (x) (eq? x \quot{}b)))])
+      (andmap (lambda (x) (eq? x \quot{}c)) cs)))
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> 
+\begin{alltt}
+(define (I-INV yield)
+    (let* ([as-bs-cs (rest (dropf yield (lambda (x) (not (eq? \quot{}I x)))))]
+           [bs-and-cs (dropf as-bs-cs (lambda (x) (eq? \quot{}a x)))]
+           [cs (dropf bs-and-cs (lambda (x) (eq? x \quot{}b)))])
+      (andmap (lambda (x) (eq? \quot{}c x)) cs)))
+\end{alltt}
+
+\item<2-> 
+\begin{alltt}
+(define (in-lang? yield)
+    (let* ([as (takef yield (lambda (x) (eq? \quot{}a x)))]
+           [bs-and-cs (dropf yield (lambda (x) (eq? \quot{}a x)))]
+           [bs (takef bs-and-cs (lambda (x) (eq? \quot{}b x)))]
+           [cs (takef (dropf bs-and-cs (lambda (x) (eq? x \quot{}b))) (lambda (x) (eq? \quot{}c x)))])
+      (= (length as) (length bs) (length cs))))
+\end{alltt}
+
+\item<3-> 
+\begin{alltt}
+(define (equal-num-abc? word)
+    (= (+ (count (lambda (x) (eq? \quot{}A x)) word)
+          (count (lambda (x) (eq? \quot{}a x)) word))
+       (+ (count (lambda (x) (eq? \quot{}B x)) word)
+          (count (lambda (x) (eq? \quot{}b x)) word))
+       (+ (count (lambda (x) (eq? \quot{}C x)) word)
+          (count (lambda (x) (eq? \quot{}c x)) word))))
+\end{alltt}
+
+\item<4-> 
+\begin{alltt}
+(define (no-nt? yield)
+    (andmap (lambda (x) (member x (grammar-sigma anbncn))) yield))
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Proof by induction on n=number of derivation steps
+\begin{alltt}
+Base case:
+When derivation starts, yield=S. 
+S-INV holds a S is the rightmost element of the yield) \(\wedge\)
+the number of As, as, Bs, bs, Cs, and cs are all  0 \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<2-> Inductive Step
+\begin{alltt}
+Assume: INV holds for n=k
+  Show: INV holds for n=k+1
+\end{alltt}
+
+\item<3-> S $\rightarrow$ EMP
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+the number of As, as, Bs, bs, Cs, and cs are all  0 \(\wedge\)
+(implies (no-nt? yield) (in-lang? yield)) holds \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<4-> S $\rightarrow$ ABCS
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+S ends the yield \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> BA \(\rightarrow\) AB, CB \(\rightarrow\) BC, CA \(\rightarrow\) AC
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying any of these production rules: 
+INV holds because only the ordering of A, B, \& C change
+\end{alltt}
+
+\item<2-> S \(\rightarrow\) G
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+Everything to the right of G is c \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<3-> CG \(\rightarrow\) Gc
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+Everything to the right of G is c\(\sp{+}\) \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<4-> BG \(\rightarrow\) BH
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+Everything to the right of H is b\(\sp{*}\)c\(\sp{+}\) \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> BH \(\rightarrow\) Hb
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+Everything to the right of H is b\(\sp{+}\)c\(\sp{+}\) \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<2-> AH \(\rightarrow\) AI
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+Everything to the right of I is a\(\sp{*}\)b\(\sp{+}\)c\(\sp{+}\) \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<3-> AI \(\rightarrow\) Ia
+\begin{alltt}
+By inductive hypothesis INV holds
+After applying this production rule: 
+|A \& a|=|B & b|=|C \& c| \(\wedge\)
+Everything to the right of I is a\(\sp{+}\)b\(\sp{+}\)c\(\sp{+}\) \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\item<4-> I \(\rightarrow\) EMP
+\begin{alltt}
+After applying this production rule: 
+|a|=|b|=|c| \(\wedge\)
+yield is a\(\sp{+}\)b\(\sp{+}\)c\(\sp{+}\) \(\wedge\)
+other implications are true (i.e., false \(\Rightarrow\) X is true)
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+%\framesubtitle{HOMEWORK}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Proof that L=L(anbncn)
+\begin{alltt}
+w\(\in\)L \(\Leftrightarrow\) w\(\in\)L(anbncn)
+(\(\Rightarrow\)) Assume w\(\in\)L
+This means w=a\(\sp{\texttt{n}}\)b\(\sp{\texttt{n}}\)c\(\sp{\texttt{n}}\). Given that INV always holds, there is a 
+derivation such that S generates n ABC, rearranges ABCs to A\(\sp{\texttt{n}}\)B\(\sp{\texttt{n}}\)C\(\sp{\texttt{n}}\), 
+and generates w.
+
+(\(\Leftarrow)\)) Assume w\(\in\)L(anbncn)
+This means anbncn generated w. Since INV always holds w=a\(\sp{\texttt{n}}\)b\(\sp{\texttt{n}}\)c\(\sp{\texttt{n}}\).
+Thus, w\(\in\)L.
+\end{alltt}
+
+\item<2-> w\(\notin\)L \(\Leftrightarrow\) w\(\notin\)L(anbncn)
+\begin{alltt}
+Contraposition
+\end{alltt}
+
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Context-Sensitive Grammars}
+\framesubtitle{DOUBLE BONUS QUIZ}
+\begin{scriptsize}
+\begin{itemize}
+\item<1-> Design and implement a \csg{} for \texttt{L} = \texttt{a$^{\texttt{n}}$b$^{\texttt{n}}$c$^{\texttt{n}}$d$^{\texttt{n}}$}. \textbf{Follow all the steps of the DR to get credit}.
+\end{itemize}
+\end{scriptsize}
+\end{frame}
+
+
+
 
 \begin{frame}[fragile]
 \frametitle{Context-Sensitive Grammars}
@@ -4112,6 +4388,8 @@ Let M = (make-mttm K \sig{} S F R n [Y]). There exists a Turing machine, M\quot{
 \end{itemize}
 \end{scriptsize}
 \end{frame}
+
+
 
 \begin{frame}[fragile]
 \frametitle{Context-Sensitive Grammars}
@@ -5850,7 +6128,6 @@ More tapes may be needed to manage low-level details, but we shall not concern o
 \end{itemize}
 \end{scriptsize}
 \end{frame}
-
 
 
 
